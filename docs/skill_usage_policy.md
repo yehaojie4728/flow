@@ -66,7 +66,7 @@ Do not generate figures, rank papers primarily by author prestige, invent refere
 
 Use peer-review to be harsh.
 
-Focus on novelty, relation to Hostping/HostDiag, whether FlowGap is more than generic time-series forecasting, missing baselines, missing detection utility, evidence-to-claim alignment, simulation vs real-measurement confusion, overclaiming, and CoNEXT systems-paper fit.
+Focus on novelty, relation to Hostping/HostDiag, whether FlowGap is more than generic time-series forecasting, missing baselines, missing detection utility, evidence-to-claim alignment, simulation vs real-measurement confusion, overclaiming, and SoCC systems-paper fit.
 
 ---
 

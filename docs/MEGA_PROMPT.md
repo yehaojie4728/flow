@@ -17,10 +17,26 @@ Chinese title:
 Target venue:
 
 ```text
-CoNEXT 2026
+ACM Symposium on Cloud Computing 2026 (SoCC 2026)
 ```
 
-Use ACM `acmart` `sigconf` provisionally. Confirm exact CoNEXT 2026 CFP rules before final submission.
+Default submission category:
+
+```text
+Full Research Paper
+```
+
+Use ACM `acmart` `sigconf` format:
+
+```latex
+\documentclass[sigconf,review,anonymous]{acmart}
+```
+
+Read venue rules in:
+
+```text
+docs/venue/socc2026_acm_prep.md
+```
 
 ---
 
@@ -36,13 +52,52 @@ Do not expand the paper into a complete diagnosis system.
 
 ---
 
+## SoCC positioning
+
+SoCC is a cloud systems venue. Therefore, FlowGap should be positioned as:
+
+```text
+a cloud / AI-infrastructure monitoring and active probing system for accelerator servers.
+```
+
+The broader cloud-systems relevance is:
+
+- AI training/serving clusters increasingly depend on accelerator servers;
+- active probing and monitoring can perturb the very workloads being diagnosed;
+- FlowGap reduces measurement-induced interference through safe-window prediction;
+- the system connects tracing, monitoring, scheduling, reliability, and systems for ML training/serving.
+
+Avoid making the paper read like:
+
+- a pure time-series forecasting paper;
+- a hardware-only Ascend engineering note;
+- a full root-cause diagnosis system.
+
+---
+
 ## Core insight
 
-Ascend AI workloads produce memcpy traffic that is bursty, phase-dependent, synchronization-sensitive, path-sensitive, and often async.
+Ascend AI workloads produce memcpy traffic that is:
+
+- bursty;
+- phase-dependent;
+- synchronization-sensitive;
+- path-sensitive;
+- often async.
 
 However, this traffic is not random. For a given workload, recent event history, iteration phase, stream behavior, path, and synchronization events can provide enough information to conservatively predict whether a future horizon is safe for probing.
 
-Therefore, active probing should move from periodic or threshold-triggered probing to confidence-calibrated safe-window probing.
+Therefore, active probing should move from:
+
+```text
+periodic probing / threshold-triggered probing
+```
+
+to:
+
+```text
+confidence-calibrated safe-window probing
+```
 
 ---
 
@@ -67,6 +122,8 @@ analyzer evaluates probe result and feeds back overlap/duration/error
 ---
 
 ## Contributions
+
+Draft contributions:
 
 1. Safe-window prediction problem
    - Define probing opportunity inference for Ascend memcpy traffic.
@@ -96,13 +153,20 @@ Every major claim must map to at least one of:
 - figure with source data;
 - teacher-confirmed design note.
 
-If evidence is missing, write NEED_DATA, NEED_CITATION, NEED_EXPERIMENT, NEED_TEACHER_CONFIRMATION, or NEED_CONEXT2026_CFP_CONFIRMATION.
+If evidence is missing, write:
+
+- NEED_DATA
+- NEED_CITATION
+- NEED_EXPERIMENT
+- NEED_TEACHER_CONFIRMATION
+
+Do not make the claim as fact.
 
 ---
 
 ## Key definitions
 
-SafeWindow:
+### SafeWindow
 
 ```text
 SafeWindow {
@@ -118,7 +182,7 @@ SafeWindow {
 }
 ```
 
-Safe condition:
+### Safe condition
 
 ```text
 g_lower_bound > T_probe(path, type) + margin
@@ -126,7 +190,7 @@ and
 confidence > eta
 ```
 
-Multi-horizon survival target:
+### Multi-horizon survival target
 
 ```text
 S(h | x_t) = P(T_next > h | x_t)
@@ -137,6 +201,19 @@ For probe horizon:
 ```text
 h = T_probe + margin
 ```
+
+---
+
+## Model preference
+
+Prefer:
+
+- phase-aware EWMA / quantile baseline;
+- multi-horizon logistic regression or GBDT survival predictor;
+- semi-Markov state model for interpretability;
+- empirical calibration / lower-bound gap coverage.
+
+Do not make LSTM/Transformer the main method unless specifically requested and justified.
 
 ---
 
@@ -176,21 +253,64 @@ Required baselines:
 
 ---
 
-## Venue constraints
+## SoCC venue constraints
 
-Read `docs/venue/conext2026_acm_prep.md`.
+Follow:
 
-Until CoNEXT 2026 CFP is confirmed:
+```text
+docs/venue/socc2026_acm_prep.md
+```
 
-- use provisional ACM `acmart` `sigconf` scaffold;
-- mark page limit as NEED_CONEXT2026_CFP_CONFIRMATION;
-- mark anonymity / double-blind as NEED_CONEXT2026_CFP_CONFIRMATION;
-- mark appendix / artifact rules as NEED_CONEXT2026_CFP_CONFIRMATION.
+Important SoCC 2026 constraints:
+
+- Full Research Paper: 12 pages + unlimited references.
+- Dual anonymous review for research papers.
+- ACM Proceedings Format.
+- 9pt font.
+- `\documentclass[sigconf,review,anonymous]{acmart}`.
+- Single PDF.
+- 8.5" x 11" paper.
+- PDF size <= 10 MB.
+- Do not change margins, inter-column spacing, or line spacing.
+- Paper type must be indicated as subtitle, e.g., `Research Full`.
+- Maintain AI usage disclosure log in `docs/ai_usage_disclosure.md`.
+- Maintain submission checklist in `docs/submission_checklist_socc2026.md`.
 
 ---
 
 ## Truthfulness rules
 
-Do not fabricate citations, authors, venues, DOI/arXiv IDs, experiment results, trace files, figures, hardware specifications, CANN behavior, eBPF success, or performance improvements.
+Do not fabricate:
 
-Do not claim demo as deployment, replay as real measurement, synthetic as real workload, predictor output as guarantee, or lower probing as preserved detection unless detection utility is evaluated.
+- citations;
+- authors;
+- venues;
+- DOI/arXiv IDs;
+- experiment results;
+- trace files;
+- figures;
+- hardware specifications;
+- CANN behavior;
+- eBPF success;
+- performance improvements.
+
+Do not claim:
+
+- demo as deployment;
+- replay as real measurement;
+- synthetic as real workload;
+- predictor output as guarantee;
+- lower probing as preserved detection unless detection utility is evaluated.
+
+---
+
+## First-round rule
+
+The first Codex run must be analyze-only:
+
+- inspect repository;
+- map files;
+- identify relevant modules;
+- propose reuse plan;
+- write patch plan;
+- do not modify reference code.

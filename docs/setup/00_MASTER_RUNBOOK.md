@@ -8,7 +8,7 @@
 - 有 root 权限；
 - VSCode Remote SSH 中使用 Codex Agent；
 - 不直接修改原始参考代码；
-- 目标投稿 CoNEXT 2026。
+- 目标投稿 SoCC 2026。
 
 ---
 
@@ -158,7 +158,7 @@ AGENTS.md
 docs/MEGA_PROMPT.md
 docs/claims.md
 docs/skill_usage_policy.md
-docs/venue/conext2026_acm_prep.md
+docs/venue/socc2026_acm_prep.md
 docs/prompts/*.md
 docs/setup/*.md
 scripts/*.sh
@@ -300,20 +300,20 @@ docs/prompts/06_codex_scheduler_replay_generation.md
 
 ---
 
-## 10. CoNEXT 2026 写作准备
+## 10. SoCC 2026 写作准备
 
 Codex 必须读取：
 
 ```text
-docs/venue/conext2026_acm_prep.md
+docs/venue/socc2026_acm_prep.md
 ```
 
 当前状态：
 
 ```text
-CoNEXT 2026 官方页面已存在，但不要假设 CFP 细则完整公布。
+SoCC 2026 官方页面已存在，但不要假设 CFP 细则完整公布。
 投稿模板先按 ACM acmart sigconf review 格式准备。
-页数、匿名、轮次、appendix、artifact 规则全部标为 NEED_CONEXT2026_CFP_CONFIRMATION。
+页数、匿名、轮次、appendix、artifact 规则全部标为 NEED_SOCC2026_FINAL_CHECK。
 ```
 
 ---
@@ -329,7 +329,7 @@ CoNEXT 2026 官方页面已存在，但不要假设 CFP 细则完整公布。
 | 论文总控 | docs/MEGA_PROMPT.md | 是 |
 | Claim 台账 | docs/claims.md | 是 |
 | Skill 策略 | docs/skill_usage_policy.md | 是 |
-| CoNEXT/ACM 准备 | docs/venue/conext2026_acm_prep.md | 是 |
+| SoCC/ACM 准备 | docs/venue/socc2026_acm_prep.md | 是 |
 | 第一轮 Codex | docs/prompts/00_codex_bootstrap_analyze_only.md | 是 |
 | 参考仓库分析 | docs/prompts/01_codex_reference_repo_analysis.md | 是 |
 | 环境检查计划 | docs/prompts/02_codex_environment_probe_plan.md | 是 |
@@ -337,5 +337,5 @@ CoNEXT 2026 官方页面已存在，但不要假设 CFP 细则完整公布。
 | trace parser 生成 | docs/prompts/04_codex_trace_parser_generation.md | 是 |
 | predictor 生成 | docs/prompts/05_codex_gap_predictor_generation.md | 是 |
 | scheduler replay 生成 | docs/prompts/06_codex_scheduler_replay_generation.md | 是 |
-| CoNEXT 论文骨架 | docs/prompts/07_codex_conext_paper_scaffold.md | 是 |
+| SoCC 论文骨架 | docs/prompts/07_codex_socc_paper_scaffold.md | 是 |
 | 文件检查脚本 | scripts/check_flowgap_pack_manifest.sh | 是 |

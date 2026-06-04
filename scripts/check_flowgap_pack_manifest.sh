@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 set -u
 
-echo "== FlowGap launch pack manifest check =="
+echo "== FlowGap SoCC launch pack manifest check =="
 
 required_files="
 AGENTS.md
 docs/MEGA_PROMPT.md
 docs/claims.md
 docs/skill_usage_policy.md
-docs/venue/conext2026_acm_prep.md
+docs/venue/socc2026_acm_prep.md
+docs/submission_checklist_socc2026.md
+docs/ai_usage_disclosure.md
 docs/setup/00_MASTER_RUNBOOK.md
 docs/setup/01_environment_setup_aarch64_910A.md
 docs/setup/02_create_workspace_and_reference_repo.md
@@ -20,7 +22,7 @@ docs/prompts/03_codex_first_patch_plan.md
 docs/prompts/04_codex_trace_parser_generation.md
 docs/prompts/05_codex_gap_predictor_generation.md
 docs/prompts/06_codex_scheduler_replay_generation.md
-docs/prompts/07_codex_conext_paper_scaffold.md
+docs/prompts/07_codex_socc_paper_scaffold.md
 scripts/check_flowgap_pack_manifest.sh
 scripts/bootstrap_flowgap_dirs.sh
 "
@@ -38,7 +40,7 @@ done
 
 echo
 if [ "$missing" -eq 0 ]; then
-  echo "All required files are present."
+  echo "All required SoCC files are present."
 else
   echo "$missing required file(s) are missing."
   exit 1

@@ -4,7 +4,7 @@ Read first:
 - `docs/MEGA_PROMPT.md`
 - `docs/claims.md`
 - `docs/skill_usage_policy.md`
-- `docs/venue/conext2026_acm_prep.md`
+- `docs/venue/socc2026_acm_prep.md`
 
 # Codex Prompt 04: Generate Trace Parser
 

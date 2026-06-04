@@ -18,23 +18,51 @@ The paper answers one question:
 
 ## Target venue
 
-Target venue: CoNEXT 2026.
+Target venue:
 
-Use ACM `acmart` `sigconf` as the provisional LaTeX basis.
+```text
+ACM Symposium on Cloud Computing 2026 (SoCC 2026)
+```
 
-Important:
+Default submission category:
 
-- CoNEXT 2026 official page exists, but CFP details must be confirmed before final submission.
-- Mark page limit, anonymity, appendix, artifact, and rebuttal rules as `NEED_CONEXT2026_CFP_CONFIRMATION` until confirmed.
-- Do not invent venue rules.
+```text
+Full Research Paper
+```
+
+Use ACM `acmart` `sigconf` as the LaTeX basis.
+
+Required provisional document class:
+
+```latex
+\documentclass[sigconf,review,anonymous]{acmart}
+```
 
 Read:
 
 ```text
-docs/venue/conext2026_acm_prep.md
+docs/venue/socc2026_acm_prep.md
 ```
 
 before generating paper scaffolding.
+
+---
+
+## SoCC-specific rules
+
+SoCC 2026 full research papers use:
+
+```text
+12 pages + unlimited references
+dual-anonymous review
+9pt ACM proceedings format
+single PDF
+8.5" x 11" paper
+PDF size <= 10 MB
+paper type as subtitle: Research Full
+```
+
+Do not invent or alter official venue rules.
 
 ---
 
@@ -73,6 +101,24 @@ eBPF event monitor
 
 ---
 
+## SoCC positioning
+
+Position FlowGap as:
+
+```text
+a cloud / AI-infrastructure monitoring and active probing system that reduces measurement-induced interference in accelerator servers.
+```
+
+Avoid positioning FlowGap as:
+
+```text
+a pure time-series prediction paper
+a complete root-cause diagnosis system
+a hardware-specific engineering note without broader cloud systems relevance
+```
+
+---
+
 ## Non-goals
 
 FlowGap is not:
@@ -83,7 +129,11 @@ FlowGap is not:
 - a deep-learning traffic generation model;
 - a paper that claims all Ascend workloads always have predictable gaps.
 
-FlowGap is a probing opportunity inference layer for low-interference active probing.
+FlowGap is:
+
+```text
+a probing opportunity inference layer for low-interference active probing.
+```
 
 ---
 
@@ -129,32 +179,52 @@ If project-local skills exist under `.agent/skills/`, read the relevant `SKILL.m
 
 ## Skill overrides
 
-scientific-writing:
+### scientific-writing
 
-- text-only mode;
-- no graphical abstracts;
-- no AI images;
-- no fake citations;
-- no fake numbers;
-- no fake experiments;
-- no fake hardware details.
+Use text-only mode.
 
-literature-review:
+Do not:
 
-- search, screening, matrix, synthesis only;
-- no AI figures;
-- no fake references;
-- no final Related Work before citations are verified.
+- generate graphical abstracts;
+- generate AI images;
+- call `generate-image`;
+- call `scientific-schematics`;
+- invent citations;
+- invent numbers;
+- invent experiments;
+- invent hardware details.
 
-peer-review:
+### literature-review
 
-- be harsh;
-- focus on evidence-to-claim alignment, missing baselines, detection utility, CoNEXT fit.
+Use only for search strategy, screening, matrix building, and synthesis.
 
-venue-templates:
+Do not:
 
-- formatting help only;
-- official venue template is source of truth.
+- generate AI figures;
+- rank papers primarily by author prestige, h-index, or institution;
+- write fake citations;
+- write final Related Work before citations are verified.
+
+### peer-review
+
+Be harsh.
+
+Focus on:
+
+- SoCC systems-paper fit;
+- evidence-to-claim alignment;
+- missing baselines;
+- missing detection utility;
+- weak novelty;
+- unclear relation to Hostping/HostDiag;
+- unsupported claims;
+- simulation vs real measurement confusion.
+
+### venue-templates
+
+Use only for formatting help.
+
+The official SoCC 2026 CFP and ACM template are the source of truth.
 
 ---
 
@@ -178,6 +248,8 @@ Do not run root-level or system-changing commands unless the user explicitly ask
 
 Do not alter `/usr/local/Ascend`, kernel settings, or production runtime files.
 
+Do not reveal author names, affiliations, institutions, acknowledgments, repository URLs, or identifying project names in the anonymous SoCC submission.
+
 Mark unknowns as:
 
 - TODO
@@ -186,7 +258,6 @@ Mark unknowns as:
 - NEED_EXPERIMENT
 - NEED_TEACHER_CONFIRMATION
 - NEED_MANUAL_CHECK
-- NEED_CONEXT2026_CFP_CONFIRMATION
 
 ---
 
@@ -199,7 +270,8 @@ Read these before major tasks:
 - `docs/topic.md`
 - `docs/outline.md`
 - `docs/skill_usage_policy.md`
-- `docs/venue/conext2026_acm_prep.md`
+- `docs/venue/socc2026_acm_prep.md`
+- `docs/submission_checklist_socc2026.md` if present
 - `PROGRESS.md` if present
 
 Update `PROGRESS.md` after completing each task.
