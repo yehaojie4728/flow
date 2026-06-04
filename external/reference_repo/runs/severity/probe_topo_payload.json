@@ -1,0 +1,290 @@
+{
+  "ip": "10.202.9.137",
+  "hostname": "ubuntu-server",
+  "nodes": [
+    {
+      "name": "CPU1",
+      "type": "CPU"
+    },
+    {
+      "name": "CPU2",
+      "type": "CPU"
+    },
+    {
+      "name": "CPU3",
+      "type": "CPU"
+    },
+    {
+      "name": "CPU4",
+      "type": "CPU"
+    },
+    {
+      "name": "CPU1内存",
+      "type": "CPU_MEM"
+    },
+    {
+      "name": "CPU2内存",
+      "type": "CPU_MEM"
+    },
+    {
+      "name": "CPU3内存",
+      "type": "CPU_MEM"
+    },
+    {
+      "name": "CPU4内存",
+      "type": "CPU_MEM"
+    },
+    {
+      "name": "NPU1",
+      "type": "NPU"
+    },
+    {
+      "name": "NPU2",
+      "type": "NPU"
+    },
+    {
+      "name": "NPU3",
+      "type": "NPU"
+    },
+    {
+      "name": "NPU4",
+      "type": "NPU"
+    },
+    {
+      "name": "NPU5",
+      "type": "NPU"
+    },
+    {
+      "name": "NPU6",
+      "type": "NPU"
+    },
+    {
+      "name": "NPU7",
+      "type": "NPU"
+    },
+    {
+      "name": "NPU8",
+      "type": "NPU"
+    }
+  ],
+  "links": [
+    {
+      "start": "CPU1",
+      "end": "CPU2"
+    },
+    {
+      "start": "CPU1",
+      "end": "CPU3"
+    },
+    {
+      "start": "CPU1",
+      "end": "CPU4",
+      "alarm_desc": "P0 主机内链路异常: Host(NUMA 0) -> NPU 1; 总吞吐 5.65 GB/s, 基线 25.00 GB/s, 达标比例 22.6%",
+      "alarm_time": "2026-04-29 17:30:03",
+      "alarm_time_us": 1777455003769999,
+      "alarm_adv": "立即处置，检查链路健康度并切换热备设备。",
+      "severity": "P0",
+      "reason": "probe时刻命中业务窗 Host(NUMA 0) -> NPU 1 ; 业务窗吞吐 1.90 GB/s，加入probe流量后 5.65 GB/s ; 固定基线 200.00 Gbps (= 25.00 GB/s) ; 总吞吐仅达到基线 22.6%",
+      "probe_start_wall_ns": 1777455003769999872,
+      "probe_end_wall_ns": 1777455003780999936,
+      "matched_window_start_wall_ns": 1777455003759213599,
+      "matched_window_end_wall_ns": 1777455003830807480,
+      "throughput_ratio": 0.226,
+      "merged_bandwidth_gbps": 5.65,
+      "baseline_bandwidth_gbps": 25.0
+    },
+    {
+      "start": "CPU2",
+      "end": "CPU3"
+    },
+    {
+      "start": "CPU2",
+      "end": "CPU4"
+    },
+    {
+      "start": "CPU3",
+      "end": "CPU4"
+    },
+    {
+      "start": "NPU1",
+      "end": "NPU2"
+    },
+    {
+      "start": "NPU1",
+      "end": "NPU3"
+    },
+    {
+      "start": "NPU1",
+      "end": "NPU4"
+    },
+    {
+      "start": "NPU1",
+      "end": "NPU5"
+    },
+    {
+      "start": "NPU1",
+      "end": "NPU6"
+    },
+    {
+      "start": "NPU1",
+      "end": "NPU7"
+    },
+    {
+      "start": "NPU1",
+      "end": "NPU8"
+    },
+    {
+      "start": "NPU2",
+      "end": "NPU3"
+    },
+    {
+      "start": "NPU2",
+      "end": "NPU4"
+    },
+    {
+      "start": "NPU2",
+      "end": "NPU5"
+    },
+    {
+      "start": "NPU2",
+      "end": "NPU6"
+    },
+    {
+      "start": "NPU2",
+      "end": "NPU7"
+    },
+    {
+      "start": "NPU2",
+      "end": "NPU8"
+    },
+    {
+      "start": "NPU3",
+      "end": "NPU4"
+    },
+    {
+      "start": "NPU3",
+      "end": "NPU5"
+    },
+    {
+      "start": "NPU3",
+      "end": "NPU6"
+    },
+    {
+      "start": "NPU3",
+      "end": "NPU7"
+    },
+    {
+      "start": "NPU3",
+      "end": "NPU8"
+    },
+    {
+      "start": "NPU4",
+      "end": "NPU5"
+    },
+    {
+      "start": "NPU4",
+      "end": "NPU6"
+    },
+    {
+      "start": "NPU4",
+      "end": "NPU7"
+    },
+    {
+      "start": "NPU4",
+      "end": "NPU8"
+    },
+    {
+      "start": "NPU5",
+      "end": "NPU6"
+    },
+    {
+      "start": "NPU5",
+      "end": "NPU7"
+    },
+    {
+      "start": "NPU5",
+      "end": "NPU8"
+    },
+    {
+      "start": "NPU6",
+      "end": "NPU7"
+    },
+    {
+      "start": "NPU6",
+      "end": "NPU8"
+    },
+    {
+      "start": "NPU7",
+      "end": "NPU8"
+    },
+    {
+      "start": "CPU1",
+      "end": "CPU1内存"
+    },
+    {
+      "start": "CPU2",
+      "end": "CPU2内存"
+    },
+    {
+      "start": "CPU3",
+      "end": "CPU3内存"
+    },
+    {
+      "start": "CPU4",
+      "end": "CPU4内存"
+    },
+    {
+      "start": "NPU5",
+      "end": "CPU1"
+    },
+    {
+      "start": "NPU6",
+      "end": "CPU1"
+    },
+    {
+      "start": "NPU7",
+      "end": "CPU2"
+    },
+    {
+      "start": "NPU8",
+      "end": "CPU2"
+    },
+    {
+      "start": "NPU3",
+      "end": "CPU3"
+    },
+    {
+      "start": "NPU4",
+      "end": "CPU3"
+    },
+    {
+      "start": "NPU1",
+      "end": "CPU4"
+    },
+    {
+      "start": "NPU2",
+      "end": "CPU4"
+    },
+    {
+      "start": "CPU1",
+      "end": "CPU3",
+      "alarm_desc": "P1 主机内链路异常: Host(NUMA 0) -> NPU 2; 总吞吐 19.38 GB/s, 基线 25.00 GB/s, 达标比例 77.5%",
+      "alarm_time": "2026-04-29 17:30:00",
+      "alarm_time_us": 1777455000604999,
+      "alarm_adv": "尽快处置，排查链路带宽/时延异常并观察训练任务。",
+      "severity": "P1",
+      "reason": "probe时刻命中业务窗 Host(NUMA 0) -> NPU 2 ; 业务窗吞吐 9.75 GB/s，加入probe流量后 19.38 GB/s ; 固定基线 200.00 Gbps (= 25.00 GB/s) ; 总吞吐仅达到基线 77.5%",
+      "probe_start_wall_ns": 1777455000604999936,
+      "probe_end_wall_ns": 1777455000616000000,
+      "matched_window_start_wall_ns": 1777455000589007723,
+      "matched_window_end_wall_ns": 1777455000616867780,
+      "throughput_ratio": 0.775,
+      "merged_bandwidth_gbps": 19.38,
+      "baseline_bandwidth_gbps": 25.0
+    },
+    {
+      "start": "NPU1",
+      "end": "NPU5"
+    }
+  ]
+}

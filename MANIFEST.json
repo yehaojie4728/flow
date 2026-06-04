@@ -1,0 +1,29 @@
+{
+  "package": "FlowGap_codex_launch_pack_v3",
+  "purpose": "Start FlowGap CoNEXT 2026/Codex workflow without modifying original reference repo",
+  "first_codex_prompt": "docs/prompts/00_codex_bootstrap_analyze_only.md",
+  "second_codex_prompt": "docs/prompts/01_codex_reference_repo_analysis.md",
+  "must_check": "scripts/check_flowgap_pack_manifest.sh",
+  "files": [
+    "AGENTS.md",
+    "README.md",
+    "docs/MEGA_PROMPT.md",
+    "docs/claims.md",
+    "docs/prompts/00_codex_bootstrap_analyze_only.md",
+    "docs/prompts/01_codex_reference_repo_analysis.md",
+    "docs/prompts/02_codex_environment_probe_plan.md",
+    "docs/prompts/03_codex_first_patch_plan.md",
+    "docs/prompts/04_codex_trace_parser_generation.md",
+    "docs/prompts/05_codex_gap_predictor_generation.md",
+    "docs/prompts/06_codex_scheduler_replay_generation.md",
+    "docs/prompts/07_codex_conext_paper_scaffold.md",
+    "docs/setup/00_MASTER_RUNBOOK.md",
+    "docs/setup/01_environment_setup_aarch64_910A.md",
+    "docs/setup/02_create_workspace_and_reference_repo.md",
+    "docs/setup/03_install_scientific_agent_skills_for_codex.md",
+    "docs/skill_usage_policy.md",
+    "docs/venue/conext2026_acm_prep.md",
+    "scripts/bootstrap_flowgap_dirs.sh",
+    "scripts/check_flowgap_pack_manifest.sh"
+  ]
+}

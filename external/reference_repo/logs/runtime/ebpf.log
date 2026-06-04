@@ -1,0 +1,1506 @@
+Tracing aclrtMemcpy (Size >= 1048576 B) with Topology Info...
+Output will be saved to /root/n/runs/raw/aclrtMemcpy_numa_raw.log
+Aggregation: src->dst overlap-merge mode (window-ms=100 kept for compatibility)
+Aggregated output will be saved to /root/n/runs/agg/aclrtMemcpy_numa_trace.log
+Using BPF cflags: -target aarch64-linux-gnu
+Using AscendCL library: /usr/local/Ascend/cann-8.5.0/lib64/libascendcl.so
+              Source -> Destination          |       Size |    Latency |         BW
+------------------------------------------------------------------------------------------
+Monitoring started. Press Ctrl+C to stop.
+        Host(NUMA 0) -> NPU 2                |   24.50 MB | 2885.74 us |   8.90 GB/s
+        Host(NUMA 0) -> NPU 2                |   31.50 MB | 3649.31 us |   9.05 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340471897747,716340474783487) |    24.50 MB |    8.90 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  259.00 MB | 36244.99 us |   7.49 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340474914468,716340478563781) |    31.50 MB |    9.05 GB/s | packets=1
+        Host(NUMA 1) -> Device ?             |  128.00 MB | 10341.58 us |  12.98 GB/s
+        Host(NUMA 0) -> NPU 2                |  129.50 MB | 15632.50 us |   8.69 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340479001492,716340515246479) |   259.00 MB |    7.49 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |   24.50 MB | 3017.48 us |   8.51 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340515442750,716340531075254) |   129.50 MB |    8.69 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |   31.50 MB | 3765.34 us |   8.77 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340531473936,716340534491416) |    24.50 MB |    8.51 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  259.00 MB | 28041.85 us |   9.68 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340534604077,716340538369420) |    31.50 MB |    8.77 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  129.50 MB | 15375.52 us |   8.83 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340538777971,716340566819820) |   259.00 MB |    9.68 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |   24.50 MB | 3105.69 us |   8.27 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340567004630,716340582380154) |   129.50 MB |    8.83 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |   31.50 MB | 3855.23 us |   8.57 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340582774685,716340585880376) |    24.50 MB |    8.27 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   24.50 MB | 4490.39 us |   5.72 GB/s
+        Host(NUMA 2) -> NPU 4                |   31.50 MB | 5660.82 us |   5.83 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340587498602,716340591988988) |    24.50 MB |    5.72 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  259.00 MB | 27860.06 us |   9.75 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340585993327,716340589848560) |    31.50 MB |    8.57 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  129.50 MB | 14149.24 us |   9.60 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340590248402,716340618108459) |   259.00 MB |    9.75 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |   24.50 MB | 2965.41 us |   8.66 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340618295950,716340632445189) |   129.50 MB |    9.60 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  259.00 MB | 39834.09 us |   6.82 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340592144488,716340597805308) |    31.50 MB |    5.83 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |   31.50 MB | 3518.56 us |   9.39 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340632912501,716340635877911) |    24.50 MB |    8.66 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  129.50 MB | 19283.43 us |   7.04 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340598269600,716340638103689) |   259.00 MB |    6.82 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   24.50 MB | 3658.17 us |   7.02 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340638316740,716340657600167) |   129.50 MB |    7.04 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   31.50 MB | 4295.86 us |   7.69 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340658011699,716340661669872) |    24.50 MB |    7.02 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  259.00 MB | 26301.70 us |  10.33 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340635985232,716340639503794) |    31.50 MB |    9.39 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   24.50 MB | 3684.82 us |   6.97 GB/s
+        Host(NUMA 2) -> NPU 2                |  129.50 MB | 14302.33 us |   9.49 GB/s
+        Host(NUMA 0) -> NPU 5                |   31.50 MB | 4838.53 us |   6.83 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340673626984,716340677311807) |    24.50 MB |    6.97 GB/s | packets=1
+        Host(NUMA 2) -> NPU 2                |   24.50 MB | 3274.51 us |   7.85 GB/s
+[AGG] Host(NUMA 2) -> NPU 2 | window=[716340666447728,716340680750059) |   129.50 MB |    9.49 GB/s | packets=1
+        Host(NUMA 2) -> NPU 2                |   31.50 MB | 2403.76 us |  13.74 GB/s
+[AGG] Host(NUMA 2) -> NPU 2 | window=[716340681355261,716340684629772) |    24.50 MB |    7.85 GB/s | packets=1
+        Host(NUMA 1) -> NPU 2                |  259.00 MB | 16309.38 us |  16.65 GB/s
+        Host(NUMA 1) -> NPU 3                |   24.50 MB | 3166.89 us |   8.11 GB/s
+        Host(NUMA 2) -> NPU 4                |  259.00 MB | 37898.03 us |   7.17 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340661781662,716340666077527) |    31.50 MB |    7.69 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   31.50 MB | 4636.77 us |   7.12 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340701428131,716340704595022) |    24.50 MB |    8.11 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  259.00 MB | 29147.21 us |   9.32 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340677445097,716340682283624) |    31.50 MB |    6.83 GB/s | packets=1
+        Host(NUMA 1) -> NPU 2                |  129.50 MB | 17888.98 us |   7.59 GB/s
+[AGG] Host(NUMA 1) -> NPU 2 | window=[716340687588883,716340703898260) |   259.00 MB |   16.65 GB/s | packets=1
+        Host(NUMA 2) -> NPU 2                |   24.50 MB | 2098.91 us |  12.24 GB/s
+[AGG] Host(NUMA 2) -> NPU 2 | window=[716340684763453,716340687167211) |    31.50 MB |   13.74 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  129.50 MB | 14627.30 us |   9.28 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340682775576,716340711922788) |   259.00 MB |    9.32 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  129.50 MB | 22608.52 us |   6.01 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340666690469,716340704588502) |   259.00 MB |    7.17 GB/s | packets=1
+        Host(NUMA 2) -> NPU 2                |   31.50 MB | 2465.35 us |  13.40 GB/s
+[AGG] Host(NUMA 2) -> NPU 2 | window=[716340723155567,716340725254474) |    24.50 MB |   12.24 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   24.50 MB | 3001.04 us |   8.56 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340712145788,716340726773090) |   129.50 MB |    9.28 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   24.50 MB | 4477.01 us |   5.74 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340704760203,716340727368722) |   129.50 MB |    6.01 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   31.50 MB | 3897.14 us |   8.48 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340727309542,716340730310582) |    24.50 MB |    8.56 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   31.50 MB | 5524.40 us |   5.98 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340727789003,716340732266009) |    24.50 MB |    5.74 GB/s | packets=1
+        Host(NUMA 2) -> NPU 2                |  259.00 MB | 15782.58 us |  17.21 GB/s
+[AGG] Host(NUMA 2) -> NPU 2 | window=[716340725382395,716340727847743) |    31.50 MB |   13.40 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  259.00 MB | 36806.14 us |   7.38 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340704698072,716340709334839) |    31.50 MB |    7.12 GB/s | packets=1
+        Host(NUMA 2) -> NPU 2                |  129.50 MB | 16873.37 us |   8.05 GB/s
+[AGG] Host(NUMA 2) -> NPU 2 | window=[716340728264455,716340744047040) |   259.00 MB |   17.21 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  129.50 MB | 14791.12 us |   9.18 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340709820530,716340746626669) |   259.00 MB |    7.38 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  259.00 MB | 27374.55 us |   9.92 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340730421683,716340734318826) |    31.50 MB |    8.48 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   24.50 MB | 2969.30 us |   8.65 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340746823400,716340761614522) |   129.50 MB |    9.18 GB/s | packets=1
+        Host(NUMA 2) -> NPU 2                |   24.50 MB | 3386.62 us |   7.59 GB/s
+[AGG] Host(NUMA 2) -> NPU 2 | window=[716340744199831,716340761073200) |   129.50 MB |    8.05 GB/s | packets=1
+        Host(NUMA 2) -> NPU 2                |   31.50 MB | 2470.21 us |  13.37 GB/s
+[AGG] Host(NUMA 2) -> NPU 2 | window=[716340761520601,716340764907223) |    24.50 MB |    7.59 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   31.50 MB | 3799.63 us |   8.69 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340761954283,716340764923583) |    24.50 MB |    8.65 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  129.50 MB | 11033.69 us |  12.31 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340734746468,716340762121014) |   259.00 MB |    9.92 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   24.50 MB | 2142.72 us |  11.99 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340762313344,716340773347033) |   129.50 MB |   12.31 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   31.50 MB | 2434.60 us |  13.57 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340773809704,716340775952422) |    24.50 MB |   11.99 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  259.00 MB | 50181.31 us |   5.41 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340732380749,716340737905149) |    31.50 MB |    5.98 GB/s | packets=1
+        Host(NUMA 2) -> NPU 2                |  259.00 MB | 31635.60 us |   8.58 GB/s
+[AGG] Host(NUMA 2) -> NPU 2 | window=[716340765025014,716340767495222) |    31.50 MB |   13.37 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  259.00 MB | 30701.64 us |   8.85 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340765008734,716340768808367) |    31.50 MB |    8.69 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  259.00 MB | 20965.67 us |  12.95 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340776075362,716340778509961) |    31.50 MB |   13.57 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  129.50 MB | 11375.63 us |  11.94 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340778909982,716340799875656) |   259.00 MB |   12.95 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  129.50 MB | 22840.29 us |   5.95 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340738342920,716340788524226) |   259.00 MB |    5.41 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   24.50 MB | 2421.07 us |  10.61 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340800091796,716340811467426) |   129.50 MB |   11.94 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  129.50 MB | 15328.71 us |   8.86 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340769138948,716340799840586) |   259.00 MB |    8.85 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   24.50 MB | 4424.01 us |   5.81 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340788711577,716340811551867) |   129.50 MB |    5.95 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  129.50 MB | 16758.71 us |   8.10 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340639971986,716340666273688) |   259.00 MB |   10.33 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   31.50 MB | 2555.50 us |  12.93 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340811847978,716340814269046) |    24.50 MB |   10.61 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   24.50 MB | 2858.83 us |   8.99 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340800032556,716340815361270) |   129.50 MB |    8.86 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   31.50 MB | 3619.50 us |   9.13 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340815686941,716340818545771) |    24.50 MB |    8.99 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   31.50 MB | 5835.41 us |   5.66 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340811930288,716340816354293) |    24.50 MB |    5.81 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  259.00 MB | 25287.45 us |  10.74 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340814374586,716340816930085) |    31.50 MB |   12.93 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  259.00 MB | 27377.73 us |   9.92 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340818633761,716340822253264) |    31.50 MB |    9.13 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  129.50 MB | 13346.49 us |  10.17 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340817349427,716340842636875) |   259.00 MB |   10.74 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   24.50 MB | 1923.07 us |  13.36 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340842846766,716340856193253) |   129.50 MB |   10.17 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  259.00 MB | 37862.19 us |   7.17 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340816466384,716340822301794) |    31.50 MB |    5.66 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   31.50 MB | 2769.95 us |  11.92 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340856591994,716340858515061) |    24.50 MB |   13.36 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  129.50 MB | 12547.40 us |  10.82 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340822590945,716340849968671) |   259.00 MB |    9.92 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   24.50 MB | 2661.97 us |   9.65 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340850152922,716340862700326) |   129.50 MB |   10.82 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   31.50 MB | 3527.26 us |   9.36 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340863017777,716340865679746) |    24.50 MB |    9.65 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  129.50 MB | 21324.38 us |   6.37 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340822759136,716340860621328) |   259.00 MB |    7.17 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  259.00 MB | 20543.49 us |  13.22 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340858621371,716340861391321) |    31.50 MB |   11.92 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   24.50 MB | 4942.40 us |   5.20 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340860773569,716340882097944) |   129.50 MB |    6.37 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   31.50 MB | 5912.30 us |   5.59 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340882481735,716340887424132) |    24.50 MB |    5.20 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  129.50 MB | 11971.32 us |  11.34 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340861801203,716340882344695) |   259.00 MB |   13.22 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  259.00 MB | 25729.99 us |  10.56 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340865764106,716340869291369) |    31.50 MB |    9.36 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   24.50 MB | 4856.20 us |   5.29 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340882546895,716340894518217) |   129.50 MB |   11.34 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   31.50 MB | 6301.99 us |   5.24 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340894895598,716340899751795) |    24.50 MB |    5.29 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  129.50 MB | 12695.02 us |  10.70 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340869704940,716340895434930) |   259.00 MB |   10.56 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   24.50 MB | 2893.16 us |   8.88 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340895601771,716340908296795) |   129.50 MB |   10.70 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   31.50 MB | 3375.55 us |   9.79 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340908612336,716340911505497) |    24.50 MB |    8.88 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  259.00 MB | 22354.35 us |  12.15 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340899864316,716340906166308) |    31.50 MB |    5.24 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  259.00 MB | 39403.51 us |   6.89 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340887531693,716340893443993) |    31.50 MB |    5.59 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  129.50 MB | 11982.42 us |  11.33 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340906593819,716340928948168) |   259.00 MB |   12.15 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  259.00 MB | 27064.47 us |  10.03 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340911586447,716340914961999) |    31.50 MB |    9.79 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   24.50 MB | 2802.25 us |   9.17 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340929069648,716340941052070) |   129.50 MB |   11.33 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |   31.50 MB | 2811.15 us |  11.75 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340941409771,716340944212021) |    24.50 MB |    9.17 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  129.50 MB | 21656.49 us |   6.27 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340893949605,716340933353113) |   259.00 MB |    6.89 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  129.50 MB | 13630.09 us |   9.96 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340915286370,716340942350845) |   259.00 MB |   10.03 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   24.50 MB | 2857.37 us |   8.99 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340942521715,716340956151803) |   129.50 MB |    9.96 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   24.50 MB | 4372.95 us |   5.87 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340933514964,716340955171450) |   129.50 MB |    6.27 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   31.50 MB | 3253.30 us |  10.15 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340956537904,716340959395274) |    24.50 MB |    8.99 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   31.50 MB | 6163.37 us |   5.36 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340955543701,716340959916656) |    24.50 MB |    5.87 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  259.00 MB | 36984.44 us |   7.34 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340944321062,716340947132211) |    31.50 MB |   11.75 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  259.00 MB | 26970.10 us |  10.07 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340959477965,716340962731266) |    31.50 MB |   10.15 GB/s | packets=1
+        Host(NUMA 0) -> NPU 5                |  129.50 MB | 9413.38 us |  14.43 GB/s
+[AGG] Host(NUMA 0) -> NPU 5 | window=[716340947530533,716340984514972) |   259.00 MB |    7.34 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  259.00 MB | 35985.69 us |   7.55 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340960042247,716340966205618) |    31.50 MB |    5.36 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  129.50 MB | 13288.74 us |  10.22 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340963057297,716340990027392) |   259.00 MB |   10.07 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   24.50 MB | 2797.94 us |   9.18 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716340990196552,716341003485289) |   129.50 MB |   10.22 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |   31.50 MB | 3246.04 us |  10.18 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716341003799300,716341006597240) |    24.50 MB |    9.18 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  129.50 MB | 17076.61 us |   7.95 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716340966643940,716341002629626) |   259.00 MB |    7.55 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   24.50 MB | 3424.30 us |   7.50 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716341002786236,716341019862846) |   129.50 MB |    7.95 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |   31.50 MB | 4329.30 us |   7.63 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716341020347198,716341023771500) |    24.50 MB |    7.50 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  259.00 MB | 26745.05 us |  10.15 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716341006678980,716341009925021) |    31.50 MB |   10.18 GB/s | packets=1
+        Host(NUMA 1) -> NPU 3                |  129.50 MB | 13585.58 us |  10.00 GB/s
+[AGG] Host(NUMA 1) -> NPU 3 | window=[716341010252192,716341036997246) |   259.00 MB |   10.15 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  259.00 MB | 115114.33 us |   2.36 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716341023882830,716341028212125) |    31.50 MB |    7.63 GB/s | packets=1
+        Host(NUMA 2) -> NPU 4                |  129.50 MB | 15824.09 us |   8.58 GB/s
+[AGG] Host(NUMA 2) -> NPU 4 | window=[716341028623027,716341143737360) |   259.00 MB |    2.36 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   24.50 MB | 3208.30 us |   8.01 GB/s
+        Host(NUMA 3) -> NPU 6                |   31.50 MB | 4426.41 us |   7.46 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341263068679,716341266276980) |    24.50 MB |    8.01 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  259.00 MB | 30160.21 us |   9.00 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341266402711,716341270829126) |    31.50 MB |    7.46 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  129.50 MB | 39025.56 us |   3.48 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341271241718,716341301401923) |   259.00 MB |    9.00 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   24.50 MB | 3404.74 us |   7.55 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341301631544,716341340657101) |   129.50 MB |    3.48 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   31.50 MB | 4089.68 us |   8.08 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341341289293,716341344694035) |    24.50 MB |    7.55 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                | 1039.50 MB | 129955.24 us |   8.39 GB/s
+        Host(NUMA 1) -> NPU 0                |   24.50 MB | 3047.13 us |   8.43 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341297550250,716341427505495) |  1039.50 MB |    8.39 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   31.50 MB | 4045.86 us |   8.16 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341428458069,716341431505199) |    24.50 MB |    8.43 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   24.50 MB | 3429.12 us |   7.49 GB/s
+        Host(NUMA 3) -> NPU 7                |   31.50 MB | 4270.98 us |   7.73 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341449753813,716341453182936) |    24.50 MB |    7.49 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  259.00 MB | 108883.77 us |   2.49 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341344816906,716341348906590) |    31.50 MB |    8.08 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  259.00 MB | 28569.58 us |   9.51 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341431607910,716341435653774) |    31.50 MB |    8.16 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  129.50 MB | 15826.60 us |   8.58 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341436038605,716341464608186) |   259.00 MB |    9.51 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   24.50 MB | 3002.12 us |   8.56 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341464764376,716341480590972) |   129.50 MB |    8.58 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   31.50 MB | 3882.42 us |   8.51 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341480933583,716341483935703) |    24.50 MB |    8.56 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  259.00 MB | 35925.78 us |   7.56 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341453316686,716341457587671) |    31.50 MB |    7.73 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  129.50 MB | 51304.63 us |   2.65 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341349404152,716341458287923) |   259.00 MB |    2.49 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  129.50 MB | 18440.92 us |   7.36 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341458015792,716341493941568) |   259.00 MB |    7.56 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   24.50 MB | 3690.27 us |   6.96 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341458583364,716341509887994) |   129.50 MB |    2.65 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   24.50 MB | 3840.93 us |   6.69 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341494128989,716341512569914) |   129.50 MB |    7.36 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  259.00 MB | 29624.06 us |   9.17 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341484042404,716341487924827) |    31.50 MB |    8.51 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   31.50 MB | 5956.07 us |   5.55 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341510313496,716341514003769) |    24.50 MB |    6.96 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   31.50 MB | 5008.04 us |   6.60 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341512954895,716341516795829) |    24.50 MB |    6.69 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  129.50 MB | 16067.44 us |   8.45 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341488428959,716341518053023) |   259.00 MB |    9.17 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   24.50 MB | 3107.08 us |   8.27 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341518209044,716341534276480) |   129.50 MB |    8.45 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   31.50 MB | 4151.24 us |   7.96 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341534669261,716341537776342) |    24.50 MB |    8.27 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  259.00 MB | 36876.39 us |   7.36 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341516905239,716341521913276) |    31.50 MB |    6.60 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  259.00 MB | 27978.93 us |   9.71 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341537873662,716341542024907) |    31.50 MB |    7.96 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  129.50 MB | 16574.67 us |   8.19 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341522360168,716341559236557) |   259.00 MB |    7.36 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   24.50 MB | 3120.60 us |   8.23 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341559407448,716341575982116) |   129.50 MB |    8.19 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   31.50 MB | 4416.03 us |   7.48 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341576376137,716341579496738) |    24.50 MB |    8.23 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  129.50 MB | 15810.64 us |   8.59 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341542517409,716341570496337) |   259.00 MB |    9.71 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   24.50 MB | 3172.75 us |   8.10 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341570650107,716341586460743) |   129.50 MB |    8.59 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   31.50 MB | 4084.16 us |   8.09 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341586796664,716341589969415) |    24.50 MB |    8.10 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  259.00 MB | 88415.26 us |   3.07 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341514115269,716341520071340) |    31.50 MB |    5.55 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  259.00 MB | 38092.84 us |   7.13 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341579611319,716341584027354) |    31.50 MB |    7.48 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  259.00 MB | 28742.94 us |   9.45 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341590066345,716341594150510) |    31.50 MB |    8.09 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  129.50 MB | 19291.10 us |   7.04 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341520517902,716341608933162) |   259.00 MB |    3.07 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   24.50 MB | 4576.04 us |   5.61 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341609119522,716341628410620) |   129.50 MB |    7.04 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   31.50 MB | 4645.79 us |   7.11 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341628820241,716341633396277) |    24.50 MB |    5.61 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  129.50 MB | 16057.52 us |   8.46 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341594517181,716341623260122) |   259.00 MB |    9.45 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  129.50 MB | 19299.20 us |   7.04 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341584438306,716341622531149) |   259.00 MB |    7.13 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   24.50 MB | 3008.04 us |   8.54 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341623420212,716341639477729) |   129.50 MB |    8.46 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   24.50 MB | 4176.59 us |   6.15 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341622698530,716341641997728) |   129.50 MB |    7.04 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   31.50 MB | 4123.39 us |   8.01 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341639804930,716341642812970) |    24.50 MB |    8.54 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   31.50 MB | 4335.91 us |   7.62 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341642355789,716341646532383) |    24.50 MB |    6.15 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  259.00 MB | 30240.99 us |   8.98 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341642909541,716341647032935) |    31.50 MB |    8.01 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  129.50 MB | 14384.15 us |   9.44 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341647400677,716341677641663) |   259.00 MB |    8.98 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  259.00 MB | 42376.40 us |   6.41 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341646642694,716341650978609) |    31.50 MB |    7.62 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   24.50 MB | 2212.48 us |  11.61 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341677784643,716341692168793) |   129.50 MB |    9.44 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   31.50 MB | 3353.73 us |   9.85 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341692495625,716341694708102) |    24.50 MB |   11.61 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  129.50 MB | 16064.63 us |   8.45 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341651374780,716341693751179) |   259.00 MB |    6.41 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   24.50 MB | 3440.62 us |   7.47 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341693944000,716341710008626) |   129.50 MB |    8.45 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   31.50 MB | 3896.36 us |   8.48 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341710388677,716341713829299) |    24.50 MB |    7.47 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  259.00 MB | 83115.80 us |   3.27 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341633512068,716341638157854) |    31.50 MB |    7.11 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  259.00 MB | 24115.44 us |  11.26 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341694801143,716341698154874) |    31.50 MB |    9.85 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  129.50 MB | 12786.18 us |  10.62 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341698516496,716341722631940) |   259.00 MB |   11.26 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   24.50 MB | 2474.35 us |  10.38 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341722776441,716341735562626) |   129.50 MB |   10.62 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |   31.50 MB | 3062.41 us |  10.79 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341735876317,716341738350665) |    24.50 MB |   10.38 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  129.50 MB | 31577.67 us |   4.30 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341638568466,716341721684267) |   259.00 MB |    3.27 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   24.50 MB | 6370.70 us |   4.03 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341721882868,716341753460538) |   129.50 MB |    4.30 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   31.50 MB | 4326.82 us |   7.63 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341753888220,716341760258922) |    24.50 MB |    4.03 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  259.00 MB | 27456.92 us |   9.89 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341738443166,716341741505576) |    31.50 MB |   10.79 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  259.00 MB | 51342.12 us |   5.29 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341713942440,716341717838803) |    31.50 MB |    8.48 GB/s | packets=1
+        Host(NUMA 1) -> NPU 0                |  129.50 MB | 13288.53 us |  10.22 GB/s
+[AGG] Host(NUMA 1) -> NPU 0 | window=[716341741856208,716341769313124) |   259.00 MB |    9.89 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  129.50 MB | 17246.90 us |   7.87 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341718249845,716341769591965) |   259.00 MB |    5.29 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   24.50 MB | 3482.21 us |   7.38 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341769781266,716341787028166) |   129.50 MB |    7.87 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   31.50 MB | 4184.32 us |   7.89 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341787403607,716341790885820) |    24.50 MB |    7.38 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  259.00 MB | 30771.01 us |   8.83 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341790997410,716341795181735) |    31.50 MB |    7.89 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  259.00 MB | 69132.08 us |   3.93 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341760405883,716341764732708) |    31.50 MB |    7.63 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  129.50 MB | 15653.27 us |   8.67 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341795678816,716341826449824) |   259.00 MB |    8.83 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   24.50 MB | 2988.08 us |   8.60 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341826573075,716341842226350) |   129.50 MB |    8.67 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |   31.50 MB | 3757.27 us |   8.79 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341842569041,716341845557121) |    24.50 MB |    8.60 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  129.50 MB | 29563.32 us |   4.59 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341765156979,716341834289062) |   259.00 MB |    3.93 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   24.50 MB | 7100.94 us |   3.62 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341834511233,716341864074556) |   129.50 MB |    4.59 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   31.50 MB | 10877.28 us |   3.04 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341864467658,716341871568603) |    24.50 MB |    3.62 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  259.00 MB | 89910.53 us |   3.02 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341845666702,716341849423975) |    31.50 MB |    8.79 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  259.00 MB | 66398.86 us |   4.09 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341871688273,716341882565551) |    31.50 MB |    3.04 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                |  129.50 MB | 19281.24 us |   7.04 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341849860906,716341939771432) |   259.00 MB |    3.02 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  129.50 MB | 45164.55 us |   3.01 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341882981723,716341949380585) |   259.00 MB |    4.09 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   24.50 MB | 10513.40 us |   2.44 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341949564036,716341994728584) |   129.50 MB |    3.01 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |   31.50 MB | 12983.15 us |   2.54 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716341995125816,716342005639213) |    24.50 MB |    2.44 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  259.00 MB | 63077.45 us |   4.31 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716342005799283,716342018782429) |    31.50 MB |    2.54 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                |  129.50 MB | 37774.03 us |   3.59 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716342019208820,716342082286272) |   259.00 MB |    4.31 GB/s | packets=1
+        Host(NUMA 3) -> NPU 6                | 1039.50 MB | 144878.03 us |   7.52 GB/s
+[AGG] Host(NUMA 3) -> NPU 6 | window=[716342082484752,716342120258785) |   129.50 MB |    3.59 GB/s | packets=1
+        Host(NUMA 3) -> NPU 7                | 1039.50 MB | 379167.05 us |   2.87 GB/s
+[AGG] Host(NUMA 3) -> NPU 7 | window=[716341939958992,716341959240230) |   129.50 MB |    7.04 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                | 1039.50 MB | 1690173.03 us |   0.64 GB/s
+        Host(NUMA 0) -> NPU 1                |   24.50 MB | 3034.86 us |   8.47 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716341243675551,716342933848581) |  1039.50 MB |    0.64 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   31.50 MB | 3506.38 us |   9.42 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716342934850845,716342937885706) |    24.50 MB |    8.47 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  259.00 MB | 28084.01 us |   9.67 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716342938007026,716342941513408) |    31.50 MB |    9.42 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  129.50 MB | 12896.83 us |  10.53 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716342941918030,716342970002038) |   259.00 MB |    9.67 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   24.50 MB | 2841.21 us |   9.04 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716342970149299,716342983046124) |   129.50 MB |   10.53 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   31.50 MB | 3217.71 us |  10.27 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716342983377125,716342986218335) |    24.50 MB |    9.04 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  259.00 MB | 27574.02 us |   9.85 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716342986316686,716342989534397) |    31.50 MB |   10.27 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  129.50 MB | 13603.35 us |   9.98 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716342989904018,716343017478035) |   259.00 MB |    9.85 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   24.50 MB | 2655.00 us |   9.68 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343017638726,716343031242074) |   129.50 MB |    9.98 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   31.50 MB | 3314.92 us |   9.96 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343031575645,716343034230644) |    24.50 MB |    9.68 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  259.00 MB | 29401.50 us |   9.24 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343034329694,716343037644616) |    31.50 MB |    9.96 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  129.50 MB | 28171.49 us |   4.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343038031197,716343067432701) |   259.00 MB |    9.24 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   24.50 MB | 2731.20 us |   9.41 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343067616871,716343095788360) |   129.50 MB |    4.82 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   31.50 MB | 3279.26 us |  10.07 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343096301982,716343099033182) |    24.50 MB |    9.41 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  259.00 MB | 40989.86 us |   6.63 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343099140782,716343102420044) |    31.50 MB |   10.07 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  129.50 MB | 126108.11 us |   1.08 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343102799195,716343143789059) |   259.00 MB |    6.63 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   24.50 MB | 14429.01 us |   1.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343143997640,716343270105753) |   129.50 MB |    1.08 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   31.50 MB | 26137.13 us |   1.26 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343270586465,716343285015476) |    24.50 MB |    1.78 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  259.00 MB | 140059.63 us |   1.94 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343285181096,716343311318228) |    31.50 MB |    1.26 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  129.50 MB | 63791.35 us |   2.13 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343311770830,716343451830462) |   259.00 MB |    1.94 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   24.50 MB | 8539.99 us |   3.01 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343452091773,716343515883127) |   129.50 MB |    2.13 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   31.50 MB | 20902.24 us |   1.58 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343516349969,716343524889959) |    24.50 MB |    3.01 GB/s | packets=1
+        Host(NUMA 1) -> Device ?             |  128.00 MB | 129717.29 us |   1.03 GB/s
+[AGG] Host(NUMA 1) -> Device ? | window=[716340517169366,716340527510942) |   128.00 MB |   12.98 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  259.00 MB | 214000.08 us |   1.27 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343525045449,716343545947693) |    31.50 MB |    1.58 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  129.50 MB | 71593.88 us |   1.90 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343546427825,716343760427907) |   259.00 MB |    1.27 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   24.50 MB | 8735.13 us |   2.94 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343760626298,716343832220179) |   129.50 MB |    1.90 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |   31.50 MB | 9079.08 us |   3.64 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343832644601,716343841379732) |    24.50 MB |    2.94 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  259.00 MB | 138309.42 us |   1.96 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343841540512,716343850619594) |    31.50 MB |    3.64 GB/s | packets=1
+        Host(NUMA 0) -> NPU 1                |  129.50 MB | 129948.30 us |   1.04 GB/s
+[AGG] Host(NUMA 0) -> NPU 1 | window=[716343851078756,716343989388172) |   259.00 MB |    1.96 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 6497.91 us |  20.66 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[716340799715605,716340816474314) |   129.50 MB |    8.10 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5902.33 us |  22.74 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816881767326,721816888265240) |   128.00 MB |   20.66 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5859.39 us |  22.91 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816888286911,721816894189244) |   128.00 MB |   22.74 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5887.80 us |  22.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816894201964,721816900061356) |   128.00 MB |   22.91 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5856.20 us |  22.92 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816901698092,721816907585895) |   128.00 MB |   22.80 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5858.67 us |  22.91 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816907602205,721816913458407) |   128.00 MB |   22.92 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5931.47 us |  22.63 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816913469937,721816919328609) |   128.00 MB |   22.91 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5873.53 us |  22.85 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816921527645,721816927459119) |   128.00 MB |   22.63 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5860.85 us |  22.90 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816927481500,721816933355032) |   128.00 MB |   22.85 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5871.13 us |  22.86 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816933366582,721816939227434) |   128.00 MB |   22.90 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5861.31 us |  22.90 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816941188481,721816947059613) |   128.00 MB |   22.86 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5858.18 us |  22.91 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816947072334,721816952933646) |   128.00 MB |   22.90 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23112.34 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816952943796,721816958801978) |   128.00 MB |   22.91 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23147.39 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23150.56 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23136.31 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23190.68 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816959873334,721816983023891) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23192.45 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23188.19 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23190.89 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23473.27 us |   5.72 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721816983046652,721817006247630) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23469.66 us |   5.72 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23462.71 us |   5.72 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23469.93 us |   5.72 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23359.47 us |   5.75 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817006270831,721817029749169) |   512.00 MB |   22.87 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23360.38 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23355.27 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23355.27 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23346.57 us |   5.75 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817029771949,721817053139213) |   512.00 MB |   22.98 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23346.83 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23343.14 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23343.66 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23353.90 us |   5.75 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817053160673,721817076514396) |   512.00 MB |   22.99 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23355.37 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23350.01 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23350.05 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.48 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817076537767,721817099898150) |   512.00 MB |   22.98 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.56 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23179.94 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23178.59 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23240.34 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817099919841,721817123103538) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23242.85 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23237.52 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23238.08 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23321.24 us |   5.76 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817123129259,721817146375508) |   512.00 MB |   23.09 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23320.58 us |   5.76 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23313.62 us |   5.76 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23313.75 us |   5.76 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23342.74 us |   5.75 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817146398809,721817169723491) |   512.00 MB |   23.02 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23342.02 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23354.66 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23354.57 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23209.37 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817169751132,721817193109795) |   512.00 MB |   22.98 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23213.65 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23220.57 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23220.66 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.82 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817193136266,721817216359765) |   512.00 MB |   23.12 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23162.71 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23174.74 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23174.96 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23153.68 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817216381385,721817239563343) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23201.89 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23201.15 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23188.31 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23278.92 us |   5.77 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817239590003,721817262795781) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23279.71 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23304.74 us |   5.76 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23308.24 us |   5.76 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23187.74 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817262825142,721817286136354) |   512.00 MB |   23.03 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23188.02 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23229.81 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23230.11 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23229.54 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817286168415,721817309409084) |   512.00 MB |   23.10 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23229.68 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23250.22 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23251.51 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23164.12 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817309434445,721817332694535) |   512.00 MB |   23.08 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.47 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23175.89 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23175.92 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23251.77 us |   5.77 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817332717975,721817355902013) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23252.28 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23258.23 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23260.44 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23243.03 us |   5.77 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817355923563,721817379191253) |   512.00 MB |   23.07 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23240.06 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23251.74 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23249.70 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23370.28 us |   5.74 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817379215524,721817402472414) |   512.00 MB |   23.08 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23364.64 us |   5.74 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23366.18 us |   5.74 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23369.92 us |   5.74 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23406.71 us |   5.73 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817402494025,721817425871338) |   512.00 MB |   22.97 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23408.72 us |   5.73 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23402.24 us |   5.74 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23401.47 us |   5.74 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23241.54 us |   5.77 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817425898559,721817449310964) |   512.00 MB |   22.93 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23294.44 us |   5.76 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23295.39 us |   5.76 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23295.44 us |   5.76 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23207.32 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817449335455,721817472635856) |   512.00 MB |   23.04 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23208.53 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23206.91 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23207.53 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23181.25 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817472660467,721817495875475) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23181.77 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23177.93 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23178.21 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.61 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817495899616,721817519085823) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.69 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23169.79 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.29 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23193.06 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817519108544,721817542283411) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23186.20 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23186.57 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23192.87 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23219.50 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817542307412,721817565504729) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23212.22 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23213.15 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23219.30 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23197.88 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817565531150,721817588755019) |   512.00 MB |   23.12 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23190.49 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23191.19 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23197.97 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23194.22 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817588778220,721817611981387) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23194.74 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23208.62 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23208.31 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.66 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817612010828,721817635225127) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23164.74 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23174.71 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23175.85 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23132.50 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817635250647,721817658429904) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23185.97 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23183.09 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23183.11 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23102.00 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817658455965,721817681648783) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23101.76 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23113.60 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23114.69 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23159.80 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817681672694,721817704793999) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23191.26 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23197.97 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23198.19 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23161.05 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817704819259,721817728021837) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.54 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23176.19 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23176.02 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23195.47 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817728043958,721817751227515) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23196.66 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23202.92 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23202.87 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23135.78 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817751253476,721817774460554) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23165.96 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.35 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.56 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.21 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817774486205,721817797657801) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23169.80 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.12 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.32 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23216.24 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817797684302,721817820856839) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23216.60 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23215.70 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23215.78 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23157.83 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817820880890,721817844103308) |   512.00 MB |   23.12 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23156.48 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23164.45 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23165.03 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23128.33 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817844124669,721817867297166) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23157.78 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23162.94 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.16 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23129.74 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817867322787,721817890490583) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23164.93 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23162.65 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23162.68 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23130.56 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817890516364,721817913686791) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23128.81 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23142.98 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23143.34 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23156.69 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817913709362,721817936861078) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23157.66 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23151.08 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23151.23 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23216.65 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817936884658,721817960047145) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23204.80 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23210.44 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23219.33 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23122.03 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817960070356,721817983293754) |   512.00 MB |   23.12 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23137.88 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.00 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.41 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23197.95 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721817983319595,721818006473631) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23195.39 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23208.66 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23208.61 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23135.01 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818006494872,721818029710709) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23157.18 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.88 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.98 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23134.45 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818029736450,721818052898616) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23136.93 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23147.08 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23148.33 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23204.16 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818052920087,721818076076312) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23204.12 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23201.75 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23200.86 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23150.85 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818076115223,721818099325451) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23151.47 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23146.03 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23145.28 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23178.94 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818099352272,721818122507587) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23179.04 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23189.54 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23191.09 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23133.78 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818122531198,721818145726475) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23185.80 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23184.80 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23184.72 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23153.99 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818145751545,721818168943462) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23148.72 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.40 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23153.42 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23141.37 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818168966143,721818192127238) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23135.97 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23134.74 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23142.53 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23215.89 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818192149819,721818215298254) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23218.09 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23209.13 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23210.04 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23124.31 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818215324825,721818238546323) |   512.00 MB |   23.12 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.60 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.38 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.47 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23167.33 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818238569514,721818261747900) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23167.90 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23173.81 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23173.91 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23116.43 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818261770961,721818284952557) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23138.08 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23145.17 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23145.03 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.49 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818284979228,721818308128863) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23185.08 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23188.68 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23177.95 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.26 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818308155744,721818331344470) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23165.46 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23157.29 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23158.23 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23106.88 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818331369281,721818354539257) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23153.78 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.13 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.35 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23140.19 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818354562798,721818377722553) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23140.67 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23150.79 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23151.21 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23205.24 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818377748354,721818400903800) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23197.81 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23197.90 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23203.79 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23080.06 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818400926311,721818424136928) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23107.64 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23113.03 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23113.01 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23192.87 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818424161929,721818447279673) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23196.31 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23206.84 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23207.06 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23186.05 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818447304964,721818470515181) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23192.52 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23199.04 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23199.26 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23190.75 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818470538992,721818493743209) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23193.41 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23202.01 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23202.03 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23152.85 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818493767990,721818516974807) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23155.47 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23164.13 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23164.10 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23102.18 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818516994887,721818540166133) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.56 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23143.74 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23135.74 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23145.94 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818540191774,721818563335509) |   512.00 MB |   23.20 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23147.67 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23158.27 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23158.92 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23113.11 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818563356360,721818586523446) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.44 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23129.50 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23129.38 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23116.71 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818586549077,721818609683721) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.48 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23165.95 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23155.19 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23138.58 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818609710032,721818632875978) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23140.94 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23138.65 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23135.54 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23144.44 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818632898339,721818656045944) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23174.74 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23180.26 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23180.33 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23134.53 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818656074925,721818679263151) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23131.38 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23142.58 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23142.67 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23193.55 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818679288752,721818702435547) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23194.37 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23198.73 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23198.84 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23144.44 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818702458848,721818725662385) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23151.60 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.35 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.37 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23125.50 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818725687656,721818748839251) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.02 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23177.88 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23178.08 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23138.17 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818748862102,721818772043018) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23153.90 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23161.16 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23161.56 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23161.42 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818772063869,721818795233815) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.06 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23168.91 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23169.42 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.27 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818795256496,721818818430602) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23162.49 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23173.75 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23174.19 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23186.65 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818818452442,721818841632989) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23189.64 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23198.47 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23198.74 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23150.44 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818841659100,721818864862207) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23183.86 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23191.70 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23185.29 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23148.51 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818864887167,721818888078864) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23147.15 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23141.94 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23141.85 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23195.41 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818888100795,721818911252670) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23190.07 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23189.34 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23194.11 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23233.60 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818911273391,721818934476148) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23233.45 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23227.33 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23227.20 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23185.65 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818934499139,721818957737827) |   512.00 MB |   23.10 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23185.28 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23180.90 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23181.10 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.14 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818957760708,721818980950534) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23161.87 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.48 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.48 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23188.38 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721818980971905,721819004141311) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23188.47 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23177.90 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23177.90 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23187.69 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819004164942,721819027358918) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23188.31 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23195.44 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23196.71 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23249.86 us |   5.77 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819027384349,721819050584665) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23245.47 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23245.65 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23249.37 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23194.63 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819050608146,721819073863094) |   512.00 MB |   23.09 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23194.71 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23200.98 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23202.19 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23225.01 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819073885724,721819097093271) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23225.72 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23234.50 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23232.87 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23257.47 us |   5.77 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819097114111,721819120355799) |   512.00 MB |   23.10 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23260.55 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23256.28 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23256.73 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23239.24 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819120380360,721819143644208) |   512.00 MB |   23.08 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23238.20 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23235.72 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23235.79 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23171.88 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819143665089,721819166909507) |   512.00 MB |   23.10 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23177.10 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23184.65 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23181.94 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23184.36 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819166931997,721819190120543) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23186.35 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23180.35 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23180.46 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23174.49 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819190142564,721819213333300) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23197.16 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23200.68 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23195.60 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23150.87 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819213354920,721819236562787) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23198.54 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23196.68 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23196.75 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23140.71 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819236586078,721819259790154) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.13 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23150.34 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23150.58 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5945.88 us |  22.57 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[721819259812045,721819282970229) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5880.98 us |  22.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414849824976,722414855770851) |   128.00 MB |   22.57 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5849.87 us |  22.94 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414855791881,722414861672864) |   128.00 MB |   22.82 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5863.51 us |  22.89 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414861686245,722414867536118) |   128.00 MB |   22.94 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5851.68 us |  22.94 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414869803439,722414875666952) |   128.00 MB |   22.89 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5843.65 us |  22.97 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414875682252,722414881533935) |   128.00 MB |   22.94 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5940.35 us |  22.59 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414881545375,722414887389028) |   128.00 MB |   22.97 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5881.32 us |  22.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414889688540,722414895628885) |   128.00 MB |   22.59 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5870.21 us |  22.86 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414895647046,722414901528369) |   128.00 MB |   22.82 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5900.25 us |  22.75 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414901538569,722414907408782) |   128.00 MB |   22.86 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5873.97 us |  22.85 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414909439409,722414915339663) |   128.00 MB |   22.75 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 5865.96 us |  22.88 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414915354563,722414921228536) |   128.00 MB |   22.85 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23060.55 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414921239136,722414927105100) |   128.00 MB |   22.88 GB/s | packets=1
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23056.27 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23071.87 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23075.38 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23073.30 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414928181124,722414951256508) |   512.00 MB |   23.27 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23094.60 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23094.41 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23092.76 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23099.11 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414951278768,722414974380392) |   512.00 MB |   23.24 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23098.47 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23106.47 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23106.53 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23118.96 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414974403733,722414997515308) |   512.00 MB |   23.23 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23142.88 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23143.08 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23138.58 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23155.03 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722414997537978,722415020686863) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.17 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23148.74 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.65 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23088.22 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415020710044,722415043869469) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.10 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23134.58 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23130.69 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.79 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415043897420,722415067032005) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.97 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.03 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23155.87 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23058.18 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415067057695,722415090223231) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23055.24 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23067.06 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23067.19 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.53 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415090245631,722415113320885) |   512.00 MB |   23.27 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23142.92 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23144.88 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23142.88 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23085.14 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415113345055,722415136495391) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23109.75 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23110.08 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23111.10 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23152.21 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415136518101,722415159637226) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.49 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23167.81 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23167.87 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23155.53 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415159662406,722415182835102) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.63 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23169.78 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.04 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23182.54 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415182864332,722415206040688) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23176.70 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23184.68 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23185.00 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23092.64 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415206081989,722415229270225) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23084.83 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.83 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23124.42 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23112.90 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415229298356,722415252432701) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.19 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23138.79 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.74 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23141.42 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415252457451,722415275607736) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23143.56 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23157.90 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23158.91 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23132.60 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415275632797,722415298802673) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23132.49 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23144.58 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23147.10 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23199.98 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415298827983,722415321981538) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23210.47 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23217.66 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23211.52 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23199.95 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415322011999,722415345232726) |   512.00 MB |   23.12 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23197.50 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23221.38 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23221.43 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23125.94 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415345262147,722415368483573) |   512.00 MB |   23.12 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.18 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23159.99 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.66 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23081.12 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415368516374,722415391690650) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23081.04 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23086.49 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23088.98 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23155.19 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415391720851,722415414813864) |   512.00 MB |   23.25 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23155.26 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23164.61 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23165.59 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23120.58 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415414836645,722415438005831) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23120.13 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23124.88 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.06 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23181.91 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415438029171,722415461159006) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23182.18 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23187.48 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23188.04 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23206.59 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415461182136,722415484374342) |   512.00 MB |   23.15 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23206.77 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23216.79 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23217.68 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23077.28 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415484396523,722415507618890) |   512.00 MB |   23.12 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23088.73 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23096.01 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23096.60 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23114.55 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415507641070,722415530741324) |   512.00 MB |   23.24 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23114.67 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23121.40 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23121.42 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23203.12 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415530764775,722415553889399) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23202.97 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23209.30 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23209.52 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.85 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415553913090,722415577126707) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.83 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23153.71 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.13 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23161.33 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415577148417,722415600307243) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23161.12 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23167.33 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23167.82 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23133.69 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415600329363,722415623501519) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23133.03 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.67 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23142.13 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23091.07 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415623520809,722415646670054) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23091.26 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23097.99 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23097.98 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23150.03 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415646692525,722415669793319) |   512.00 MB |   23.24 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23157.19 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23162.20 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23162.70 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23110.51 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415669815069,722415692982205) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23111.85 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.96 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.84 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23110.12 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415693001705,722415716127190) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23109.47 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23116.81 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23115.55 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23112.67 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415716147210,722415739270625) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23112.76 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23119.95 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23121.12 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23143.28 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415739290045,722415762415490) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23143.01 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.47 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.26 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23078.87 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415762437451,722415785591246) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23078.85 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23086.86 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23089.76 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23146.85 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415785612586,722415808705770) |   512.00 MB |   23.25 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23146.90 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.35 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.15 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23098.28 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415808730461,722415831888226) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23098.80 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23105.52 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23104.09 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23084.15 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415831912517,722415855021321) |   512.00 MB |   23.23 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23116.40 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23110.79 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23125.02 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23096.62 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415855043351,722415878175086) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23096.52 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23102.71 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23104.78 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23120.82 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415878205267,722415901315141) |   512.00 MB |   23.23 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23120.67 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23128.50 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23130.36 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23145.21 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415901337492,722415924471136) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23145.01 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.69 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.62 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23116.00 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415924495247,722415947649412) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23110.25 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.07 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23120.60 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23112.14 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415947670933,722415970795487) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23113.58 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23119.71 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23118.74 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23026.46 us |   5.83 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415970815008,722415993940862) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23075.82 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23075.96 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23076.28 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23099.15 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722415993962063,722416017045996) |   512.00 MB |   23.26 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23099.35 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23107.33 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23106.53 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.82 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416017071347,722416040182271) |   512.00 MB |   23.23 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.90 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23131.02 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23133.63 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.39 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416040202532,722416063339986) |   512.00 MB |   23.20 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.79 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23124.83 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23124.30 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23083.27 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416063361067,722416086490591) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23082.43 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23090.76 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23089.86 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.46 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416086510222,722416109607965) |   512.00 MB |   23.24 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23126.24 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23132.87 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23133.51 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23099.18 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416109629386,722416132768321) |   512.00 MB |   23.20 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23105.08 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23109.12 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23113.34 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23107.58 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416132790171,722416155907105) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23108.85 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.36 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.50 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23112.76 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416155926156,722416179050400) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23112.90 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23124.49 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23124.30 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.01 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416179072130,722416202201035) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23159.93 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23166.62 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23166.56 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23118.29 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416202223455,722416225394221) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23118.33 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23124.99 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23125.81 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23132.15 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416225416561,722416248547046) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23132.03 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.33 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23140.99 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23148.92 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416248569106,722416271715411) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.10 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23158.90 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23159.31 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23082.38 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416271737232,722416294900467) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23082.30 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23088.71 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23088.24 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23091.53 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416294924988,722416318017471) |   512.00 MB |   23.25 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23092.00 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23100.03 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23100.17 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23134.74 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416318037122,722416341143906) |   512.00 MB |   23.23 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23134.78 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23140.35 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23142.47 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.69 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416341164096,722416364310151) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.24 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23162.07 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.30 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23167.69 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416364330771,722416387499447) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23167.53 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23172.97 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23173.99 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.67 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416387520347,722416410697583) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.85 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23164.72 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23170.04 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.54 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416410722673,722416433899259) |   512.00 MB |   23.16 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23160.57 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23162.50 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23161.03 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23099.02 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416433924019,722416457091615) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23099.15 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23106.40 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23106.59 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23091.53 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416457116285,722416480225139) |   512.00 MB |   23.23 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23093.50 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23104.32 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23103.01 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23070.45 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416480244400,722416503355894) |   512.00 MB |   23.23 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23069.13 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23079.70 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23079.43 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23239.85 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416503381594,722416526465898) |   512.00 MB |   23.26 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23260.57 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23260.50 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23263.49 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23301.62 us |   5.76 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416526490598,722416549759446) |   512.00 MB |   23.07 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23337.94 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23337.95 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23334.98 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23239.44 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416549786607,722416573134146) |   512.00 MB |   22.99 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23268.45 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23268.57 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23266.04 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23159.40 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416573155657,722416596431144) |   512.00 MB |   23.07 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23190.79 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23190.68 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23185.42 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23123.74 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416596468785,722416619667851) |   512.00 MB |   23.14 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.38 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23163.51 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23164.31 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23098.50 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416619690322,722416642861907) |   512.00 MB |   23.17 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23098.51 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23104.45 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23105.17 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23103.00 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416642889638,722416665998052) |   512.00 MB |   23.23 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23102.30 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23108.44 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23107.91 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23110.52 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416666022472,722416689134716) |   512.00 MB |   23.23 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23110.56 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.24 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.23 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23145.85 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416689155427,722416712278701) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23145.81 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23153.17 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23151.62 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.65 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416712300562,722416735458007) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23114.38 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23124.38 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23127.21 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23134.94 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416735481677,722416758610752) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23134.99 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23137.56 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23135.08 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23031.91 us |   5.83 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416758632652,722416781775007) |   512.00 MB |   23.20 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23082.81 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23082.79 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23083.46 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23110.43 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416781795668,722416804886541) |   512.00 MB |   23.25 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23110.31 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23118.05 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23117.82 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23094.17 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416804910232,722416828033896) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23094.37 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23101.10 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23100.29 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23064.00 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416828056017,722416851161090) |   512.00 MB |   23.24 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23064.34 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23072.34 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23071.58 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23138.48 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416851184511,722416874260524) |   512.00 MB |   23.27 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23138.62 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23147.03 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23146.97 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23113.21 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416874284975,722416897435330) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23114.59 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23123.54 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23123.62 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23149.12 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416897455710,722416920586175) |   512.00 MB |   23.21 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23148.97 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23154.60 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23153.13 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23226.05 us |   5.78 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416920606255,722416943766380) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23255.95 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23255.80 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23252.16 us |   5.77 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23303.78 us |   5.76 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416943790801,722416967050968) |   512.00 MB |   23.08 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23331.12 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23331.18 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23328.65 us |   5.75 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23184.76 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416967070939,722416990409498) |   512.00 MB |   23.00 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23214.63 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23214.71 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23212.99 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23199.43 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722416990429608,722417013651705) |   512.00 MB |   23.12 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23224.76 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23224.85 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23225.29 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.45 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722417013671635,722417036904022) |   512.00 MB |   23.11 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.31 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23153.13 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23161.01 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23085.54 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722417037524266,722417060689881) |   512.00 MB |   23.18 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23085.36 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23097.74 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23095.23 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23101.52 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722417060714312,722417083817405) |   512.00 MB |   23.24 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23144.51 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23144.15 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23148.29 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23099.95 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722417083843546,722417106997821) |   512.00 MB |   23.19 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23099.89 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23112.74 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23112.99 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23125.76 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722417107020631,722417130140085) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23125.98 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23136.13 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23136.80 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23049.73 us |   5.82 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722417130162566,722417153304380) |   512.00 MB |   23.20 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23049.71 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23058.50 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23059.39 us |   5.82 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23194.60 us |   5.79 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722417153326471,722417176392353) |   512.00 MB |   23.28 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23194.27 us |   5.79 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23204.03 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23204.08 us |   5.78 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23109.03 us |   5.81 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722417176415744,722417199623640) |   512.00 MB |   23.13 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23109.15 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23120.57 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23120.42 us |   5.81 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23131.12 us |   5.80 GB/s
+[AGG] Host(NUMA 0) -> NPU 2 | window=[722417199647081,722417222772055) |   512.00 MB |   23.22 GB/s | packets=4
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23131.06 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23138.90 us |   5.80 GB/s
+        Host(NUMA 0) -> NPU 2                |  128.00 MB | 23139.08 us |   5.80 GB/s

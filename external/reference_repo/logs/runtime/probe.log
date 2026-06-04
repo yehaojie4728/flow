@@ -1,0 +1,62 @@
+[Init] SoC Name: Ascend910B2
+[Info] Detected 910B Series. Expected HCCS: 56
+[Init] Checking NPU Topology via 'npu-smi info -t topo'...
+[1;32m[Success] NPU之间HCCS链路正常 [0m
+----------------------------------------------------------------
+[Init] Probe Status File: /root/n/logs/runtime/probe.status
+[Init] Probe Request File: /root/n/logs/runtime/probe_request.csv
+[Init] Probe Mode: single-link only, bw->lat, no warmup, no bidirectional, no 8x8 matrix
+[ProbeState] idle
+Monitor Started. Waiting for SIGUSR1 to probe...
+[ProbeState] busy
+[Probe] Triggered by Signal (Loop 1)
+
+>>> 异常探测报告 (Loop 1, Type: Bandwidth) <<<
+[System Time]: 2026-04-29 17:30:00.605
+[ProbeTarget] Source=Host(NUMA 0) Destination=NPU 2 Direction=H2D Device=2 NUMA=0
+[ProbeTarget] WindowNs=716340471897747-716340474783487 WindowBW=8.90 GB/s TriggerWallNs=1777455000477910000
+[测量结果] Bandwidth=12.92 GB/s Baseline=21.90 GB/s Threshold=17.52 GB/s Bytes=128.00 MB
+
+[故障分析]:
+- [链路带宽异常] Host(NUMA 0) -> NPU 2 单链路带宽不足。
+[汇总] 实际探测到异常次数: 1
+----------------------------------------------------------------
+
+>>> 异常探测报告 (Loop 1, Type: Latency) <<<
+[System Time]: 2026-04-29 17:30:00.616
+[ProbeTarget] Source=Host(NUMA 0) Destination=NPU 2 Direction=H2D Device=2 NUMA=0
+[ProbeTarget] WindowNs=716340471897747-716340474783487 WindowBW=8.90 GB/s TriggerWallNs=1777455000477910000
+[测量结果] Latency=1117.29 us Threshold=35.00 us Bytes=4096 B Iters=10
+
+[故障分析]:
+- [链路时延异常] Host(NUMA 0) -> NPU 2 单链路时延偏高。
+[汇总] 实际探测到异常次数: 1
+----------------------------------------------------------------
+[Probe] Finished.
+[ProbeState] idle
+[ProbeState] busy
+[Probe] Triggered by Signal (Loop 2)
+
+>>> 异常探测报告 (Loop 2, Type: Bandwidth) <<<
+[System Time]: 2026-04-29 17:30:03.770
+[ProbeTarget] Source=Host(NUMA 0) Destination=NPU 1 Direction=H2D Device=1 NUMA=0
+[ProbeTarget] WindowNs=716343311770830-716343451830462 WindowBW=1.94 GB/s TriggerWallNs=1777455003515676000
+[测量结果] Bandwidth=1.03 GB/s Baseline=21.90 GB/s Threshold=17.52 GB/s Bytes=128.00 MB
+
+[故障分析]:
+- [链路带宽异常] Host(NUMA 0) -> NPU 1 单链路带宽不足。
+[汇总] 实际探测到异常次数: 1
+----------------------------------------------------------------
+
+>>> 异常探测报告 (Loop 2, Type: Latency) <<<
+[System Time]: 2026-04-29 17:30:03.781
+[ProbeTarget] Source=Host(NUMA 0) Destination=NPU 1 Direction=H2D Device=1 NUMA=0
+[ProbeTarget] WindowNs=716343311770830-716343451830462 WindowBW=1.94 GB/s TriggerWallNs=1777455003515676000
+[测量结果] Latency=1080.13 us Threshold=35.00 us Bytes=4096 B Iters=10
+
+[故障分析]:
+- [链路时延异常] Host(NUMA 0) -> NPU 1 单链路时延偏高。
+[汇总] 实际探测到异常次数: 1
+----------------------------------------------------------------
+[Probe] Finished.
+[ProbeState] idle

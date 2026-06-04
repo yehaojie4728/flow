@@ -1,0 +1,13 @@
+[Adaptive Daemon] Starting...
+[Adaptive Daemon] Monitoring Log: /root/n/runs/agg/aclrtMemcpy_numa_trace.log
+[Adaptive Daemon] Logic: Probe if 800 < Rate < 26000 MB/s (Abnormal Range)
+[Adaptive Daemon] Probe Command (compat): /root/n/probe/build/memcpy_benchmark
+[Adaptive Daemon] Probe PID File: /root/n/logs/runtime/probe.pid
+[Adaptive Daemon] Probe Status File: /root/n/logs/runtime/probe.status
+[Adaptive Daemon] Probe Request File: /root/n/logs/runtime/probe_request.csv
+[Adaptive Daemon] Trigger Log File: /root/n/runs/agg/probe_trigger_windows.csv
+[Adaptive Daemon] Link Rate: 8900 MB/s (Abnormal Range). Triggering Probe via SIGUSR1...
+[Adaptive Daemon] Signal sent successfully to pid 2770322.
+[Adaptive Daemon] Link Rate: 1940 MB/s (Abnormal Range). Triggering Probe via SIGUSR1...
+[Adaptive Daemon] Signal sent successfully to pid 2770322.
+[Adaptive Daemon] Link Rate: 8100 MB/s (Abnormal Range). Triggering Probe via SIGUSR1...
