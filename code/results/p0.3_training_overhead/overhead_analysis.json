@@ -1,0 +1,22 @@
+{
+  "training_duration_sec": 1200,
+  "total_probes": 488,
+  "probe_breakdown": {
+    "latency_probes": 385,
+    "bandwidth_probes": 103
+  },
+  "probe_timing": {
+    "total_probe_time_sec": 0.772,
+    "avg_latency_probe_us": 121.15,
+    "avg_bandwidth_probe_us": 7041.65
+  },
+  "bandwidth_measurements": {
+    "avg_bandwidth_gbps": 19.32,
+    "min_bandwidth_gbps": 14.4,
+    "max_bandwidth_gbps": 20.8
+  },
+  "overhead": {
+    "overhead_percentage": 0.0643,
+    "interpretation": "\u63a2\u9488\u603b\u6267\u884c\u65f6\u95f4\u5360\u8bad\u7ec3\u65f6\u957f\u7684\u767e\u5206\u6bd4"
+  }
+}

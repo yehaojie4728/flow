@@ -1,0 +1,22 @@
+# P0.2.2: Calibration Evaluation
+
+**Objective**: Evaluate the reliability of GBDT probability predictions.
+
+**Training**: Pass 1 | **Test**: Pass 2
+
+## Calibration Metrics
+
+| Horizon | ECE | Brier Score | Avg Confidence | Avg Accuracy |
+|---------|-----|-------------|----------------|--------------|
+| 50µs(TINY) | 0.0000 | 0.0000 | 1.0000 | 1.0000 |
+| 500µs(NORMAL) | 0.0183 | 0.0172 | 0.3114 | 0.2995 |
+| 5.1ms(BW) | 0.0179 | 0.0177 | 0.2674 | 0.2574 |
+
+## Interpretation
+
+- **ECE**: 预测概率与实际准确率的平均偏差 (越低越好,<0.05 为良好校准)
+- **Brier Score**: 概率预测的均方误差 (越低越好)
+- **Avg Confidence**: 模型预测的平均概率
+- **Avg Accuracy**: 实际正样本的比例
+
+**理想状态**: Avg Confidence ≈ Avg Accuracy

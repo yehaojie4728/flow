@@ -1,0 +1,25 @@
+# P0.2.1: Cross-pass Validation
+
+**Objective**: Verify that GBDT trained on Pass 1 generalizes to Pass 2 (different training iteration).
+
+**Training data**: burst_gap_events.parquet (16166 samples)
+**Test data**: burst_gap_events_pass2.parquet (15945 samples)
+
+**Model**: GBDT (100 trees, depth=4, lr=0.1)
+
+## Results
+
+| Horizon | Train Time (s) | Precision | Recall | FSR | Brier |
+|---------|---------------|-----------|--------|-----|-------|
+| 50µs(TINY) | 0.00 | 1.0000 | 1.0000 | 0.0000 | 0.0000 |
+| 500µs(NORMAL) | 12.99 | 0.9647 | 0.9608 | 0.0150 | 0.0172 |
+| 5.1ms(BW) | 12.70 | 0.9636 | 0.9425 | 0.0123 | 0.0177 |
+
+## Interpretation
+
+- **Precision**: 预测安全的准确率（False Safe Rate 越低越好）
+- **Recall**: 实际安全间隙中被预测为安全的比例
+- **FSR (False Safe Rate)**: 实际不安全的间隙中被错误预测为安全的比例（关键安全指标）
+- **Brier Score**: 概率预测的整体误差（越低越好）
+
+**Key finding**: GBDT 在跨 pass 验证中的表现证明了间隙模式的稳定性和预测模型的泛化能力。

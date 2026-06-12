@@ -1,0 +1,2746 @@
+nohup: ignoring input
+============================================================
+FlowGap Online Probe Loop
+  Trace log:  ../data/collected/p0.4_raw.log
+  Policy:     flowgap_predictive
+  Budget:     2 probes/s
+  Dry run:    False
+  Once mode:  False
+============================================================
+
+Opening probe executor (AscendCL)...
+  OK — executor ready
+
+Waiting for trace file: ../data/collected/p0.4_raw.log
+  Found. Starting to poll...
+  [BW] Path 36012: 8883.0µs (15.1GB/s)
+  [BW] Path 36012: 9198.8µs (14.6GB/s)
+  [BW] Path 65441: 7914.8µs (17.0GB/s)
+  [BW] Path 65441: 7322.8µs (18.3GB/s)
+  [BW] Path 31572: 6733.9µs (19.9GB/s)
+  [BW] Path 31572: 6733.0µs (19.9GB/s)
+  [BW] Path 36012: 6754.0µs (19.9GB/s)
+  [BW] Path 36012: 10237.4µs (13.1GB/s)
+  [BW] Path 36012: 7695.9µs (17.4GB/s)
+  [BW] Path 36012: 7714.3µs (17.4GB/s)
+  [BW] Path 35431: 6565.4µs (20.4GB/s)
+  [BW] Path 35431: 8737.6µs (15.4GB/s)
+  [BW] Path 31572: 6501.8µs (20.6GB/s)
+  [BW] Path 31572: 9055.3µs (14.8GB/s)
+  [BW] Path 35431: 6585.9µs (20.4GB/s)
+  [BW] Path 35431: 6556.7µs (20.5GB/s)
+  [SKIP] Gap 195µs < probe 5100µs
+  [BW] Path 36012: 6554.6µs (20.5GB/s)
+  [SKIP] Gap 241µs < probe 5100µs
+  [SKIP] Gap 3777µs < probe 5100µs
+  [SKIP] Gap 220µs < probe 5100µs
+  [SKIP] Gap 208µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [BW] Path 36012: 6601.6µs (20.3GB/s)
+  [SKIP] Gap 233µs < probe 5100µs
+  [SKIP] Gap 193µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [BW] Path 36012: 6589.1µs (20.4GB/s)
+  [SKIP] Gap 248µs < probe 5100µs
+  [SKIP] Gap 3821µs < probe 5100µs
+  [SKIP] Gap 224µs < probe 500µs
+  [SKIP] Gap 206µs < probe 500µs
+  [SKIP] Gap 181µs < probe 500µs
+  [LAT] Path 36012: 26.7µs (0.1GB/s)
+  [SKIP] Gap 193µs < probe 500µs
+  [SKIP] Gap 194µs < probe 500µs
+  [LAT] Path 36012: 32.3µs (0.1GB/s)
+  [SKIP] Gap 239µs < probe 500µs
+  [LAT] Path 36012: 23.4µs (0.2GB/s)
+  [LAT] Path 10145: 33.3µs (0.1GB/s)
+  [SKIP] Gap 226µs < probe 500µs
+  [SKIP] Gap 192µs < probe 500µs
+  [SKIP] Gap 183µs < probe 500µs
+  [LAT] Path 10145: 23.5µs (0.2GB/s)
+  [LAT] Path 16080: 32.6µs (0.1GB/s)
+  [SKIP] Gap 304µs < probe 500µs
+  [LAT] Path 16080: 24.7µs (0.2GB/s)
+  [LAT] Path 16080: 64.4µs (0.1GB/s)
+  [SKIP] Gap 230µs < probe 500µs
+  [SKIP] Gap 185µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [LAT] Path 16080: 60.6µs (0.1GB/s)
+  [SKIP] Gap 219µs < probe 5100µs
+  [SKIP] Gap 3911µs < probe 5100µs
+  [SKIP] Gap 219µs < probe 5100µs
+  [SKIP] Gap 194µs < probe 5100µs
+  [SKIP] Gap 174µs < probe 5100µs
+  [BW] Path 56659: 9248.5µs (14.5GB/s)
+  [SKIP] Gap 223µs < probe 5100µs
+  [BW] Path 56659: 6640.8µs (20.2GB/s)
+  [BW] Path 56659: 6527.0µs (20.6GB/s)
+  [SKIP] Gap 222µs < probe 5100µs
+  [SKIP] Gap 183µs < probe 5100µs
+  [SKIP] Gap 182µs < probe 5100µs
+  [BW] Path 56659: 6621.3µs (20.3GB/s)
+  [SKIP] Gap 244µs < probe 500µs
+  [LAT] Path 36661: 32.5µs (0.1GB/s)
+  [SKIP] Gap 222µs < probe 500µs
+  [SKIP] Gap 217µs < probe 500µs
+  [SKIP] Gap 195µs < probe 500µs
+  [LAT] Path 36661: 23.7µs (0.2GB/s)
+  [SKIP] Gap 3899µs < probe 5100µs
+  [SKIP] Gap 230µs < probe 5100µs
+  [SKIP] Gap 214µs < probe 5100µs
+  [SKIP] Gap 194µs < probe 5100µs
+  [BW] Path 35431: 6595.5µs (20.4GB/s)
+  [SKIP] Gap 228µs < probe 5100µs
+  [BW] Path 35431: 6822.6µs (19.7GB/s)
+  [SKIP] Gap 209µs < probe 5100µs
+  [SKIP] Gap 189µs < probe 5100µs
+  [BW] Path 35431: 6586.1µs (20.4GB/s)
+  [SKIP] Gap 229µs < probe 5100µs
+  [BW] Path 35431: 6686.5µs (20.1GB/s)
+  [BW] Path 16513: 10447.3µs (12.8GB/s)
+  [BW] Path 16513: 8329.9µs (16.1GB/s)
+  [BW] Path 16513: 7954.9µs (16.9GB/s)
+  [BW] Path 16513: 6786.1µs (19.8GB/s)
+  [BW] Path 16513: 6851.1µs (19.6GB/s)
+  [BW] Path 16513: 8446.3µs (15.9GB/s)
+  [BW] Path 16513: 9841.1µs (13.6GB/s)
+  [BW] Path 16513: 11386.2µs (11.8GB/s)
+  [BW] Path 16513: 13963.9µs (9.6GB/s)
+  [BW] Path 16513: 6971.7µs (19.2GB/s)
+  [BW] Path 16513: 7165.5µs (18.7GB/s)
+  [BW] Path 16513: 6876.8µs (19.5GB/s)
+  [BW] Path 16513: 10010.4µs (13.4GB/s)
+  [BW] Path 16513: 6868.3µs (19.5GB/s)
+  [BW] Path 16513: 6568.7µs (20.4GB/s)
+  [BW] Path 16513: 8778.5µs (15.3GB/s)
+  [BW] Path 16513: 6819.0µs (19.7GB/s)
+  [BW] Path 16513: 6808.8µs (19.7GB/s)
+  [BW] Path 16513: 6643.7µs (20.2GB/s)
+  [BW] Path 16513: 8093.9µs (16.6GB/s)
+  [BW] Path 16513: 6751.4µs (19.9GB/s)
+  [BW] Path 16513: 6786.1µs (19.8GB/s)
+  [BW] Path 16513: 6586.6µs (20.4GB/s)
+  [BW] Path 16513: 15393.0µs (8.7GB/s)
+  [BW] Path 16513: 6802.6µs (19.7GB/s)
+  [BW] Path 16513: 7088.0µs (18.9GB/s)
+  [BW] Path 16513: 11260.5µs (11.9GB/s)
+  [BW] Path 16513: 10440.5µs (12.9GB/s)
+  [BW] Path 16513: 6747.2µs (19.9GB/s)
+  [BW] Path 16513: 14266.0µs (9.4GB/s)
+  [BW] Path 16513: 14994.1µs (8.9GB/s)
+  [BW] Path 16513: 6978.9µs (19.2GB/s)
+  [BW] Path 16513: 11493.2µs (11.7GB/s)
+  [BW] Path 16513: 9396.2µs (14.3GB/s)
+  [BW] Path 16513: 12417.0µs (10.8GB/s)
+  [BW] Path 16513: 8045.4µs (16.7GB/s)
+  [BW] Path 16513: 8242.2µs (16.3GB/s)
+  [BW] Path 16513: 6749.5µs (19.9GB/s)
+  [BW] Path 16513: 7530.1µs (17.8GB/s)
+  [BW] Path 16513: 7038.9µs (19.1GB/s)
+  [BW] Path 16513: 6759.0µs (19.9GB/s)
+  [BW] Path 16513: 6808.4µs (19.7GB/s)
+  [BW] Path 16513: 12527.0µs (10.7GB/s)
+  [BW] Path 16513: 9348.0µs (14.4GB/s)
+  [BW] Path 16513: 8729.1µs (15.4GB/s)
+  [BW] Path 16513: 11979.2µs (11.2GB/s)
+  [BW] Path 16513: 14301.5µs (9.4GB/s)
+  [BW] Path 16513: 6848.0µs (19.6GB/s)
+  [BW] Path 16513: 12984.8µs (10.3GB/s)
+  [BW] Path 16513: 7671.9µs (17.5GB/s)
+  [BW] Path 16513: 12657.0µs (10.6GB/s)
+  [BW] Path 16513: 7101.2µs (18.9GB/s)
+  [BW] Path 16513: 14289.5µs (9.4GB/s)
+  [BW] Path 16513: 6951.7µs (19.3GB/s)
+  [BW] Path 16513: 6716.2µs (20.0GB/s)
+  [BW] Path 16513: 6957.5µs (19.3GB/s)
+  [BW] Path 16513: 6801.9µs (19.7GB/s)
+  [BW] Path 16513: 6816.2µs (19.7GB/s)
+  [BW] Path 16513: 6630.5µs (20.2GB/s)
+  [BW] Path 16513: 10941.9µs (12.3GB/s)
+  [BW] Path 16513: 6846.6µs (19.6GB/s)
+  [BW] Path 16513: 7631.0µs (17.6GB/s)
+  [BW] Path 16513: 12405.2µs (10.8GB/s)
+  [BW] Path 16513: 6796.4µs (19.8GB/s)
+  [BW] Path 16513: 13357.5µs (10.1GB/s)
+  [BW] Path 16513: 6815.7µs (19.7GB/s)
+  [BW] Path 16513: 6591.4µs (20.4GB/s)
+  [BW] Path 16513: 6760.7µs (19.9GB/s)
+  [BW] Path 16513: 6772.2µs (19.8GB/s)
+  [BW] Path 16513: 6823.7µs (19.7GB/s)
+  [BW] Path 16513: 6693.2µs (20.1GB/s)
+  [BW] Path 16513: 14746.0µs (9.1GB/s)
+  [BW] Path 16513: 11094.4µs (12.1GB/s)
+  [BW] Path 16513: 10206.9µs (13.2GB/s)
+  [BW] Path 16513: 6616.9µs (20.3GB/s)
+  [BW] Path 16513: 6761.9µs (19.9GB/s)
+  [BW] Path 16513: 6836.9µs (19.6GB/s)
+  [BW] Path 16513: 6806.8µs (19.7GB/s)
+  [BW] Path 16513: 7301.6µs (18.4GB/s)
+  [BW] Path 16513: 12927.7µs (10.4GB/s)
+  [BW] Path 16513: 8271.9µs (16.2GB/s)
+  [BW] Path 16513: 10744.5µs (12.5GB/s)
+  [BW] Path 16513: 12466.8µs (10.8GB/s)
+  [BW] Path 16513: 7862.1µs (17.1GB/s)
+  [BW] Path 16513: 11930.2µs (11.2GB/s)
+  [BW] Path 16513: 9322.8µs (14.4GB/s)
+  [BW] Path 16513: 6749.6µs (19.9GB/s)
+  [BW] Path 16513: 6741.2µs (19.9GB/s)
+  [BW] Path 16513: 8288.0µs (16.2GB/s)
+  [BW] Path 16513: 9325.5µs (14.4GB/s)
+  [BW] Path 16513: 6832.1µs (19.6GB/s)
+  [BW] Path 16513: 13741.3µs (9.8GB/s)
+  [BW] Path 16513: 7502.4µs (17.9GB/s)
+  [BW] Path 16513: 14860.7µs (9.0GB/s)
+  [BW] Path 16513: 10333.4µs (13.0GB/s)
+  [BW] Path 16513: 6946.9µs (19.3GB/s)
+  [BW] Path 16513: 12480.1µs (10.8GB/s)
+  [BW] Path 16513: 6842.5µs (19.6GB/s)
+  [BW] Path 16513: 6662.0µs (20.1GB/s)
+  [BW] Path 16513: 13011.0µs (10.3GB/s)
+  [BW] Path 16513: 6734.1µs (19.9GB/s)
+  [BW] Path 16513: 10072.1µs (13.3GB/s)
+  [BW] Path 16513: 12757.9µs (10.5GB/s)
+  [BW] Path 16513: 7091.9µs (18.9GB/s)
+  [BW] Path 16513: 9879.4µs (13.6GB/s)
+  [BW] Path 16513: 9689.4µs (13.8GB/s)
+  [BW] Path 16513: 6657.5µs (20.2GB/s)
+  [BW] Path 16513: 9565.0µs (14.0GB/s)
+  [BW] Path 16513: 8142.9µs (16.5GB/s)
+  [BW] Path 16513: 7908.9µs (17.0GB/s)
+  [BW] Path 16513: 6593.2µs (20.4GB/s)
+  [BW] Path 16513: 10406.1µs (12.9GB/s)
+  [BW] Path 16513: 6762.6µs (19.9GB/s)
+  [BW] Path 16513: 8073.0µs (16.6GB/s)
+  [BW] Path 16513: 10473.7µs (12.8GB/s)
+  [BW] Path 16513: 6802.8µs (19.7GB/s)
+  [BW] Path 16513: 11046.8µs (12.2GB/s)
+  [BW] Path 16513: 8553.1µs (15.7GB/s)
+  [BW] Path 16513: 6679.2µs (20.1GB/s)
+  [BW] Path 16513: 9545.0µs (14.1GB/s)
+  [BW] Path 16513: 6785.4µs (19.8GB/s)
+  [BW] Path 16513: 9198.3µs (14.6GB/s)
+  [BW] Path 16513: 11322.3µs (11.8GB/s)
+  [BW] Path 16513: 7768.8µs (17.3GB/s)
+  [BW] Path 16513: 7857.9µs (17.1GB/s)
+  [BW] Path 16513: 13138.8µs (10.2GB/s)
+  [BW] Path 16513: 8850.3µs (15.2GB/s)
+  [BW] Path 16513: 6819.3µs (19.7GB/s)
+  [BW] Path 16513: 9211.1µs (14.6GB/s)
+  [BW] Path 16513: 6824.5µs (19.7GB/s)
+  [BW] Path 16513: 6688.5µs (20.1GB/s)
+  [BW] Path 16513: 12862.0µs (10.4GB/s)
+  [BW] Path 16513: 6891.4µs (19.5GB/s)
+  [BW] Path 16513: 7739.7µs (17.3GB/s)
+  [BW] Path 16513: 12486.8µs (10.8GB/s)
+  [BW] Path 16513: 6761.0µs (19.9GB/s)
+  [BW] Path 16513: 11424.0µs (11.8GB/s)
+  [BW] Path 16513: 10050.0µs (13.4GB/s)
+  [BW] Path 16513: 7959.3µs (16.9GB/s)
+  [BW] Path 16513: 6804.6µs (19.7GB/s)
+  [BW] Path 16513: 6816.6µs (19.7GB/s)
+  [BW] Path 16513: 6800.3µs (19.7GB/s)
+  [BW] Path 16513: 11698.3µs (11.5GB/s)
+  [BW] Path 16513: 7570.8µs (17.7GB/s)
+  [BW] Path 16513: 9888.1µs (13.6GB/s)
+  [BW] Path 16513: 11721.6µs (11.4GB/s)
+  [BW] Path 16513: 12076.8µs (11.1GB/s)
+  [BW] Path 16513: 10101.4µs (13.3GB/s)
+  [BW] Path 16513: 6971.8µs (19.2GB/s)
+  [BW] Path 16513: 7005.9µs (19.2GB/s)
+  [BW] Path 16513: 14064.3µs (9.5GB/s)
+  [BW] Path 16513: 8055.4µs (16.7GB/s)
+  [BW] Path 16513: 7639.3µs (17.6GB/s)
+  [BW] Path 16513: 12840.2µs (10.4GB/s)
+  [BW] Path 16513: 13360.3µs (10.1GB/s)
+  [BW] Path 16513: 7046.6µs (19.1GB/s)
+  [BW] Path 16513: 8413.2µs (15.9GB/s)
+  [BW] Path 16513: 7067.5µs (19.0GB/s)
+  [BW] Path 16513: 6699.1µs (20.0GB/s)
+  [BW] Path 16513: 7045.0µs (19.1GB/s)
+  [BW] Path 16513: 6857.9µs (19.6GB/s)
+  [BW] Path 16513: 6808.9µs (19.7GB/s)
+  [BW] Path 16513: 13018.6µs (10.3GB/s)
+  [BW] Path 16513: 7192.5µs (18.7GB/s)
+  [BW] Path 16513: 7565.8µs (17.7GB/s)
+  [BW] Path 16513: 13175.3µs (10.2GB/s)
+  [BW] Path 16513: 10359.0µs (13.0GB/s)
+  [BW] Path 16513: 7020.7µs (19.1GB/s)
+  [BW] Path 16513: 10069.2µs (13.3GB/s)
+  [BW] Path 16513: 6855.2µs (19.6GB/s)
+  [BW] Path 16513: 21397.0µs (6.3GB/s)
+  [BW] Path 16513: 8768.9µs (15.3GB/s)
+  [BW] Path 16513: 8472.1µs (15.8GB/s)
+  [BW] Path 16513: 12686.1µs (10.6GB/s)
+  [BW] Path 16513: 13046.8µs (10.3GB/s)
+  [BW] Path 16513: 7516.1µs (17.9GB/s)
+  [BW] Path 16513: 6720.9µs (20.0GB/s)
+  [BW] Path 16513: 9821.2µs (13.7GB/s)
+  [BW] Path 16513: 14451.7µs (9.3GB/s)
+  [BW] Path 16513: 6731.3µs (19.9GB/s)
+  [BW] Path 16513: 10638.5µs (12.6GB/s)
+  [BW] Path 16513: 8421.5µs (15.9GB/s)
+  [BW] Path 16513: 18838.0µs (7.1GB/s)
+  [BW] Path 16513: 14500.9µs (9.3GB/s)
+  [BW] Path 16513: 6746.7µs (19.9GB/s)
+  [BW] Path 16513: 13089.4µs (10.2GB/s)
+  [BW] Path 16513: 13856.3µs (9.7GB/s)
+  [BW] Path 16513: 18770.5µs (7.2GB/s)
+  [BW] Path 16513: 7555.5µs (17.8GB/s)
+  [BW] Path 16513: 12479.5µs (10.8GB/s)
+  [BW] Path 16513: 15298.6µs (8.8GB/s)
+  [BW] Path 16513: 7491.9µs (17.9GB/s)
+  [BW] Path 16513: 7672.7µs (17.5GB/s)
+  [BW] Path 16513: 9334.5µs (14.4GB/s)
+  [BW] Path 16513: 7296.1µs (18.4GB/s)
+  [BW] Path 16513: 10127.2µs (13.2GB/s)
+  [BW] Path 16513: 6809.6µs (19.7GB/s)
+  [BW] Path 16513: 8785.1µs (15.3GB/s)
+  [BW] Path 16513: 22319.7µs (6.0GB/s)
+  [BW] Path 16513: 6796.6µs (19.8GB/s)
+  [BW] Path 16513: 6517.0µs (20.6GB/s)
+  [BW] Path 16513: 12194.4µs (11.0GB/s)
+  [BW] Path 36012: 6490.4µs (20.7GB/s)
+  [BW] Path 36012: 9589.8µs (14.0GB/s)
+  [BW] Path 16513: 6541.5µs (20.5GB/s)
+  [BW] Path 16513: 6630.2µs (20.2GB/s)
+  [BW] Path 16513: 10200.3µs (13.2GB/s)
+  [BW] Path 16513: 6878.5µs (19.5GB/s)
+  [BW] Path 31572: 15785.1µs (8.5GB/s)
+  [BW] Path 31572: 6933.5µs (19.4GB/s)
+  [BW] Path 56659: 11722.6µs (11.4GB/s)
+  [SKIP] Gap 309µs < probe 5100µs
+  [SKIP] Gap 177µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 5100µs
+  [SKIP] Gap 161µs < probe 5100µs
+  [SKIP] Gap 180µs < probe 5100µs
+  [SKIP] Gap 157µs < probe 5100µs
+  [SKIP] Gap 188µs < probe 5100µs
+  [SKIP] Gap 207µs < probe 5100µs
+  [SKIP] Gap 164µs < probe 5100µs
+  [SKIP] Gap 164µs < probe 5100µs
+  [SKIP] Gap 169µs < probe 5100µs
+  [SKIP] Gap 172µs < probe 5100µs
+  [SKIP] Gap 163µs < probe 5100µs
+  [SKIP] Gap 168µs < probe 5100µs
+  [SKIP] Gap 171µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 206µs < probe 500µs
+  [SKIP] Gap 177µs < probe 500µs
+  [SKIP] Gap 183µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 164µs < probe 500µs
+  [SKIP] Gap 184µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 204µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [SKIP] Gap 183µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [SKIP] Gap 184µs < probe 500µs
+  [SKIP] Gap 178µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [SKIP] Gap 367µs < probe 500µs
+  [LAT] Path 56659: 141.4µs (0.0GB/s)
+  [LAT] Path 56659: 29.0µs (0.1GB/s)
+  [LAT] Path 56659: 23.4µs (0.2GB/s)
+  [BW] Path 16513: 6491.3µs (20.7GB/s)
+  [BW] Path 16513: 6539.4µs (20.5GB/s)
+  [BW] Path 16513: 6596.9µs (20.4GB/s)
+  [BW] Path 16513: 6559.3µs (20.5GB/s)
+  [BW] Path 16513: 6664.6µs (20.1GB/s)
+  [BW] Path 16513: 12546.9µs (10.7GB/s)
+  [BW] Path 16513: 10584.9µs (12.7GB/s)
+  [BW] Path 16513: 8373.5µs (16.0GB/s)
+  [BW] Path 16513: 10295.9µs (13.0GB/s)
+  [BW] Path 16513: 6653.5µs (20.2GB/s)
+  [BW] Path 16513: 6634.5µs (20.2GB/s)
+  [BW] Path 16513: 6707.5µs (20.0GB/s)
+  [BW] Path 16513: 6593.9µs (20.4GB/s)
+  [BW] Path 16513: 6553.2µs (20.5GB/s)
+  [BW] Path 16513: 6626.6µs (20.2GB/s)
+  [BW] Path 16513: 11891.8µs (11.3GB/s)
+  [BW] Path 16513: 9779.4µs (13.7GB/s)
+  [BW] Path 16513: 9456.3µs (14.2GB/s)
+  [BW] Path 16513: 10722.1µs (12.5GB/s)
+  [BW] Path 16513: 6547.1µs (20.5GB/s)
+  [BW] Path 16513: 6600.0µs (20.3GB/s)
+  [BW] Path 16513: 6544.6µs (20.5GB/s)
+  [BW] Path 16513: 6604.9µs (20.3GB/s)
+  [BW] Path 16513: 6684.6µs (20.1GB/s)
+  [BW] Path 16513: 6644.4µs (20.2GB/s)
+  [BW] Path 16513: 6635.9µs (20.2GB/s)
+  [BW] Path 16513: 6658.4µs (20.2GB/s)
+  [BW] Path 16513: 11281.5µs (11.9GB/s)
+  [BW] Path 16513: 9443.0µs (14.2GB/s)
+  [BW] Path 16513: 9653.1µs (13.9GB/s)
+  [BW] Path 16513: 11461.9µs (11.7GB/s)
+  [BW] Path 16513: 6544.4µs (20.5GB/s)
+  [BW] Path 16513: 6629.0µs (20.2GB/s)
+  [BW] Path 16513: 6605.6µs (20.3GB/s)
+  [BW] Path 16513: 6674.6µs (20.1GB/s)
+  [BW] Path 16513: 6707.6µs (20.0GB/s)
+  [BW] Path 16513: 6590.8µs (20.4GB/s)
+  [BW] Path 16513: 11877.0µs (11.3GB/s)
+  [BW] Path 16513: 10731.0µs (12.5GB/s)
+  [BW] Path 16513: 8298.0µs (16.2GB/s)
+  [BW] Path 16513: 9497.4µs (14.1GB/s)
+  [BW] Path 16513: 6674.2µs (20.1GB/s)
+  [BW] Path 16513: 6611.7µs (20.3GB/s)
+  [BW] Path 16513: 6572.5µs (20.4GB/s)
+  [BW] Path 16513: 12900.1µs (10.4GB/s)
+  [BW] Path 16513: 6620.4µs (20.3GB/s)
+  [BW] Path 16513: 6920.4µs (19.4GB/s)
+  [BW] Path 16513: 6595.8µs (20.4GB/s)
+  [BW] Path 16513: 6649.6µs (20.2GB/s)
+  [BW] Path 16513: 7408.7µs (18.1GB/s)
+  [BW] Path 16513: 8775.0µs (15.3GB/s)
+  [BW] Path 16513: 9978.4µs (13.4GB/s)
+  [BW] Path 16513: 8468.0µs (15.8GB/s)
+  [BW] Path 16513: 6783.3µs (19.8GB/s)
+  [BW] Path 16513: 6581.8µs (20.4GB/s)
+  [BW] Path 16513: 7067.4µs (19.0GB/s)
+  [BW] Path 16513: 9184.0µs (14.6GB/s)
+  [BW] Path 16513: 9596.8µs (14.0GB/s)
+  [BW] Path 16513: 7648.0µs (17.6GB/s)
+  [BW] Path 16513: 6832.8µs (19.6GB/s)
+  [BW] Path 16513: 6586.7µs (20.4GB/s)
+  [BW] Path 16513: 7784.3µs (17.2GB/s)
+  [BW] Path 16513: 9960.1µs (13.5GB/s)
+  [BW] Path 16513: 8893.2µs (15.1GB/s)
+  [BW] Path 16513: 9278.8µs (14.5GB/s)
+  [BW] Path 16513: 6811.9µs (19.7GB/s)
+  [BW] Path 16513: 6595.2µs (20.4GB/s)
+  [BW] Path 16513: 6778.0µs (19.8GB/s)
+  [BW] Path 16513: 8653.3µs (15.5GB/s)
+  [BW] Path 16513: 10150.9µs (13.2GB/s)
+  [BW] Path 16513: 7951.6µs (16.9GB/s)
+  [BW] Path 16513: 6841.5µs (19.6GB/s)
+  [BW] Path 16513: 6535.0µs (20.5GB/s)
+  [BW] Path 16513: 7488.9µs (17.9GB/s)
+  [BW] Path 16513: 9811.4µs (13.7GB/s)
+  [BW] Path 16513: 8969.5µs (15.0GB/s)
+  [BW] Path 16513: 6768.6µs (19.8GB/s)
+  [BW] Path 16513: 6721.4µs (20.0GB/s)
+  [BW] Path 16513: 6561.3µs (20.5GB/s)
+  [BW] Path 16513: 8473.3µs (15.8GB/s)
+  [BW] Path 16513: 10836.9µs (12.4GB/s)
+  [BW] Path 16513: 8044.8µs (16.7GB/s)
+  [BW] Path 16513: 6613.1µs (20.3GB/s)
+  [BW] Path 16513: 6783.1µs (19.8GB/s)
+  [BW] Path 16513: 6625.6µs (20.3GB/s)
+  [BW] Path 16513: 9545.2µs (14.1GB/s)
+  [BW] Path 16513: 11385.8µs (11.8GB/s)
+  [BW] Path 16513: 7551.4µs (17.8GB/s)
+  [BW] Path 16513: 6562.4µs (20.4GB/s)
+  [BW] Path 16513: 6800.7µs (19.7GB/s)
+  [BW] Path 16513: 6607.7µs (20.3GB/s)
+  [BW] Path 16513: 10136.7µs (13.2GB/s)
+  [BW] Path 16513: 12362.8µs (10.9GB/s)
+  [BW] Path 16513: 6552.7µs (20.5GB/s)
+  [BW] Path 16513: 8296.4µs (16.2GB/s)
+  [BW] Path 16513: 10566.5µs (12.7GB/s)
+  [BW] Path 36012: 9629.2µs (13.9GB/s)
+  [SKIP] Gap 316µs < probe 5100µs
+  [SKIP] Gap 179µs < probe 5100µs
+  [BW] Path 36012: 6795.3µs (19.8GB/s)
+  [SKIP] Gap 192µs < probe 5100µs
+  [SKIP] Gap 183µs < probe 5100µs
+  [BW] Path 36012: 10623.0µs (12.6GB/s)
+  [SKIP] Gap 222µs < probe 5100µs
+  [BW] Path 36012: 8078.2µs (16.6GB/s)
+  [SKIP] Gap 228µs < probe 500µs
+  [LAT] Path 10145: 32.3µs (0.1GB/s)
+  [SKIP] Gap 224µs < probe 500µs
+  [SKIP] Gap 204µs < probe 500µs
+  [SKIP] Gap 189µs < probe 500µs
+  [LAT] Path 10145: 23.5µs (0.2GB/s)
+  [BW] Path 16513: 6733.0µs (19.9GB/s)
+  [BW] Path 16513: 12116.0µs (11.1GB/s)
+  [BW] Path 16513: 9981.2µs (13.4GB/s)
+  [BW] Path 16513: 6817.9µs (19.7GB/s)
+  [BW] Path 16513: 7299.8µs (18.4GB/s)
+  [BW] Path 16513: 6633.9µs (20.2GB/s)
+  [SKIP] Gap 240µs < probe 500µs
+  [LAT] Path 56659: 170.6µs (0.0GB/s)
+  [SKIP] Gap 239µs < probe 500µs
+  [SKIP] Gap 200µs < probe 500µs
+  [SKIP] Gap 191µs < probe 500µs
+  [LAT] Path 56659: 23.4µs (0.2GB/s)
+  [BW] Path 16513: 10170.6µs (13.2GB/s)
+  [BW] Path 16513: 6514.4µs (20.6GB/s)
+  [SKIP] Gap 190µs < probe 5100µs
+  [SKIP] Gap 184µs < probe 5100µs
+  [BW] Path 35431: 8413.0µs (15.9GB/s)
+  [SKIP] Gap 241µs < probe 5100µs
+  [SKIP] Gap 3920µs < probe 5100µs
+  [SKIP] Gap 224µs < probe 5100µs
+  [SKIP] Gap 191µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 500µs
+  [BW] Path 35431: 9051.0µs (14.8GB/s)
+  [BW] Path 35431: 6616.4µs (20.3GB/s)
+  [SKIP] Gap 497µs < probe 5100µs
+  [SKIP] Gap 3813µs < probe 5100µs
+  [SKIP] Gap 221µs < probe 500µs
+  [SKIP] Gap 187µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [LAT] Path 35431: 25.5µs (0.2GB/s)
+  [BW] Path 16513: 6573.7µs (20.4GB/s)
+  [BW] Path 16513: 9937.6µs (13.5GB/s)
+  [BW] Path 16513: 6617.5µs (20.3GB/s)
+  [BW] Path 16513: 6792.2µs (19.8GB/s)
+  [BW] Path 16513: 6580.4µs (20.4GB/s)
+  [BW] Path 16513: 10808.4µs (12.4GB/s)
+  [BW] Path 16513: 9317.8µs (14.4GB/s)
+  [BW] Path 16513: 9501.5µs (14.1GB/s)
+  [BW] Path 16513: 8079.0µs (16.6GB/s)
+  [BW] Path 16513: 6665.9µs (20.1GB/s)
+  [BW] Path 16513: 6527.4µs (20.6GB/s)
+  [BW] Path 16513: 6834.4µs (19.6GB/s)
+  [BW] Path 16513: 8483.1µs (15.8GB/s)
+  [BW] Path 16513: 10345.4µs (13.0GB/s)
+  [BW] Path 16513: 10792.9µs (12.4GB/s)
+  [BW] Path 16513: 6801.9µs (19.7GB/s)
+  [BW] Path 16513: 6580.3µs (20.4GB/s)
+  [BW] Path 16513: 8194.7µs (16.4GB/s)
+  [BW] Path 16513: 10516.3µs (12.8GB/s)
+  [BW] Path 16513: 8369.6µs (16.0GB/s)
+  [BW] Path 16513: 6579.0µs (20.4GB/s)
+  [BW] Path 16513: 6775.3µs (19.8GB/s)
+  [BW] Path 16513: 6619.6µs (20.3GB/s)
+  [BW] Path 16513: 9303.6µs (14.4GB/s)
+  [BW] Path 16513: 10927.8µs (12.3GB/s)
+  [BW] Path 16513: 7902.4µs (17.0GB/s)
+  [BW] Path 16513: 6636.5µs (20.2GB/s)
+  [BW] Path 16513: 6794.5µs (19.8GB/s)
+  [BW] Path 16513: 6633.2µs (20.2GB/s)
+  [BW] Path 16513: 8433.7µs (15.9GB/s)
+  [BW] Path 16513: 9850.5µs (13.6GB/s)
+  [BW] Path 16513: 8933.4µs (15.0GB/s)
+  [BW] Path 16513: 7879.4µs (17.0GB/s)
+  [BW] Path 16513: 6810.4µs (19.7GB/s)
+  [BW] Path 16513: 6705.4µs (20.0GB/s)
+  [BW] Path 16513: 7023.4µs (19.1GB/s)
+  [BW] Path 16513: 8486.0µs (15.8GB/s)
+  [BW] Path 16513: 10325.5µs (13.0GB/s)
+  [BW] Path 16513: 8430.6µs (15.9GB/s)
+  [BW] Path 16513: 6749.8µs (19.9GB/s)
+  [BW] Path 16513: 6646.1µs (20.2GB/s)
+  [BW] Path 16513: 6810.0µs (19.7GB/s)
+  [BW] Path 16513: 21571.7µs (6.2GB/s)
+  [BW] Path 16513: 13518.2µs (9.9GB/s)
+  [BW] Path 16513: 10494.3µs (12.8GB/s)
+  [BW] Path 16513: 7012.4µs (19.1GB/s)
+  [BW] Path 16513: 6977.2µs (19.2GB/s)
+  [BW] Path 16513: 6599.4µs (20.3GB/s)
+  [BW] Path 16513: 6703.0µs (20.0GB/s)
+  [BW] Path 16513: 7005.3µs (19.2GB/s)
+  [BW] Path 16513: 21020.2µs (6.4GB/s)
+  [BW] Path 16513: 7827.0µs (17.1GB/s)
+  [BW] Path 16513: 12041.2µs (11.2GB/s)
+  [BW] Path 16513: 6854.7µs (19.6GB/s)
+  [BW] Path 16513: 19754.3µs (6.8GB/s)
+  [BW] Path 16513: 10516.8µs (12.8GB/s)
+  [BW] Path 16513: 11998.9µs (11.2GB/s)
+  [BW] Path 16513: 6796.0µs (19.8GB/s)
+  [BW] Path 16513: 9204.8µs (14.6GB/s)
+  [BW] Path 16513: 11214.5µs (12.0GB/s)
+  [BW] Path 16513: 6840.0µs (19.6GB/s)
+  [BW] Path 16513: 8360.1µs (16.1GB/s)
+  [BW] Path 16513: 12410.6µs (10.8GB/s)
+  [BW] Path 16513: 7728.5µs (17.4GB/s)
+  [BW] Path 16513: 13872.4µs (9.7GB/s)
+  [BW] Path 16513: 6838.4µs (19.6GB/s)
+  [BW] Path 16513: 7406.9µs (18.1GB/s)
+  [BW] Path 16513: 8875.8µs (15.1GB/s)
+  [BW] Path 16513: 7688.6µs (17.5GB/s)
+  [BW] Path 16513: 6863.7µs (19.6GB/s)
+  [BW] Path 16513: 21774.3µs (6.2GB/s)
+  [BW] Path 16513: 9871.5µs (13.6GB/s)
+  [BW] Path 16513: 10149.4µs (13.2GB/s)
+  [BW] Path 16513: 11467.1µs (11.7GB/s)
+  [BW] Path 16513: 11431.6µs (11.7GB/s)
+  [BW] Path 16513: 7593.8µs (17.7GB/s)
+  [BW] Path 16513: 6759.2µs (19.9GB/s)
+  [BW] Path 16513: 8630.9µs (15.6GB/s)
+  [BW] Path 16513: 17953.9µs (7.5GB/s)
+  [BW] Path 16513: 6638.9µs (20.2GB/s)
+  [BW] Path 16513: 11668.4µs (11.5GB/s)
+  [BW] Path 16513: 7415.2µs (18.1GB/s)
+  [BW] Path 16513: 18991.8µs (7.1GB/s)
+  [BW] Path 16513: 14420.6µs (9.3GB/s)
+  [BW] Path 16513: 6764.4µs (19.8GB/s)
+  [BW] Path 16513: 12199.4µs (11.0GB/s)
+  [BW] Path 16513: 15883.9µs (8.4GB/s)
+  [BW] Path 16513: 18544.6µs (7.2GB/s)
+  [BW] Path 16513: 6681.2µs (20.1GB/s)
+  [BW] Path 16513: 13247.3µs (10.1GB/s)
+  [BW] Path 16513: 22468.2µs (6.0GB/s)
+  [BW] Path 16513: 8117.6µs (16.5GB/s)
+  [BW] Path 16513: 13581.4µs (9.9GB/s)
+  [BW] Path 16513: 6790.8µs (19.8GB/s)
+  [BW] Path 16513: 6605.1µs (20.3GB/s)
+  [BW] Path 16513: 7167.6µs (18.7GB/s)
+  [BW] Path 16513: 7606.4µs (17.6GB/s)
+  [BW] Path 16513: 12054.7µs (11.1GB/s)
+  [BW] Path 16513: 8776.8µs (15.3GB/s)
+  [BW] Path 16513: 11908.2µs (11.3GB/s)
+  [BW] Path 16513: 6779.9µs (19.8GB/s)
+  [BW] Path 16513: 14214.7µs (9.4GB/s)
+  [BW] Path 16513: 6897.2µs (19.5GB/s)
+  [BW] Path 16513: 6983.2µs (19.2GB/s)
+  [BW] Path 16513: 6787.2µs (19.8GB/s)
+  [BW] Path 16513: 25584.8µs (5.2GB/s)
+  [BW] Path 16513: 8133.1µs (16.5GB/s)
+  [BW] Path 16513: 8850.8µs (15.2GB/s)
+  [BW] Path 16513: 15631.1µs (8.6GB/s)
+  [BW] Path 16513: 24021.3µs (5.6GB/s)
+  [BW] Path 16513: 6794.0µs (19.8GB/s)
+  [BW] Path 16513: 6813.4µs (19.7GB/s)
+  [BW] Path 16513: 16535.2µs (8.1GB/s)
+  [BW] Path 16513: 16285.9µs (8.2GB/s)
+  [BW] Path 16513: 6981.0µs (19.2GB/s)
+  [BW] Path 16513: 6889.6µs (19.5GB/s)
+  [BW] Path 16513: 18874.2µs (7.1GB/s)
+  [BW] Path 16513: 14370.0µs (9.3GB/s)
+  [BW] Path 16513: 7730.2µs (17.4GB/s)
+  [BW] Path 16513: 7082.6µs (18.9GB/s)
+  [BW] Path 16513: 21080.3µs (6.4GB/s)
+  [BW] Path 16513: 12360.4µs (10.9GB/s)
+  [BW] Path 16513: 6922.7µs (19.4GB/s)
+  [BW] Path 16513: 12350.2µs (10.9GB/s)
+  [BW] Path 16513: 15759.0µs (8.5GB/s)
+  [BW] Path 16513: 18832.9µs (7.1GB/s)
+  [BW] Path 16513: 6662.2µs (20.1GB/s)
+  [BW] Path 16513: 12709.3µs (10.6GB/s)
+  [BW] Path 16513: 14546.5µs (9.2GB/s)
+  [BW] Path 16513: 17858.0µs (7.5GB/s)
+  [BW] Path 16513: 7716.2µs (17.4GB/s)
+  [BW] Path 16513: 12934.3µs (10.4GB/s)
+  [BW] Path 16513: 13342.5µs (10.1GB/s)
+  [BW] Path 16513: 7466.2µs (18.0GB/s)
+  [BW] Path 16513: 6752.4µs (19.9GB/s)
+  [BW] Path 16513: 6827.6µs (19.7GB/s)
+  [BW] Path 16513: 19988.1µs (6.7GB/s)
+  [BW] Path 16513: 6766.5µs (19.8GB/s)
+  [BW] Path 16513: 12254.8µs (10.9GB/s)
+  [BW] Path 16513: 7025.3µs (19.1GB/s)
+  [BW] Path 16513: 16439.1µs (8.2GB/s)
+  [BW] Path 16513: 14866.0µs (9.0GB/s)
+  [BW] Path 16513: 6586.6µs (20.4GB/s)
+  [BW] Path 16513: 12544.5µs (10.7GB/s)
+  [BW] Path 16513: 16903.9µs (7.9GB/s)
+  [BW] Path 16513: 7631.7µs (17.6GB/s)
+  [BW] Path 16513: 12020.3µs (11.2GB/s)
+  [BW] Path 16513: 6831.5µs (19.6GB/s)
+  [BW] Path 16513: 12042.9µs (11.1GB/s)
+  [BW] Path 16513: 8393.9µs (16.0GB/s)
+  [BW] Path 16513: 6745.1µs (19.9GB/s)
+  [BW] Path 16513: 10220.5µs (13.1GB/s)
+  [BW] Path 16513: 14838.2µs (9.1GB/s)
+  [BW] Path 16513: 6757.8µs (19.9GB/s)
+  [BW] Path 16513: 7051.8µs (19.0GB/s)
+  [BW] Path 16513: 9311.1µs (14.4GB/s)
+  [BW] Path 16513: 17943.7µs (7.5GB/s)
+  [BW] Path 16513: 7003.6µs (19.2GB/s)
+  [BW] Path 16513: 11678.6µs (11.5GB/s)
+  [BW] Path 16513: 7945.1µs (16.9GB/s)
+  [BW] Path 16513: 15638.6µs (8.6GB/s)
+  [BW] Path 16513: 12542.4µs (10.7GB/s)
+  [BW] Path 16513: 8501.6µs (15.8GB/s)
+  [BW] Path 16513: 13149.8µs (10.2GB/s)
+  [BW] Path 16513: 13093.1µs (10.2GB/s)
+  [BW] Path 16513: 6830.6µs (19.6GB/s)
+  [BW] Path 16513: 9731.2µs (13.8GB/s)
+  [BW] Path 16513: 6850.6µs (19.6GB/s)
+  [BW] Path 16513: 6845.4µs (19.6GB/s)
+  [BW] Path 16513: 6783.1µs (19.8GB/s)
+  [BW] Path 16513: 9084.2µs (14.8GB/s)
+  [BW] Path 16513: 6763.7µs (19.8GB/s)
+  [BW] Path 16513: 11731.4µs (11.4GB/s)
+  [BW] Path 16513: 6850.4µs (19.6GB/s)
+  [BW] Path 16513: 6602.4µs (20.3GB/s)
+  [BW] Path 16513: 6781.0µs (19.8GB/s)
+  [BW] Path 16513: 6775.4µs (19.8GB/s)
+  [BW] Path 16513: 6822.5µs (19.7GB/s)
+  [BW] Path 16513: 7958.8µs (16.9GB/s)
+  [BW] Path 16513: 13823.1µs (9.7GB/s)
+  [BW] Path 16513: 9063.4µs (14.8GB/s)
+  [BW] Path 16513: 10585.8µs (12.7GB/s)
+  [BW] Path 16513: 8804.4µs (15.2GB/s)
+  [BW] Path 16513: 9438.9µs (14.2GB/s)
+  [BW] Path 16513: 6959.2µs (19.3GB/s)
+  [BW] Path 16513: 6867.6µs (19.5GB/s)
+  [BW] Path 16513: 6595.6µs (20.4GB/s)
+  [BW] Path 16513: 7609.6µs (17.6GB/s)
+  [BW] Path 16513: 6808.1µs (19.7GB/s)
+  [BW] Path 16513: 12812.5µs (10.5GB/s)
+  [BW] Path 16513: 8284.8µs (16.2GB/s)
+  [BW] Path 16513: 6807.9µs (19.7GB/s)
+  [BW] Path 16513: 11783.6µs (11.4GB/s)
+  [BW] Path 16513: 10971.0µs (12.2GB/s)
+  [BW] Path 16513: 12436.0µs (10.8GB/s)
+  [BW] Path 16513: 6837.9µs (19.6GB/s)
+  [BW] Path 16513: 8663.0µs (15.5GB/s)
+  [BW] Path 16513: 6812.6µs (19.7GB/s)
+  [BW] Path 16513: 6714.8µs (20.0GB/s)
+  [BW] Path 16513: 13581.5µs (9.9GB/s)
+  [BW] Path 16513: 6834.7µs (19.6GB/s)
+  [BW] Path 16513: 10318.5µs (13.0GB/s)
+  [BW] Path 16513: 7815.4µs (17.2GB/s)
+  [BW] Path 16513: 13008.3µs (10.3GB/s)
+  [BW] Path 16513: 13990.9µs (9.6GB/s)
+  [BW] Path 16513: 7743.2µs (17.3GB/s)
+  [BW] Path 16513: 6847.1µs (19.6GB/s)
+  [BW] Path 16513: 7401.6µs (18.1GB/s)
+  [BW] Path 16513: 15792.5µs (8.5GB/s)
+  [BW] Path 16513: 15681.5µs (8.6GB/s)
+  [BW] Path 16513: 6842.3µs (19.6GB/s)
+  [BW] Path 16513: 7013.9µs (19.1GB/s)
+  [BW] Path 16513: 22345.2µs (6.0GB/s)
+  [BW] Path 16513: 11903.0µs (11.3GB/s)
+  [BW] Path 16513: 14581.2µs (9.2GB/s)
+  [BW] Path 16513: 6849.2µs (19.6GB/s)
+  [BW] Path 16513: 6641.0µs (20.2GB/s)
+  [BW] Path 16513: 6666.7µs (20.1GB/s)
+  [BW] Path 16513: 6893.9µs (19.5GB/s)
+  [BW] Path 16513: 7003.6µs (19.2GB/s)
+  [BW] Path 16513: 22223.8µs (6.0GB/s)
+  [BW] Path 16513: 8501.3µs (15.8GB/s)
+  [BW] Path 16513: 15931.5µs (8.4GB/s)
+  [BW] Path 16513: 6939.1µs (19.3GB/s)
+  [BW] Path 16513: 8435.6µs (15.9GB/s)
+  [BW] Path 16513: 11923.7µs (11.3GB/s)
+  [BW] Path 16513: 6921.0µs (19.4GB/s)
+  [BW] Path 16513: 7012.5µs (19.1GB/s)
+  [BW] Path 16513: 8873.1µs (15.1GB/s)
+  [BW] Path 16513: 6815.7µs (19.7GB/s)
+  [BW] Path 16513: 6638.1µs (20.2GB/s)
+  [BW] Path 16513: 8734.7µs (15.4GB/s)
+  [BW] Path 16513: 6755.0µs (19.9GB/s)
+  [BW] Path 16513: 6762.2µs (19.9GB/s)
+  [BW] Path 16513: 8514.8µs (15.8GB/s)
+  [BW] Path 16513: 10480.9µs (12.8GB/s)
+  [BW] Path 16513: 7231.3µs (18.6GB/s)
+  [BW] Path 16513: 13487.6µs (9.9GB/s)
+  [BW] Path 16513: 6606.5µs (20.3GB/s)
+  [BW] Path 16513: 6792.1µs (19.8GB/s)
+  [BW] Path 16513: 6739.9µs (19.9GB/s)
+  [BW] Path 16513: 6837.3µs (19.6GB/s)
+  [BW] Path 16513: 6674.3µs (20.1GB/s)
+  [BW] Path 16513: 13078.2µs (10.3GB/s)
+  [BW] Path 16513: 6764.3µs (19.8GB/s)
+  [BW] Path 16513: 10603.5µs (12.7GB/s)
+  [BW] Path 16513: 12363.1µs (10.9GB/s)
+  [BW] Path 16513: 9504.9µs (14.1GB/s)
+  [BW] Path 16513: 11839.9µs (11.3GB/s)
+  [BW] Path 16513: 8139.0µs (16.5GB/s)
+  [BW] Path 16513: 6556.9µs (20.5GB/s)
+  [BW] Path 16513: 6769.1µs (19.8GB/s)
+  [BW] Path 16513: 6843.6µs (19.6GB/s)
+  [BW] Path 16513: 6749.6µs (19.9GB/s)
+  [BW] Path 56659: 6581.6µs (20.4GB/s)
+  [BW] Path 56659: 9379.5µs (14.3GB/s)
+  [BW] Path 31572: 9218.0µs (14.6GB/s)
+  [SKIP] Gap 3843µs < probe 5100µs
+  [BW] Path 31572: 6848.9µs (19.6GB/s)
+  [BW] Path 65441: 6804.1µs (19.7GB/s)
+  [BW] Path 65441: 6472.0µs (20.7GB/s)
+  [BW] Path 10145: 6565.4µs (20.4GB/s)
+  [BW] Path 10145: 6509.6µs (20.6GB/s)
+  [BW] Path 16080: 6523.7µs (20.6GB/s)
+  [BW] Path 16080: 8912.8µs (15.1GB/s)
+  [BW] Path 31572: 9178.6µs (14.6GB/s)
+  [BW] Path 31572: 6606.9µs (20.3GB/s)
+  [BW] Path 36012: 6654.2µs (20.2GB/s)
+  [BW] Path 36012: 10733.2µs (12.5GB/s)
+  [BW] Path 65441: 6810.2µs (19.7GB/s)
+  [SKIP] Gap 304µs < probe 5100µs
+  [SKIP] Gap 169µs < probe 5100µs
+  [SKIP] Gap 188µs < probe 5100µs
+  [SKIP] Gap 188µs < probe 5100µs
+  [SKIP] Gap 178µs < probe 5100µs
+  [SKIP] Gap 156µs < probe 5100µs
+  [SKIP] Gap 173µs < probe 5100µs
+  [SKIP] Gap 155µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [SKIP] Gap 155µs < probe 5100µs
+  [SKIP] Gap 174µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [SKIP] Gap 227µs < probe 5100µs
+  [SKIP] Gap 161µs < probe 5100µs
+  [SKIP] Gap 189µs < probe 5100µs
+  [SKIP] Gap 155µs < probe 5100µs
+  [SKIP] Gap 173µs < probe 5100µs
+  [SKIP] Gap 153µs < probe 5100µs
+  [SKIP] Gap 172µs < probe 5100µs
+  [SKIP] Gap 174µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [SKIP] Gap 156µs < probe 5100µs
+  [SKIP] Gap 177µs < probe 5100µs
+  [SKIP] Gap 156µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [SKIP] Gap 202µs < probe 500µs
+  [SKIP] Gap 173µs < probe 500µs
+  [SKIP] Gap 173µs < probe 500µs
+  [SKIP] Gap 174µs < probe 500µs
+  [SKIP] Gap 154µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 157µs < probe 500µs
+  [SKIP] Gap 181µs < probe 500µs
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 173µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 168µs < probe 500µs
+  [SKIP] Gap 159µs < probe 500µs
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [SKIP] Gap 178µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [LAT] Path 65441: 74.6µs (0.1GB/s)
+  [SKIP] Gap 188µs < probe 5100µs
+  [BW] Path 36012: 6631.9µs (20.2GB/s)
+  [SKIP] Gap 248µs < probe 5100µs
+  [SKIP] Gap 3811µs < probe 5100µs
+  [SKIP] Gap 229µs < probe 5100µs
+  [SKIP] Gap 218µs < probe 5100µs
+  [SKIP] Gap 187µs < probe 5100µs
+  [BW] Path 36012: 6825.6µs (19.7GB/s)
+  [SKIP] Gap 186µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 5100µs
+  [BW] Path 36012: 6584.9µs (20.4GB/s)
+  [SKIP] Gap 239µs < probe 5100µs
+  [SKIP] Gap 3881µs < probe 5100µs
+  [SKIP] Gap 235µs < probe 5100µs
+  [SKIP] Gap 204µs < probe 5100µs
+  [SKIP] Gap 179µs < probe 5100µs
+  [BW] Path 36012: 6770.1µs (19.8GB/s)
+  [BW] Path 36012: 6657.0µs (20.2GB/s)
+  [SKIP] Gap 245µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 5100µs
+  [SKIP] Gap 180µs < probe 5100µs
+  [SKIP] Gap 183µs < probe 5100µs
+  [BW] Path 10145: 6652.9µs (20.2GB/s)
+  [SKIP] Gap 232µs < probe 5100µs
+  [BW] Path 10145: 6686.6µs (20.1GB/s)
+  [SKIP] Gap 232µs < probe 5100µs
+  [SKIP] Gap 198µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 500µs
+  [BW] Path 10145: 6693.5µs (20.1GB/s)
+  [SKIP] Gap 234µs < probe 500µs
+  [SKIP] Gap 224µs < probe 500µs
+  [SKIP] Gap 191µs < probe 500µs
+  [LAT] Path 10145: 32.5µs (0.1GB/s)
+  [SKIP] Gap 232µs < probe 500µs
+  [BW] Path 10145: 6636.7µs (20.2GB/s)
+  [SKIP] Gap 178µs < probe 5100µs
+  [BW] Path 56659: 6491.5µs (20.7GB/s)
+  [SKIP] Gap 240µs < probe 5100µs
+  [SKIP] Gap 3853µs < probe 5100µs
+  [SKIP] Gap 223µs < probe 5100µs
+  [SKIP] Gap 196µs < probe 5100µs
+  [SKIP] Gap 178µs < probe 5100µs
+  [BW] Path 56659: 6509.4µs (20.6GB/s)
+  [SKIP] Gap 1666µs < probe 5100µs
+  [SKIP] Gap 807µs < probe 5100µs
+  [SKIP] Gap 228µs < probe 5100µs
+  [SKIP] Gap 187µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [BW] Path 56659: 6548.1µs (20.5GB/s)
+  [SKIP] Gap 235µs < probe 5100µs
+  [SKIP] Gap 3819µs < probe 5100µs
+  [SKIP] Gap 221µs < probe 5100µs
+  [SKIP] Gap 194µs < probe 5100µs
+  [SKIP] Gap 175µs < probe 5100µs
+  [BW] Path 56659: 8252.4µs (16.3GB/s)
+  [SKIP] Gap 178µs < probe 5100µs
+  [SKIP] Gap 182µs < probe 5100µs
+  [BW] Path 56659: 6676.6µs (20.1GB/s)
+  [SKIP] Gap 221µs < probe 5100µs
+  [SKIP] Gap 3863µs < probe 5100µs
+  [SKIP] Gap 229µs < probe 500µs
+  [SKIP] Gap 191µs < probe 500µs
+  [SKIP] Gap 185µs < probe 500µs
+  [BW] Path 56659: 6752.9µs (19.9GB/s)
+  [SKIP] Gap 172µs < probe 5100µs
+  [BW] Path 16080: 6617.3µs (20.3GB/s)
+  [SKIP] Gap 236µs < probe 5100µs
+  [SKIP] Gap 3917µs < probe 5100µs
+  [SKIP] Gap 224µs < probe 5100µs
+  [SKIP] Gap 199µs < probe 500µs
+  [SKIP] Gap 178µs < probe 500µs
+  [BW] Path 16080: 6727.3µs (19.9GB/s)
+  [SKIP] Gap 187µs < probe 500µs
+  [SKIP] Gap 187µs < probe 500µs
+  [LAT] Path 16080: 32.7µs (0.1GB/s)
+  [SKIP] Gap 229µs < probe 500µs
+  [LAT] Path 16080: 24.1µs (0.2GB/s)
+  [SKIP] Gap 184µs < probe 5100µs
+  [BW] Path 31572: 6584.9µs (20.4GB/s)
+  [SKIP] Gap 250µs < probe 5100µs
+  [SKIP] Gap 3936µs < probe 5100µs
+  [SKIP] Gap 228µs < probe 5100µs
+  [SKIP] Gap 218µs < probe 5100µs
+  [SKIP] Gap 206µs < probe 5100µs
+  [BW] Path 31572: 6739.2µs (19.9GB/s)
+  [LAT] Path 56659: 32.5µs (0.1GB/s)
+  [BW] Path 35431: 6589.8µs (20.4GB/s)
+  [SKIP] Gap 183µs < probe 5100µs
+  [SKIP] Gap 180µs < probe 500µs
+  [BW] Path 35431: 6573.3µs (20.4GB/s)
+  [SKIP] Gap 224µs < probe 500µs
+  [LAT] Path 35431: 25.5µs (0.2GB/s)
+  [SKIP] Gap 175µs < probe 500µs
+  [LAT] Path 36661: 34.6µs (0.1GB/s)
+  [SKIP] Gap 245µs < probe 500µs
+  [LAT] Path 36661: 23.7µs (0.2GB/s)
+  [LAT] Path 56659: 35.2µs (0.1GB/s)
+  [SKIP] Gap 218µs < probe 500µs
+  [SKIP] Gap 189µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [LAT] Path 36661: 25.3µs (0.2GB/s)
+  [SKIP] Gap 191µs < probe 500µs
+  [SKIP] Gap 196µs < probe 500µs
+  [LAT] Path 36661: 31.9µs (0.1GB/s)
+  [SKIP] Gap 226µs < probe 500µs
+  [LAT] Path 36661: 23.5µs (0.2GB/s)
+  [BW] Path 31572: 6659.2µs (20.2GB/s)
+  [SKIP] Gap 3946µs < probe 5100µs
+  [BW] Path 31572: 8469.3µs (15.8GB/s)
+  [BW] Path 56659: 6552.5µs (20.5GB/s)
+  [BW] Path 56659: 6741.9µs (19.9GB/s)
+  [BW] Path 31572: 6867.2µs (19.5GB/s)
+  [BW] Path 31572: 6964.3µs (19.3GB/s)
+  [BW] Path 56659: 10213.6µs (13.1GB/s)
+  [BW] Path 56659: 6787.2µs (19.8GB/s)
+  [LAT] Path 35431: 33.7µs (0.1GB/s)
+  [BW] Path 35431: 7718.6µs (17.4GB/s)
+  [BW] Path 10145: 6822.6µs (19.7GB/s)
+  [BW] Path 10145: 6610.3µs (20.3GB/s)
+  [BW] Path 36012: 6554.5µs (20.5GB/s)
+  [BW] Path 36012: 8823.7µs (15.2GB/s)
+  [BW] Path 56659: 6580.4µs (20.4GB/s)
+  [BW] Path 56659: 6559.1µs (20.5GB/s)
+  [SKIP] Gap 189µs < probe 5100µs
+  [BW] Path 36012: 6615.9µs (20.3GB/s)
+  [SKIP] Gap 244µs < probe 5100µs
+  [SKIP] Gap 3799µs < probe 5100µs
+  [SKIP] Gap 223µs < probe 5100µs
+  [SKIP] Gap 209µs < probe 5100µs
+  [SKIP] Gap 186µs < probe 5100µs
+  [BW] Path 36012: 6764.6µs (19.8GB/s)
+  [BW] Path 36012: 6659.9µs (20.1GB/s)
+  [SKIP] Gap 233µs < probe 5100µs
+  [SKIP] Gap 193µs < probe 5100µs
+  [SKIP] Gap 183µs < probe 5100µs
+  [BW] Path 36012: 6816.9µs (19.7GB/s)
+  [SKIP] Gap 194µs < probe 5100µs
+  [SKIP] Gap 193µs < probe 5100µs
+  [BW] Path 36012: 6653.9µs (20.2GB/s)
+  [SKIP] Gap 224µs < probe 5100µs
+  [LAT] Path 36012: 25.5µs (0.2GB/s)
+  [BW] Path 16080: 6536.1µs (20.5GB/s)
+  [SKIP] Gap 229µs < probe 500µs
+  [SKIP] Gap 192µs < probe 500µs
+  [SKIP] Gap 193µs < probe 500µs
+  [LAT] Path 16080: 25.0µs (0.2GB/s)
+  [SKIP] Gap 229µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 5100µs
+  [SKIP] Gap 187µs < probe 5100µs
+  [BW] Path 31572: 6681.5µs (20.1GB/s)
+  [SKIP] Gap 224µs < probe 5100µs
+  [SKIP] Gap 3888µs < probe 5100µs
+  [SKIP] Gap 223µs < probe 5100µs
+  [SKIP] Gap 188µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 500µs
+  [BW] Path 31572: 6834.7µs (19.6GB/s)
+  [SKIP] Gap 3871µs < probe 5100µs
+  [SKIP] Gap 220µs < probe 5100µs
+  [SKIP] Gap 208µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 500µs
+  [BW] Path 35431: 6544.7µs (20.5GB/s)
+  [SKIP] Gap 235µs < probe 500µs
+  [BW] Path 35431: 6807.0µs (19.7GB/s)
+  [SKIP] Gap 225µs < probe 500µs
+  [LAT] Path 36661: 31.3µs (0.1GB/s)
+  [SKIP] Gap 220µs < probe 500µs
+  [SKIP] Gap 182µs < probe 500µs
+  [SKIP] Gap 178µs < probe 500µs
+  [LAT] Path 36661: 24.3µs (0.2GB/s)
+  [SKIP] Gap 3796µs < probe 5100µs
+  [BW] Path 35431: 9199.8µs (14.6GB/s)
+  [BW] Path 35431: 6731.9µs (19.9GB/s)
+  [BW] Path 10145: 9147.0µs (14.7GB/s)
+  [BW] Path 10145: 6519.4µs (20.6GB/s)
+  [SKIP] Gap 332µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 5100µs
+  [SKIP] Gap 174µs < probe 5100µs
+  [SKIP] Gap 185µs < probe 5100µs
+  [SKIP] Gap 164µs < probe 5100µs
+  [SKIP] Gap 214µs < probe 5100µs
+  [SKIP] Gap 173µs < probe 500µs
+  [SKIP] Gap 191µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [SKIP] Gap 182µs < probe 500µs
+  [SKIP] Gap 168µs < probe 500µs
+  [SKIP] Gap 178µs < probe 500µs
+  [SKIP] Gap 182µs < probe 500µs
+  [SKIP] Gap 216µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 183µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 182µs < probe 500µs
+  [SKIP] Gap 168µs < probe 500µs
+  [SKIP] Gap 200µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 181µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 181µs < probe 500µs
+  [SKIP] Gap 157µs < probe 500µs
+  [LAT] Path 10145: 142.8µs (0.0GB/s)
+  [LAT] Path 10145: 366.8µs (0.0GB/s)
+  [BW] Path 31572: 6521.8µs (20.6GB/s)
+  [BW] Path 31572: 10163.0µs (13.2GB/s)
+  [BW] Path 56659: 9029.6µs (14.9GB/s)
+  [BW] Path 56659: 6704.7µs (20.0GB/s)
+  [LAT] Path 65441: 31.1µs (0.1GB/s)
+  [LAT] Path 65441: 23.6µs (0.2GB/s)
+  [LAT] Path 10145: 30.2µs (0.1GB/s)
+  [LAT] Path 10145: 23.2µs (0.2GB/s)
+  [BW] Path 56659: 6536.4µs (20.5GB/s)
+  [BW] Path 56659: 6635.9µs (20.2GB/s)
+  [SKIP] Gap 325µs < probe 500µs
+  [SKIP] Gap 179µs < probe 500µs
+  [LAT] Path 10145: 32.3µs (0.1GB/s)
+  [SKIP] Gap 248µs < probe 500µs
+  [LAT] Path 10145: 23.1µs (0.2GB/s)
+  [SKIP] Gap 582µs < probe 5100µs
+  [SKIP] Gap 233µs < probe 500µs
+  [LAT] Path 10145: 31.8µs (0.1GB/s)
+  [SKIP] Gap 229µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [SKIP] Gap 178µs < probe 500µs
+  [LAT] Path 10145: 23.5µs (0.2GB/s)
+  [LAT] Path 10145: 33.6µs (0.1GB/s)
+  [SKIP] Gap 234µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [SKIP] Gap 191µs < probe 500µs
+  [LAT] Path 10145: 23.6µs (0.2GB/s)
+  [SKIP] Gap 179µs < probe 500µs
+  [BW] Path 36012: 6536.9µs (20.5GB/s)
+  [SKIP] Gap 248µs < probe 500µs
+  [LAT] Path 36012: 25.4µs (0.2GB/s)
+  [SKIP] Gap 188µs < probe 500µs
+  [SKIP] Gap 189µs < probe 500µs
+  [LAT] Path 36012: 33.8µs (0.1GB/s)
+  [SKIP] Gap 239µs < probe 500µs
+  [BW] Path 36012: 6482.8µs (20.7GB/s)
+  [SKIP] Gap 234µs < probe 500µs
+  [BW] Path 36012: 6567.0µs (20.4GB/s)
+  [SKIP] Gap 228µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 500µs
+  [SKIP] Gap 197µs < probe 500µs
+  [LAT] Path 36012: 26.1µs (0.2GB/s)
+  [SKIP] Gap 164µs < probe 500µs
+  [LAT] Path 16080: 32.8µs (0.1GB/s)
+  [SKIP] Gap 241µs < probe 500µs
+  [LAT] Path 16080: 23.1µs (0.2GB/s)
+  [SKIP] Gap 655µs < probe 5100µs
+  [SKIP] Gap 226µs < probe 500µs
+  [LAT] Path 16080: 32.5µs (0.1GB/s)
+  [SKIP] Gap 224µs < probe 500µs
+  [SKIP] Gap 180µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [LAT] Path 16080: 24.6µs (0.2GB/s)
+  [SKIP] Gap 184µs < probe 500µs
+  [SKIP] Gap 184µs < probe 500µs
+  [LAT] Path 16080: 28.7µs (0.1GB/s)
+  [SKIP] Gap 234µs < probe 500µs
+  [LAT] Path 16080: 24.0µs (0.2GB/s)
+  [SKIP] Gap 242µs < probe 500µs
+  [LAT] Path 36661: 30.2µs (0.1GB/s)
+  [SKIP] Gap 217µs < probe 500µs
+  [SKIP] Gap 202µs < probe 500µs
+  [SKIP] Gap 182µs < probe 500µs
+  [LAT] Path 36661: 25.1µs (0.2GB/s)
+  [BW] Path 35431: 6708.9µs (20.0GB/s)
+  [SKIP] Gap 255µs < probe 5100µs
+  [BW] Path 35431: 6810.9µs (19.7GB/s)
+  [SKIP] Gap 202µs < probe 500µs
+  [SKIP] Gap 194µs < probe 500µs
+  [LAT] Path 65441: 32.7µs (0.1GB/s)
+  [SKIP] Gap 227µs < probe 500µs
+  [LAT] Path 65441: 23.2µs (0.2GB/s)
+  [LAT] Path 65441: 33.2µs (0.1GB/s)
+  [SKIP] Gap 232µs < probe 500µs
+  [SKIP] Gap 211µs < probe 500µs
+  [SKIP] Gap 201µs < probe 500µs
+  [LAT] Path 65441: 24.1µs (0.2GB/s)
+  [SKIP] Gap 5097µs < probe 5100µs
+  [SKIP] Gap 5092µs < probe 5100µs
+  [SKIP] Gap 5091µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5090µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5095µs < probe 5100µs
+  [SKIP] Gap 5090µs < probe 5100µs
+  [SKIP] Gap 5090µs < probe 5100µs
+  [SKIP] Gap 5087µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5050µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5090µs < probe 5100µs
+  [SKIP] Gap 5091µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5089µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [SKIP] Gap 5090µs < probe 5100µs
+  [SKIP] Gap 5097µs < probe 5100µs
+  [SKIP] Gap 5088µs < probe 5100µs
+  [LAT] Path 16513: 49.1µs (0.1GB/s)
+  [LAT] Path 16513: 40.5µs (0.1GB/s)
+  [LAT] Path 16513: 1103.8µs (0.0GB/s)
+  [LAT] Path 16513: 23.2µs (0.2GB/s)
+  [LAT] Path 16513: 43.5µs (0.1GB/s)
+  [LAT] Path 16513: 556.4µs (0.0GB/s)
+  [LAT] Path 16513: 43.2µs (0.1GB/s)
+  [LAT] Path 16513: 41.3µs (0.1GB/s)
+  [LAT] Path 16513: 29.6µs (0.1GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 38.5µs (0.1GB/s)
+  [LAT] Path 16513: 36.9µs (0.1GB/s)
+  [LAT] Path 16513: 24.9µs (0.2GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 27.8µs (0.1GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 43.8µs (0.1GB/s)
+  [LAT] Path 16513: 37.5µs (0.1GB/s)
+  [LAT] Path 16513: 39.0µs (0.1GB/s)
+  [LAT] Path 16513: 37.5µs (0.1GB/s)
+  [LAT] Path 16513: 597.0µs (0.0GB/s)
+  [LAT] Path 16513: 23.3µs (0.2GB/s)
+  [LAT] Path 16513: 29.8µs (0.1GB/s)
+  [LAT] Path 16513: 24.4µs (0.2GB/s)
+  [LAT] Path 16513: 27.0µs (0.1GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 45.0µs (0.1GB/s)
+  [LAT] Path 16513: 39.4µs (0.1GB/s)
+  [LAT] Path 16513: 197.4µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 234.8µs (0.0GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 466.3µs (0.0GB/s)
+  [LAT] Path 16513: 23.5µs (0.2GB/s)
+  [LAT] Path 16513: 44.2µs (0.1GB/s)
+  [LAT] Path 16513: 384.4µs (0.0GB/s)
+  [LAT] Path 16513: 605.1µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 28.4µs (0.1GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 40.2µs (0.1GB/s)
+  [LAT] Path 16513: 37.1µs (0.1GB/s)
+  [LAT] Path 16513: 25.3µs (0.2GB/s)
+  [LAT] Path 16513: 23.5µs (0.2GB/s)
+  [LAT] Path 16513: 58.1µs (0.1GB/s)
+  [LAT] Path 16513: 38.6µs (0.1GB/s)
+  [LAT] Path 16513: 24.8µs (0.2GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 25.3µs (0.2GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 49.0µs (0.1GB/s)
+  [LAT] Path 16513: 47.2µs (0.1GB/s)
+  [LAT] Path 16513: 25.3µs (0.2GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 28.0µs (0.1GB/s)
+  [LAT] Path 16513: 58.9µs (0.1GB/s)
+  [LAT] Path 16513: 43.9µs (0.1GB/s)
+  [LAT] Path 16513: 37.0µs (0.1GB/s)
+  [LAT] Path 16513: 306.9µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 673.2µs (0.0GB/s)
+  [LAT] Path 16513: 23.0µs (0.2GB/s)
+  [LAT] Path 16513: 365.3µs (0.0GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 25.8µs (0.2GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 31.3µs (0.1GB/s)
+  [LAT] Path 16513: 23.4µs (0.2GB/s)
+  [LAT] Path 16513: 44.9µs (0.1GB/s)
+  [LAT] Path 16513: 38.0µs (0.1GB/s)
+  [LAT] Path 16513: 264.7µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 25.7µs (0.2GB/s)
+  [LAT] Path 16513: 24.4µs (0.2GB/s)
+  [LAT] Path 16513: 43.0µs (0.1GB/s)
+  [LAT] Path 16513: 37.7µs (0.1GB/s)
+  [LAT] Path 16513: 27.1µs (0.1GB/s)
+  [LAT] Path 16513: 22.2µs (0.2GB/s)
+  [LAT] Path 16513: 43.8µs (0.1GB/s)
+  [LAT] Path 16513: 40.4µs (0.1GB/s)
+  [LAT] Path 16513: 27.3µs (0.1GB/s)
+  [LAT] Path 16513: 22.3µs (0.2GB/s)
+  [LAT] Path 16513: 323.8µs (0.0GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 25.7µs (0.2GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 41.9µs (0.1GB/s)
+  [LAT] Path 16513: 38.6µs (0.1GB/s)
+  [LAT] Path 16513: 40.0µs (0.1GB/s)
+  [LAT] Path 16513: 23.2µs (0.2GB/s)
+  [LAT] Path 16513: 41.0µs (0.1GB/s)
+  [LAT] Path 16513: 38.4µs (0.1GB/s)
+  [LAT] Path 16513: 220.9µs (0.0GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 28.9µs (0.1GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 40.7µs (0.1GB/s)
+  [LAT] Path 16513: 37.6µs (0.1GB/s)
+  [LAT] Path 16513: 30.6µs (0.1GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 39.2µs (0.1GB/s)
+  [LAT] Path 16513: 38.3µs (0.1GB/s)
+  [LAT] Path 16513: 38.6µs (0.1GB/s)
+  [LAT] Path 16513: 36.1µs (0.1GB/s)
+  [LAT] Path 16513: 28.5µs (0.1GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 41.2µs (0.1GB/s)
+  [LAT] Path 16513: 37.3µs (0.1GB/s)
+  [LAT] Path 16513: 33.7µs (0.1GB/s)
+  [LAT] Path 16513: 38.2µs (0.1GB/s)
+  [LAT] Path 16513: 29.0µs (0.1GB/s)
+  [LAT] Path 16513: 30.1µs (0.1GB/s)
+  [LAT] Path 16513: 39.7µs (0.1GB/s)
+  [LAT] Path 16513: 23.9µs (0.2GB/s)
+  [LAT] Path 16513: 488.0µs (0.0GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 27.9µs (0.1GB/s)
+  [LAT] Path 16513: 23.0µs (0.2GB/s)
+  [LAT] Path 16513: 40.7µs (0.1GB/s)
+  [LAT] Path 16513: 37.8µs (0.1GB/s)
+  [LAT] Path 16513: 25.3µs (0.2GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 45.3µs (0.1GB/s)
+  [LAT] Path 16513: 41.1µs (0.1GB/s)
+  [LAT] Path 16513: 38.2µs (0.1GB/s)
+  [LAT] Path 16513: 36.9µs (0.1GB/s)
+  [LAT] Path 16513: 26.4µs (0.2GB/s)
+  [LAT] Path 16513: 36.2µs (0.1GB/s)
+  [LAT] Path 16513: 44.9µs (0.1GB/s)
+  [LAT] Path 16513: 39.0µs (0.1GB/s)
+  [LAT] Path 16513: 40.1µs (0.1GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 608.3µs (0.0GB/s)
+  [LAT] Path 16513: 28.3µs (0.1GB/s)
+  [LAT] Path 16513: 46.9µs (0.1GB/s)
+  [LAT] Path 16513: 40.1µs (0.1GB/s)
+  [LAT] Path 16513: 40.8µs (0.1GB/s)
+  [LAT] Path 16513: 36.6µs (0.1GB/s)
+  [LAT] Path 16513: 24.6µs (0.2GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 726.0µs (0.0GB/s)
+  [LAT] Path 16513: 23.2µs (0.2GB/s)
+  [LAT] Path 16513: 408.6µs (0.0GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 37.5µs (0.1GB/s)
+  [LAT] Path 16513: 39.6µs (0.1GB/s)
+  [LAT] Path 16513: 42.5µs (0.1GB/s)
+  [LAT] Path 16513: 39.7µs (0.1GB/s)
+  [LAT] Path 16513: 26.6µs (0.1GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 300.1µs (0.0GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 27.5µs (0.1GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 44.6µs (0.1GB/s)
+  [LAT] Path 16513: 37.6µs (0.1GB/s)
+  [LAT] Path 16513: 28.0µs (0.1GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 26.5µs (0.1GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 25.2µs (0.2GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 36.2µs (0.1GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 28.6µs (0.1GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 554.3µs (0.0GB/s)
+  [LAT] Path 16513: 23.0µs (0.2GB/s)
+  [LAT] Path 16513: 378.6µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 588.3µs (0.0GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 715.3µs (0.0GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 570.9µs (0.0GB/s)
+  [LAT] Path 16513: 23.3µs (0.2GB/s)
+  [LAT] Path 16513: 27.8µs (0.1GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 25.2µs (0.2GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 43.4µs (0.1GB/s)
+  [LAT] Path 16513: 40.9µs (0.1GB/s)
+  [LAT] Path 16513: 160.0µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 480.5µs (0.0GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 24.7µs (0.2GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 46.2µs (0.1GB/s)
+  [LAT] Path 16513: 37.3µs (0.1GB/s)
+  [LAT] Path 16513: 25.4µs (0.2GB/s)
+  [LAT] Path 16513: 23.2µs (0.2GB/s)
+  [LAT] Path 16513: 200.4µs (0.0GB/s)
+  [LAT] Path 16513: 23.0µs (0.2GB/s)
+  [LAT] Path 16513: 28.3µs (0.1GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 123.0µs (0.0GB/s)
+  [LAT] Path 16513: 539.1µs (0.0GB/s)
+  [LAT] Path 16513: 24.8µs (0.2GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 222.9µs (0.0GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 578.2µs (0.0GB/s)
+  [LAT] Path 16513: 23.2µs (0.2GB/s)
+  [LAT] Path 16513: 1133.7µs (0.0GB/s)
+  [LAT] Path 16513: 23.6µs (0.2GB/s)
+  [LAT] Path 16513: 42.3µs (0.1GB/s)
+  [LAT] Path 16513: 38.7µs (0.1GB/s)
+  [LAT] Path 16513: 40.5µs (0.1GB/s)
+  [LAT] Path 16513: 40.1µs (0.1GB/s)
+  [LAT] Path 16513: 66.4µs (0.1GB/s)
+  [LAT] Path 16513: 65.5µs (0.1GB/s)
+  [LAT] Path 16513: 46.8µs (0.1GB/s)
+  [LAT] Path 16513: 47.0µs (0.1GB/s)
+  [LAT] Path 16513: 40.4µs (0.1GB/s)
+  [LAT] Path 16513: 23.3µs (0.2GB/s)
+  [LAT] Path 16513: 1028.7µs (0.0GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 62.1µs (0.1GB/s)
+  [LAT] Path 16513: 37.6µs (0.1GB/s)
+  [LAT] Path 16513: 43.2µs (0.1GB/s)
+  [LAT] Path 16513: 39.9µs (0.1GB/s)
+  [LAT] Path 16513: 24.7µs (0.2GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 742.8µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 70.3µs (0.1GB/s)
+  [LAT] Path 16513: 39.9µs (0.1GB/s)
+  [LAT] Path 16513: 25.4µs (0.2GB/s)
+  [LAT] Path 16513: 23.5µs (0.2GB/s)
+  [LAT] Path 16513: 42.6µs (0.1GB/s)
+  [LAT] Path 16513: 39.7µs (0.1GB/s)
+  [LAT] Path 16513: 42.4µs (0.1GB/s)
+  [LAT] Path 16513: 41.2µs (0.1GB/s)
+  [LAT] Path 16513: 53.4µs (0.1GB/s)
+  [LAT] Path 16513: 35.7µs (0.1GB/s)
+  [LAT] Path 16513: 27.4µs (0.1GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 44.5µs (0.1GB/s)
+  [LAT] Path 16513: 42.1µs (0.1GB/s)
+  [LAT] Path 16513: 52.3µs (0.1GB/s)
+  [LAT] Path 16513: 46.2µs (0.1GB/s)
+  [LAT] Path 16513: 42.4µs (0.1GB/s)
+  [LAT] Path 16513: 37.7µs (0.1GB/s)
+  [LAT] Path 16513: 24.9µs (0.2GB/s)
+  [LAT] Path 16513: 22.3µs (0.2GB/s)
+  [LAT] Path 16513: 52.6µs (0.1GB/s)
+  [LAT] Path 16513: 48.9µs (0.1GB/s)
+  [LAT] Path 16513: 564.1µs (0.0GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 414.6µs (0.0GB/s)
+  [LAT] Path 16513: 24.5µs (0.2GB/s)
+  [LAT] Path 16513: 25.5µs (0.2GB/s)
+  [LAT] Path 16513: 23.0µs (0.2GB/s)
+  [LAT] Path 16513: 47.8µs (0.1GB/s)
+  [LAT] Path 16513: 37.9µs (0.1GB/s)
+  [LAT] Path 16513: 25.2µs (0.2GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 25.2µs (0.2GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 42.1µs (0.1GB/s)
+  [LAT] Path 16513: 37.4µs (0.1GB/s)
+  [LAT] Path 16513: 39.2µs (0.1GB/s)
+  [LAT] Path 16513: 37.1µs (0.1GB/s)
+  [LAT] Path 16513: 53.8µs (0.1GB/s)
+  [LAT] Path 16513: 45.2µs (0.1GB/s)
+  [LAT] Path 16513: 51.2µs (0.1GB/s)
+  [LAT] Path 16513: 38.8µs (0.1GB/s)
+  [LAT] Path 16513: 25.2µs (0.2GB/s)
+  [LAT] Path 16513: 23.2µs (0.2GB/s)
+  [LAT] Path 16513: 24.9µs (0.2GB/s)
+  [LAT] Path 16513: 52.9µs (0.1GB/s)
+  [LAT] Path 16513: 68.2µs (0.1GB/s)
+  [LAT] Path 16513: 40.6µs (0.1GB/s)
+  [LAT] Path 16513: 26.9µs (0.1GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 48.9µs (0.1GB/s)
+  [LAT] Path 16513: 49.0µs (0.1GB/s)
+  [LAT] Path 16513: 41.2µs (0.1GB/s)
+  [LAT] Path 16513: 37.6µs (0.1GB/s)
+  [LAT] Path 16513: 37.2µs (0.1GB/s)
+  [LAT] Path 16513: 40.6µs (0.1GB/s)
+  [LAT] Path 16513: 686.9µs (0.0GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 33.6µs (0.1GB/s)
+  [LAT] Path 16513: 37.6µs (0.1GB/s)
+  [LAT] Path 16513: 25.4µs (0.2GB/s)
+  [LAT] Path 16513: 443.8µs (0.0GB/s)
+  [LAT] Path 16513: 42.1µs (0.1GB/s)
+  [LAT] Path 16513: 38.1µs (0.1GB/s)
+  [LAT] Path 16513: 28.0µs (0.1GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 518.7µs (0.0GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 44.7µs (0.1GB/s)
+  [LAT] Path 16513: 39.7µs (0.1GB/s)
+  [LAT] Path 16513: 41.2µs (0.1GB/s)
+  [LAT] Path 16513: 37.5µs (0.1GB/s)
+  [LAT] Path 16513: 40.6µs (0.1GB/s)
+  [LAT] Path 16513: 38.7µs (0.1GB/s)
+  [LAT] Path 16513: 40.0µs (0.1GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 495.2µs (0.0GB/s)
+  [LAT] Path 16513: 100.4µs (0.0GB/s)
+  [LAT] Path 16513: 186.6µs (0.0GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 39.8µs (0.1GB/s)
+  [LAT] Path 16513: 38.5µs (0.1GB/s)
+  [LAT] Path 16513: 43.7µs (0.1GB/s)
+  [LAT] Path 16513: 38.1µs (0.1GB/s)
+  [LAT] Path 16513: 24.6µs (0.2GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 45.9µs (0.1GB/s)
+  [LAT] Path 16513: 41.8µs (0.1GB/s)
+  [LAT] Path 16513: 48.3µs (0.1GB/s)
+  [LAT] Path 16513: 38.0µs (0.1GB/s)
+  [LAT] Path 16513: 24.7µs (0.2GB/s)
+  [LAT] Path 16513: 22.2µs (0.2GB/s)
+  [LAT] Path 16513: 74.2µs (0.1GB/s)
+  [LAT] Path 16513: 62.6µs (0.1GB/s)
+  [LAT] Path 16513: 26.6µs (0.1GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 38.4µs (0.1GB/s)
+  [LAT] Path 16513: 37.0µs (0.1GB/s)
+  [LAT] Path 16513: 41.3µs (0.1GB/s)
+  [LAT] Path 16513: 37.8µs (0.1GB/s)
+  [LAT] Path 16513: 41.2µs (0.1GB/s)
+  [LAT] Path 16513: 37.8µs (0.1GB/s)
+  [LAT] Path 16513: 24.8µs (0.2GB/s)
+  [LAT] Path 16513: 23.2µs (0.2GB/s)
+  [LAT] Path 16513: 38.4µs (0.1GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 167.1µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 53.6µs (0.1GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 85.7µs (0.1GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 27.2µs (0.1GB/s)
+  [LAT] Path 16513: 24.5µs (0.2GB/s)
+  [LAT] Path 16513: 25.2µs (0.2GB/s)
+  [LAT] Path 16513: 23.0µs (0.2GB/s)
+  [LAT] Path 16513: 25.9µs (0.2GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 44.0µs (0.1GB/s)
+  [LAT] Path 16513: 38.9µs (0.1GB/s)
+  [LAT] Path 16513: 539.7µs (0.0GB/s)
+  [LAT] Path 16513: 96.6µs (0.0GB/s)
+  [LAT] Path 16513: 42.8µs (0.1GB/s)
+  [LAT] Path 16513: 38.7µs (0.1GB/s)
+  [LAT] Path 16513: 41.1µs (0.1GB/s)
+  [LAT] Path 16513: 38.9µs (0.1GB/s)
+  [LAT] Path 16513: 26.9µs (0.1GB/s)
+  [LAT] Path 16513: 42.2µs (0.1GB/s)
+  [LAT] Path 16513: 25.4µs (0.2GB/s)
+  [LAT] Path 16513: 36.7µs (0.1GB/s)
+  [LAT] Path 16513: 27.8µs (0.1GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 39.6µs (0.1GB/s)
+  [LAT] Path 16513: 37.3µs (0.1GB/s)
+  [LAT] Path 16513: 24.9µs (0.2GB/s)
+  [LAT] Path 16513: 342.1µs (0.0GB/s)
+  [LAT] Path 16513: 42.2µs (0.1GB/s)
+  [LAT] Path 16513: 39.6µs (0.1GB/s)
+  [LAT] Path 16513: 44.6µs (0.1GB/s)
+  [LAT] Path 16513: 38.4µs (0.1GB/s)
+  [LAT] Path 16513: 43.7µs (0.1GB/s)
+  [LAT] Path 16513: 39.7µs (0.1GB/s)
+  [LAT] Path 16513: 26.9µs (0.1GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 24.7µs (0.2GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 42.5µs (0.1GB/s)
+  [LAT] Path 16513: 37.2µs (0.1GB/s)
+  [LAT] Path 16513: 27.7µs (0.1GB/s)
+  [LAT] Path 16513: 23.4µs (0.2GB/s)
+  [LAT] Path 16513: 42.3µs (0.1GB/s)
+  [LAT] Path 16513: 38.8µs (0.1GB/s)
+  [LAT] Path 16513: 34.3µs (0.1GB/s)
+  [LAT] Path 16513: 40.4µs (0.1GB/s)
+  [LAT] Path 16513: 28.0µs (0.1GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 451.0µs (0.0GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 25.3µs (0.2GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 46.3µs (0.1GB/s)
+  [LAT] Path 16513: 40.5µs (0.1GB/s)
+  [LAT] Path 16513: 44.0µs (0.1GB/s)
+  [LAT] Path 16513: 40.6µs (0.1GB/s)
+  [LAT] Path 16513: 138.9µs (0.0GB/s)
+  [LAT] Path 16513: 23.0µs (0.2GB/s)
+  [LAT] Path 16513: 45.6µs (0.1GB/s)
+  [LAT] Path 16513: 38.8µs (0.1GB/s)
+  [LAT] Path 16513: 280.9µs (0.0GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 24.9µs (0.2GB/s)
+  [LAT] Path 16513: 38.1µs (0.1GB/s)
+  [LAT] Path 16513: 552.8µs (0.0GB/s)
+  [LAT] Path 16513: 23.4µs (0.2GB/s)
+  [LAT] Path 16513: 43.7µs (0.1GB/s)
+  [LAT] Path 16513: 38.8µs (0.1GB/s)
+  [LAT] Path 16513: 39.7µs (0.1GB/s)
+  [LAT] Path 16513: 38.9µs (0.1GB/s)
+  [LAT] Path 16513: 27.9µs (0.1GB/s)
+  [LAT] Path 16513: 23.6µs (0.2GB/s)
+  [LAT] Path 16513: 571.9µs (0.0GB/s)
+  [LAT] Path 16513: 24.3µs (0.2GB/s)
+  [LAT] Path 16513: 41.2µs (0.1GB/s)
+  [LAT] Path 16513: 37.0µs (0.1GB/s)
+  [LAT] Path 16513: 41.8µs (0.1GB/s)
+  [LAT] Path 16513: 38.3µs (0.1GB/s)
+  [LAT] Path 16513: 28.2µs (0.1GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 25.4µs (0.2GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 27.3µs (0.1GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 25.3µs (0.2GB/s)
+  [LAT] Path 16513: 41.4µs (0.1GB/s)
+  [LAT] Path 16513: 39.0µs (0.1GB/s)
+  [LAT] Path 16513: 35.8µs (0.1GB/s)
+  [LAT] Path 16513: 42.7µs (0.1GB/s)
+  [LAT] Path 16513: 37.4µs (0.1GB/s)
+  [LAT] Path 16513: 25.2µs (0.2GB/s)
+  [LAT] Path 16513: 23.3µs (0.2GB/s)
+  [LAT] Path 16513: 25.1µs (0.2GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 28.5µs (0.1GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 24.5µs (0.2GB/s)
+  [LAT] Path 16513: 23.2µs (0.2GB/s)
+  [LAT] Path 16513: 41.4µs (0.1GB/s)
+  [LAT] Path 16513: 28.3µs (0.1GB/s)
+  [LAT] Path 16513: 429.0µs (0.0GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 890.3µs (0.0GB/s)
+  [LAT] Path 16513: 23.0µs (0.2GB/s)
+  [LAT] Path 16513: 39.3µs (0.1GB/s)
+  [LAT] Path 16513: 36.9µs (0.1GB/s)
+  [LAT] Path 16513: 47.7µs (0.1GB/s)
+  [LAT] Path 16513: 38.4µs (0.1GB/s)
+  [LAT] Path 16513: 53.7µs (0.1GB/s)
+  [LAT] Path 16513: 52.0µs (0.1GB/s)
+  [LAT] Path 16513: 24.9µs (0.2GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 41.9µs (0.1GB/s)
+  [LAT] Path 16513: 38.1µs (0.1GB/s)
+  [LAT] Path 16513: 27.1µs (0.1GB/s)
+  [LAT] Path 16513: 23.0µs (0.2GB/s)
+  [LAT] Path 16513: 39.8µs (0.1GB/s)
+  [LAT] Path 16513: 38.5µs (0.1GB/s)
+  [LAT] Path 16513: 34.9µs (0.1GB/s)
+  [LAT] Path 16513: 39.9µs (0.1GB/s)
+  [LAT] Path 16513: 1164.8µs (0.0GB/s)
+  [LAT] Path 16513: 23.4µs (0.2GB/s)
+  [LAT] Path 16513: 133.4µs (0.0GB/s)
+  [LAT] Path 16513: 24.4µs (0.2GB/s)
+  [LAT] Path 16513: 347.0µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 51.9µs (0.1GB/s)
+  [LAT] Path 16513: 48.6µs (0.1GB/s)
+  [LAT] Path 16513: 24.7µs (0.2GB/s)
+  [LAT] Path 16513: 29.4µs (0.1GB/s)
+  [LAT] Path 16513: 36.1µs (0.1GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 51.8µs (0.1GB/s)
+  [LAT] Path 16513: 47.3µs (0.1GB/s)
+  [LAT] Path 16513: 265.3µs (0.0GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 43.1µs (0.1GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 716.5µs (0.0GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 24.2µs (0.2GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 26.6µs (0.1GB/s)
+  [LAT] Path 16513: 22.5µs (0.2GB/s)
+  [LAT] Path 16513: 24.9µs (0.2GB/s)
+  [LAT] Path 16513: 1359.6µs (0.0GB/s)
+  [LAT] Path 16513: 40.5µs (0.1GB/s)
+  [LAT] Path 16513: 37.0µs (0.1GB/s)
+  [LAT] Path 16513: 26.5µs (0.1GB/s)
+  [LAT] Path 16513: 40.2µs (0.1GB/s)
+  [LAT] Path 16513: 64.2µs (0.1GB/s)
+  [LAT] Path 16513: 42.5µs (0.1GB/s)
+  [LAT] Path 16513: 40.1µs (0.1GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 60.9µs (0.1GB/s)
+  [LAT] Path 16513: 53.7µs (0.1GB/s)
+  [LAT] Path 16513: 25.6µs (0.2GB/s)
+  [LAT] Path 16513: 23.9µs (0.2GB/s)
+  [LAT] Path 16513: 513.9µs (0.0GB/s)
+  [LAT] Path 16513: 23.1µs (0.2GB/s)
+  [LAT] Path 16513: 213.7µs (0.0GB/s)
+  [LAT] Path 16513: 23.2µs (0.2GB/s)
+  [LAT] Path 16513: 25.6µs (0.2GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 25.8µs (0.2GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 26.1µs (0.2GB/s)
+  [LAT] Path 16513: 22.4µs (0.2GB/s)
+  [LAT] Path 16513: 38.7µs (0.1GB/s)
+  [LAT] Path 16513: 37.2µs (0.1GB/s)
+  [LAT] Path 16513: 136.5µs (0.0GB/s)
+  [LAT] Path 16513: 22.6µs (0.2GB/s)
+  [LAT] Path 16513: 29.1µs (0.1GB/s)
+  [LAT] Path 16513: 528.8µs (0.0GB/s)
+  [LAT] Path 16513: 25.5µs (0.2GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 39.4µs (0.1GB/s)
+  [LAT] Path 16513: 38.8µs (0.1GB/s)
+  [LAT] Path 16513: 592.3µs (0.0GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 87.2µs (0.1GB/s)
+  [LAT] Path 16513: 22.8µs (0.2GB/s)
+  [LAT] Path 16513: 24.6µs (0.2GB/s)
+  [LAT] Path 16513: 23.5µs (0.2GB/s)
+  [LAT] Path 16513: 44.2µs (0.1GB/s)
+  [LAT] Path 16513: 39.4µs (0.1GB/s)
+  [LAT] Path 16513: 39.8µs (0.1GB/s)
+  [LAT] Path 16513: 27.1µs (0.1GB/s)
+  [LAT] Path 16513: 38.8µs (0.1GB/s)
+  [LAT] Path 16513: 38.9µs (0.1GB/s)
+  [LAT] Path 16513: 510.8µs (0.0GB/s)
+  [LAT] Path 16513: 23.4µs (0.2GB/s)
+  [LAT] Path 16513: 41.7µs (0.1GB/s)
+  [LAT] Path 16513: 38.4µs (0.1GB/s)
+  [LAT] Path 16513: 39.7µs (0.1GB/s)
+  [LAT] Path 16513: 39.0µs (0.1GB/s)
+  [LAT] Path 16513: 42.1µs (0.1GB/s)
+  [LAT] Path 16513: 39.0µs (0.1GB/s)
+  [LAT] Path 16513: 44.3µs (0.1GB/s)
+  [LAT] Path 16513: 36.3µs (0.1GB/s)
+  [LAT] Path 16513: 40.6µs (0.1GB/s)
+  [LAT] Path 16513: 37.1µs (0.1GB/s)
+  [LAT] Path 16513: 288.5µs (0.0GB/s)
+  [LAT] Path 16513: 22.9µs (0.2GB/s)
+  [LAT] Path 16513: 26.4µs (0.2GB/s)
+  [LAT] Path 16513: 23.9µs (0.2GB/s)
+  [LAT] Path 16513: 24.5µs (0.2GB/s)
+  [LAT] Path 16513: 22.7µs (0.2GB/s)
+  [LAT] Path 16513: 41.6µs (0.1GB/s)
+  [LAT] Path 16513: 37.2µs (0.1GB/s)
+  [LAT] Path 16513: 38.9µs (0.1GB/s)
+  [LAT] Path 16513: 36.8µs (0.1GB/s)
+  [LAT] Path 16513: 39.7µs (0.1GB/s)
+  [LAT] Path 16513: 37.7µs (0.1GB/s)
+  [LAT] Path 16513: 32.1µs (0.1GB/s)
+  [LAT] Path 16513: 346.9µs (0.0GB/s)
+  [LAT] Path 16513: 47.1µs (0.1GB/s)
+  [LAT] Path 16513: 36.9µs (0.1GB/s)
+  [BW] Path 16080: 16667.8µs (8.1GB/s)
+  [BW] Path 16080: 11367.9µs (11.8GB/s)
+  [LAT] Path 54525: 44.8µs (0.1GB/s)
+  [LAT] Path 54525: 119.6µs (0.0GB/s)
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [SKIP] Gap 189µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [SKIP] Gap 191µs < probe 500µs
+  [SKIP] Gap 185µs < probe 500µs
+  [SKIP] Gap 168µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 176µs < probe 500µs
+  [SKIP] Gap 178µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 173µs < probe 500µs
+  [SKIP] Gap 179µs < probe 500µs
+  [LAT] Path 10145: 146.0µs (0.0GB/s)
+  [LAT] Path 10145: 66.8µs (0.1GB/s)
+  [BW] Path 16080: 9725.0µs (13.8GB/s)
+  [BW] Path 16080: 9384.9µs (14.3GB/s)
+  [BW] Path 36012: 12350.0µs (10.9GB/s)
+  [BW] Path 36012: 11410.6µs (11.8GB/s)
+  [BW] Path 56659: 14063.3µs (9.5GB/s)
+  [BW] Path 56659: 8765.4µs (15.3GB/s)
+  [BW] Path 31572: 10445.1µs (12.8GB/s)
+  [BW] Path 31572: 8349.0µs (16.1GB/s)
+  [BW] Path 16080: 8827.2µs (15.2GB/s)
+  [BW] Path 16080: 12371.0µs (10.8GB/s)
+  [LAT] Path 54525: 44.9µs (0.1GB/s)
+  [LAT] Path 54525: 38.4µs (0.1GB/s)
+  [LAT] Path 54525: 43.0µs (0.1GB/s)
+  [LAT] Path 54525: 22.8µs (0.2GB/s)
+  [LAT] Path 54525: 33.3µs (0.1GB/s)
+  [LAT] Path 54525: 22.5µs (0.2GB/s)
+  [LAT] Path 54525: 51.3µs (0.1GB/s)
+  [LAT] Path 54525: 39.7µs (0.1GB/s)
+  [LAT] Path 54525: 48.6µs (0.1GB/s)
+  [LAT] Path 54525: 36.8µs (0.1GB/s)
+  [LAT] Path 54525: 34.8µs (0.1GB/s)
+  [LAT] Path 54525: 23.3µs (0.2GB/s)
+  [LAT] Path 54525: 33.0µs (0.1GB/s)
+  [LAT] Path 54525: 22.8µs (0.2GB/s)
+  [LAT] Path 54525: 49.4µs (0.1GB/s)
+  [LAT] Path 54525: 37.5µs (0.1GB/s)
+  [LAT] Path 54525: 156.2µs (0.0GB/s)
+  [LAT] Path 54525: 22.9µs (0.2GB/s)
+  [LAT] Path 54525: 32.6µs (0.1GB/s)
+  [LAT] Path 54525: 747.8µs (0.0GB/s)
+  [LAT] Path 54525: 33.4µs (0.1GB/s)
+  [LAT] Path 54525: 23.5µs (0.2GB/s)
+  [LAT] Path 54525: 47.9µs (0.1GB/s)
+  [LAT] Path 54525: 40.0µs (0.1GB/s)
+  [LAT] Path 54525: 34.2µs (0.1GB/s)
+  [LAT] Path 54525: 23.2µs (0.2GB/s)
+  [SKIP] Gap 181µs < probe 5100µs
+  [BW] Path 36012: 6549.5µs (20.5GB/s)
+  [SKIP] Gap 255µs < probe 5100µs
+  [SKIP] Gap 3865µs < probe 5100µs
+  [SKIP] Gap 234µs < probe 5100µs
+  [SKIP] Gap 219µs < probe 5100µs
+  [SKIP] Gap 188µs < probe 500µs
+  [BW] Path 36012: 6522.6µs (20.6GB/s)
+  [SKIP] Gap 1854µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 5100µs
+  [SKIP] Gap 183µs < probe 500µs
+  [BW] Path 36012: 6634.4µs (20.2GB/s)
+  [SKIP] Gap 256µs < probe 500µs
+  [LAT] Path 36012: 24.8µs (0.2GB/s)
+  [LAT] Path 10145: 145.8µs (0.0GB/s)
+  [LAT] Path 10145: 64.8µs (0.1GB/s)
+  [LAT] Path 10145: 148.2µs (0.0GB/s)
+  [LAT] Path 10145: 66.8µs (0.1GB/s)
+  [SKIP] Gap 307µs < probe 5100µs
+  [SKIP] Gap 168µs < probe 5100µs
+  [BW] Path 56659: 6515.5µs (20.6GB/s)
+  [SKIP] Gap 236µs < probe 5100µs
+  [SKIP] Gap 3913µs < probe 5100µs
+  [SKIP] Gap 216µs < probe 5100µs
+  [SKIP] Gap 194µs < probe 5100µs
+  [SKIP] Gap 169µs < probe 5100µs
+  [BW] Path 56659: 6537.5µs (20.5GB/s)
+  [BW] Path 56659: 6504.2µs (20.6GB/s)
+  [SKIP] Gap 222µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [SKIP] Gap 167µs < probe 5100µs
+  [BW] Path 56659: 9189.2µs (14.6GB/s)
+  [BW] Path 56659: 6767.9µs (19.8GB/s)
+  [SKIP] Gap 219µs < probe 5100µs
+  [SKIP] Gap 172µs < probe 5100µs
+  [SKIP] Gap 175µs < probe 5100µs
+  [BW] Path 56659: 6805.9µs (19.7GB/s)
+  [SKIP] Gap 221µs < probe 500µs
+  [LAT] Path 36661: 32.7µs (0.1GB/s)
+  [SKIP] Gap 227µs < probe 500µs
+  [SKIP] Gap 187µs < probe 500µs
+  [SKIP] Gap 179µs < probe 500µs
+  [LAT] Path 36661: 24.5µs (0.2GB/s)
+  [SKIP] Gap 226µs < probe 500µs
+  [SKIP] Gap 187µs < probe 500µs
+  [SKIP] Gap 184µs < probe 500µs
+  [LAT] Path 36661: 32.4µs (0.1GB/s)
+  [SKIP] Gap 434µs < probe 500µs
+  [LAT] Path 36661: 23.4µs (0.2GB/s)
+  [SKIP] Gap 213µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [LAT] Path 65441: 33.2µs (0.1GB/s)
+  [SKIP] Gap 218µs < probe 500µs
+  [LAT] Path 65441: 23.4µs (0.2GB/s)
+  [SKIP] Gap 3846µs < probe 5100µs
+  [BW] Path 35431: 7839.6µs (17.1GB/s)
+  [BW] Path 35431: 6776.4µs (19.8GB/s)
+  [BW] Path 35431: 6817.1µs (19.7GB/s)
+  [BW] Path 35431: 9121.5µs (14.7GB/s)
+  [LAT] Path 10145: 119.8µs (0.0GB/s)
+  [LAT] Path 10145: 64.7µs (0.1GB/s)
+  [LAT] Path 10145: 29.9µs (0.1GB/s)
+  [LAT] Path 10145: 22.5µs (0.2GB/s)
+  [BW] Path 35431: 6572.5µs (20.4GB/s)
+  [BW] Path 35431: 6652.2µs (20.2GB/s)
+  [BW] Path 16080: 10266.8µs (13.1GB/s)
+  [BW] Path 16080: 6691.1µs (20.1GB/s)
+  [BW] Path 36012: 6681.8µs (20.1GB/s)
+  [BW] Path 36012: 6698.6µs (20.0GB/s)
+  [BW] Path 35431: 6605.6µs (20.3GB/s)
+  [BW] Path 35431: 6824.3µs (19.7GB/s)
+  [SKIP] Gap 180µs < probe 500µs
+  [LAT] Path 10145: 32.9µs (0.1GB/s)
+  [SKIP] Gap 250µs < probe 500µs
+  [LAT] Path 10145: 23.2µs (0.2GB/s)
+  [SKIP] Gap 632µs < probe 5100µs
+  [SKIP] Gap 224µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [LAT] Path 10145: 31.5µs (0.1GB/s)
+  [SKIP] Gap 229µs < probe 500µs
+  [LAT] Path 10145: 23.4µs (0.2GB/s)
+  [LAT] Path 10145: 33.7µs (0.1GB/s)
+  [SKIP] Gap 220µs < probe 500µs
+  [SKIP] Gap 184µs < probe 500µs
+  [SKIP] Gap 200µs < probe 500µs
+  [LAT] Path 10145: 23.1µs (0.2GB/s)
+  [SKIP] Gap 323µs < probe 5100µs
+  [SKIP] Gap 185µs < probe 5100µs
+  [BW] Path 36012: 6630.3µs (20.2GB/s)
+  [SKIP] Gap 253µs < probe 5100µs
+  [SKIP] Gap 3836µs < probe 5100µs
+  [SKIP] Gap 233µs < probe 5100µs
+  [SKIP] Gap 212µs < probe 500µs
+  [SKIP] Gap 235µs < probe 500µs
+  [BW] Path 36012: 6650.3µs (20.2GB/s)
+  [SKIP] Gap 236µs < probe 500µs
+  [SKIP] Gap 196µs < probe 500µs
+  [SKIP] Gap 192µs < probe 500µs
+  [LAT] Path 36012: 25.5µs (0.2GB/s)
+  [LAT] Path 36012: 32.8µs (0.1GB/s)
+  [SKIP] Gap 226µs < probe 500µs
+  [SKIP] Gap 203µs < probe 500µs
+  [SKIP] Gap 190µs < probe 500µs
+  [LAT] Path 36012: 23.9µs (0.2GB/s)
+  [SKIP] Gap 166µs < probe 5100µs
+  [BW] Path 16080: 6635.9µs (20.2GB/s)
+  [SKIP] Gap 232µs < probe 5100µs
+  [SKIP] Gap 3811µs < probe 5100µs
+  [SKIP] Gap 215µs < probe 5100µs
+  [SKIP] Gap 203µs < probe 5100µs
+  [SKIP] Gap 175µs < probe 5100µs
+  [BW] Path 16080: 7049.7µs (19.0GB/s)
+  [SKIP] Gap 1842µs < probe 5100µs
+  [SKIP] Gap 3952µs < probe 5100µs
+  [SKIP] Gap 211µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 5100µs
+  [SKIP] Gap 168µs < probe 5100µs
+  [BW] Path 16080: 6687.8µs (20.1GB/s)
+  [SKIP] Gap 222µs < probe 5100µs
+  [BW] Path 16080: 7033.4µs (19.1GB/s)
+  [SKIP] Gap 309µs < probe 5100µs
+  [BW] Path 31572: 6548.1µs (20.5GB/s)
+  [SKIP] Gap 249µs < probe 5100µs
+  [SKIP] Gap 4449µs < probe 5100µs
+  [SKIP] Gap 238µs < probe 5100µs
+  [SKIP] Gap 201µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [BW] Path 31572: 6601.9µs (20.3GB/s)
+  [SKIP] Gap 1592µs < probe 5100µs
+  [BW] Path 56659: 6504.5µs (20.6GB/s)
+  [SKIP] Gap 291µs < probe 5100µs
+  [SKIP] Gap 166µs < probe 5100µs
+  [BW] Path 56659: 9109.6µs (14.7GB/s)
+  [SKIP] Gap 180µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [BW] Path 56659: 6505.4µs (20.6GB/s)
+  [SKIP] Gap 225µs < probe 5100µs
+  [SKIP] Gap 3767µs < probe 5100µs
+  [SKIP] Gap 225µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [SKIP] Gap 175µs < probe 5100µs
+  [BW] Path 56659: 8613.8µs (15.6GB/s)
+  [SKIP] Gap 189µs < probe 500µs
+  [SKIP] Gap 184µs < probe 500µs
+  [LAT] Path 65441: 32.5µs (0.1GB/s)
+  [SKIP] Gap 233µs < probe 500µs
+  [LAT] Path 65441: 24.8µs (0.2GB/s)
+  [SKIP] Gap 3873µs < probe 5100µs
+  [SKIP] Gap 219µs < probe 5100µs
+  [SKIP] Gap 187µs < probe 5100µs
+  [SKIP] Gap 178µs < probe 5100µs
+  [BW] Path 35431: 6545.0µs (20.5GB/s)
+  [SKIP] Gap 217µs < probe 5100µs
+  [BW] Path 35431: 6779.7µs (19.8GB/s)
+  [SKIP] Gap 3891µs < probe 5100µs
+  [BW] Path 35431: 6506.6µs (20.6GB/s)
+  [BW] Path 35431: 9014.9µs (14.9GB/s)
+  [BW] Path 35431: 6602.3µs (20.3GB/s)
+  [BW] Path 35431: 6569.8µs (20.4GB/s)
+  [SKIP] Gap 156µs < probe 5100µs
+  [SKIP] Gap 191µs < probe 5100µs
+  [SKIP] Gap 159µs < probe 5100µs
+  [SKIP] Gap 158µs < probe 5100µs
+  [SKIP] Gap 169µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 500µs
+  [SKIP] Gap 158µs < probe 500µs
+  [SKIP] Gap 160µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [SKIP] Gap 193µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [SKIP] Gap 185µs < probe 500µs
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 158µs < probe 500µs
+  [SKIP] Gap 162µs < probe 500µs
+  [SKIP] Gap 160µs < probe 500µs
+  [SKIP] Gap 155µs < probe 500µs
+  [SKIP] Gap 162µs < probe 500µs
+  [SKIP] Gap 159µs < probe 500µs
+  [SKIP] Gap 177µs < probe 500µs
+  [SKIP] Gap 164µs < probe 500µs
+  [SKIP] Gap 161µs < probe 500µs
+  [SKIP] Gap 159µs < probe 500µs
+  [SKIP] Gap 168µs < probe 500µs
+  [LAT] Path 56659: 145.1µs (0.0GB/s)
+  [LAT] Path 56659: 78.3µs (0.1GB/s)
+  [BW] Path 31572: 6767.5µs (19.8GB/s)
+  [BW] Path 31572: 7356.2µs (18.2GB/s)
+  [BW] Path 36012: 6528.7µs (20.6GB/s)
+  [BW] Path 36012: 6634.0µs (20.2GB/s)
+  [BW] Path 31572: 7025.4µs (19.1GB/s)
+  [BW] Path 31572: 6652.8µs (20.2GB/s)
+  [BW] Path 36012: 6558.1µs (20.5GB/s)
+  [BW] Path 36012: 6692.7µs (20.1GB/s)
+  [BW] Path 36661: 6631.8µs (20.2GB/s)
+  [BW] Path 36661: 6636.0µs (20.2GB/s)
+  [SKIP] Gap 171µs < probe 5100µs
+  [BW] Path 16080: 6602.9µs (20.3GB/s)
+  [SKIP] Gap 249µs < probe 5100µs
+  [SKIP] Gap 3949µs < probe 5100µs
+  [SKIP] Gap 222µs < probe 5100µs
+  [SKIP] Gap 211µs < probe 5100µs
+  [SKIP] Gap 183µs < probe 5100µs
+  [BW] Path 16080: 6679.1µs (20.1GB/s)
+  [LAT] Path 56659: 32.3µs (0.1GB/s)
+  [LAT] Path 42537: 24.8µs (0.2GB/s)
+  [LAT] Path 42537: 32.2µs (0.1GB/s)
+  [SKIP] Gap 251µs < probe 500µs
+  [SKIP] Gap 159µs < probe 500µs
+  [SKIP] Gap 154µs < probe 500µs
+  [LAT] Path 42537: 23.9µs (0.2GB/s)
+  [BW] Path 31572: 6577.7µs (20.4GB/s)
+  [SKIP] Gap 224µs < probe 5100µs
+  [SKIP] Gap 200µs < probe 5100µs
+  [SKIP] Gap 185µs < probe 5100µs
+  [BW] Path 31572: 6537.9µs (20.5GB/s)
+  [LAT] Path 10145: 33.3µs (0.1GB/s)
+  [SKIP] Gap 223µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [SKIP] Gap 179µs < probe 500µs
+  [LAT] Path 10145: 24.7µs (0.2GB/s)
+  [SKIP] Gap 196µs < probe 5100µs
+  [SKIP] Gap 175µs < probe 5100µs
+  [BW] Path 36012: 6688.9µs (20.1GB/s)
+  [SKIP] Gap 221µs < probe 5100µs
+  [SKIP] Gap 3948µs < probe 5100µs
+  [SKIP] Gap 217µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 500µs
+  [BW] Path 36012: 6845.1µs (19.6GB/s)
+  [SKIP] Gap 225µs < probe 5100µs
+  [SKIP] Gap 3903µs < probe 5100µs
+  [SKIP] Gap 211µs < probe 500µs
+  [SKIP] Gap 183µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [BW] Path 36661: 6537.8µs (20.5GB/s)
+  [SKIP] Gap 219µs < probe 500µs
+  [BW] Path 36661: 9114.2µs (14.7GB/s)
+  [SKIP] Gap 189µs < probe 500µs
+  [SKIP] Gap 192µs < probe 500µs
+  [LAT] Path 36661: 32.6µs (0.1GB/s)
+  [SKIP] Gap 228µs < probe 500µs
+  [LAT] Path 36661: 23.1µs (0.2GB/s)
+  [SKIP] Gap 312µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [LAT] Path 65441: 32.8µs (0.1GB/s)
+  [SKIP] Gap 248µs < probe 500µs
+  [LAT] Path 65441: 23.7µs (0.2GB/s)
+  [LAT] Path 56659: 30.5µs (0.1GB/s)
+  [SKIP] Gap 224µs < probe 500µs
+  [LAT] Path 65441: 23.4µs (0.2GB/s)
+  [SKIP] Gap 193µs < probe 500µs
+  [SKIP] Gap 196µs < probe 500µs
+  [LAT] Path 65441: 32.7µs (0.1GB/s)
+  [SKIP] Gap 242µs < probe 500µs
+  [LAT] Path 65441: 23.4µs (0.2GB/s)
+  [BW] Path 36661: 6661.8µs (20.1GB/s)
+  [BW] Path 36661: 6529.8µs (20.6GB/s)
+  [LAT] Path 56659: 110.2µs (0.0GB/s)
+  [LAT] Path 56659: 25.0µs (0.2GB/s)
+  [SKIP] Gap 157µs < probe 5100µs
+  [SKIP] Gap 177µs < probe 5100µs
+  [SKIP] Gap 165µs < probe 5100µs
+  [SKIP] Gap 199µs < probe 5100µs
+  [SKIP] Gap 162µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 159µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [SKIP] Gap 160µs < probe 500µs
+  [SKIP] Gap 190µs < probe 500µs
+  [SKIP] Gap 187µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [SKIP] Gap 174µs < probe 500µs
+  [SKIP] Gap 179µs < probe 500µs
+  [SKIP] Gap 168µs < probe 500µs
+  [SKIP] Gap 176µs < probe 500µs
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [SKIP] Gap 164µs < probe 500µs
+  [SKIP] Gap 168µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [LAT] Path 31572: 141.7µs (0.0GB/s)
+  [LAT] Path 31572: 71.3µs (0.1GB/s)
+  [BW] Path 36661: 6523.2µs (20.6GB/s)
+  [BW] Path 36661: 6794.2µs (19.8GB/s)
+  [BW] Path 35431: 9712.8µs (13.8GB/s)
+  [BW] Path 35431: 6884.2µs (19.5GB/s)
+  [SKIP] Gap 168µs < probe 500µs
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 168µs < probe 500µs
+  [SKIP] Gap 177µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 181µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 164µs < probe 500µs
+  [SKIP] Gap 164µs < probe 500µs
+  [SKIP] Gap 184µs < probe 500µs
+  [SKIP] Gap 164µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 185µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [SKIP] Gap 168µs < probe 500µs
+  [SKIP] Gap 173µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [LAT] Path 10145: 126.1µs (0.0GB/s)
+  [LAT] Path 10145: 66.7µs (0.1GB/s)
+  [BW] Path 35431: 6926.5µs (19.4GB/s)
+  [BW] Path 35431: 6682.0µs (20.1GB/s)
+  [BW] Path 36012: 6521.8µs (20.6GB/s)
+  [BW] Path 36012: 6502.7µs (20.6GB/s)
+  [LAT] Path 10145: 165.1µs (0.0GB/s)
+  [LAT] Path 10145: 24.5µs (0.2GB/s)
+  [SKIP] Gap 231µs < probe 500µs
+  [SKIP] Gap 200µs < probe 500µs
+  [SKIP] Gap 184µs < probe 500µs
+  [LAT] Path 10145: 32.1µs (0.1GB/s)
+  [SKIP] Gap 231µs < probe 500µs
+  [LAT] Path 10145: 23.7µs (0.2GB/s)
+  [SKIP] Gap 197µs < probe 500µs
+  [SKIP] Gap 216µs < probe 500µs
+  [LAT] Path 10145: 31.8µs (0.1GB/s)
+  [SKIP] Gap 246µs < probe 500µs
+  [LAT] Path 10145: 23.4µs (0.2GB/s)
+  [SKIP] Gap 184µs < probe 5100µs
+  [BW] Path 36012: 6597.8µs (20.3GB/s)
+  [SKIP] Gap 250µs < probe 5100µs
+  [SKIP] Gap 3917µs < probe 5100µs
+  [SKIP] Gap 229µs < probe 500µs
+  [SKIP] Gap 232µs < probe 500µs
+  [SKIP] Gap 193µs < probe 500µs
+  [BW] Path 36012: 6860.4µs (19.6GB/s)
+  [LAT] Path 56659: 32.0µs (0.1GB/s)
+  [SKIP] Gap 241µs < probe 500µs
+  [SKIP] Gap 194µs < probe 500µs
+  [SKIP] Gap 196µs < probe 500µs
+  [LAT] Path 36012: 24.5µs (0.2GB/s)
+  [SKIP] Gap 243µs < probe 500µs
+  [SKIP] Gap 200µs < probe 500µs
+  [SKIP] Gap 195µs < probe 500µs
+  [LAT] Path 36012: 31.4µs (0.1GB/s)
+  [SKIP] Gap 234µs < probe 500µs
+  [LAT] Path 36012: 23.2µs (0.2GB/s)
+  [SKIP] Gap 169µs < probe 5100µs
+  [BW] Path 16080: 6535.0µs (20.5GB/s)
+  [SKIP] Gap 247µs < probe 5100µs
+  [SKIP] Gap 3882µs < probe 5100µs
+  [SKIP] Gap 229µs < probe 500µs
+  [SKIP] Gap 210µs < probe 500µs
+  [SKIP] Gap 183µs < probe 500µs
+  [BW] Path 16080: 6732.2µs (19.9GB/s)
+  [LAT] Path 16080: 31.8µs (0.1GB/s)
+  [SKIP] Gap 243µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [SKIP] Gap 177µs < probe 500µs
+  [LAT] Path 16080: 23.8µs (0.2GB/s)
+  [SKIP] Gap 193µs < probe 500µs
+  [SKIP] Gap 183µs < probe 500µs
+  [LAT] Path 16080: 31.6µs (0.1GB/s)
+  [SKIP] Gap 226µs < probe 500µs
+  [LAT] Path 16080: 24.1µs (0.2GB/s)
+  [LAT] Path 31572: 158.5µs (0.0GB/s)
+  [LAT] Path 31572: 24.0µs (0.2GB/s)
+  [SKIP] Gap 430µs < probe 500µs
+  [BW] Path 56659: 6621.7µs (20.3GB/s)
+  [SKIP] Gap 217µs < probe 500µs
+  [SKIP] Gap 190µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [LAT] Path 31572: 25.4µs (0.2GB/s)
+  [SKIP] Gap 178µs < probe 5100µs
+  [SKIP] Gap 165µs < probe 5100µs
+  [BW] Path 56659: 7435.9µs (18.1GB/s)
+  [SKIP] Gap 248µs < probe 5100µs
+  [SKIP] Gap 3826µs < probe 5100µs
+  [SKIP] Gap 215µs < probe 5100µs
+  [SKIP] Gap 171µs < probe 5100µs
+  [SKIP] Gap 172µs < probe 5100µs
+  [BW] Path 56659: 8542.2µs (15.7GB/s)
+  [SKIP] Gap 3863µs < probe 5100µs
+  [SKIP] Gap 209µs < probe 5100µs
+  [SKIP] Gap 175µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [BW] Path 56659: 6712.8µs (20.0GB/s)
+  [SKIP] Gap 234µs < probe 5100µs
+  [BW] Path 56659: 6843.7µs (19.6GB/s)
+  [SKIP] Gap 219µs < probe 500µs
+  [SKIP] Gap 195µs < probe 500µs
+  [SKIP] Gap 177µs < probe 500µs
+  [LAT] Path 65441: 32.1µs (0.1GB/s)
+  [SKIP] Gap 215µs < probe 500µs
+  [LAT] Path 65441: 23.7µs (0.2GB/s)
+  [SKIP] Gap 3883µs < probe 5100µs
+  [SKIP] Gap 225µs < probe 5100µs
+  [SKIP] Gap 205µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [BW] Path 35431: 6659.9µs (20.1GB/s)
+  [SKIP] Gap 231µs < probe 5100µs
+  [BW] Path 35431: 6802.3µs (19.7GB/s)
+  [BW] Path 36012: 6647.0µs (20.2GB/s)
+  [BW] Path 36012: 6530.6µs (20.6GB/s)
+  [BW] Path 36661: 7002.8µs (19.2GB/s)
+  [BW] Path 36661: 8542.6µs (15.7GB/s)
+  [BW] Path 35431: 9116.9µs (14.7GB/s)
+  [BW] Path 35431: 6612.7µs (20.3GB/s)
+  [LAT] Path 65441: 31.3µs (0.1GB/s)
+  [LAT] Path 65441: 23.4µs (0.2GB/s)
+  [BW] Path 10145: 6818.9µs (19.7GB/s)
+  [BW] Path 10145: 6714.0µs (20.0GB/s)
+  [BW] Path 56659: 6599.1µs (20.3GB/s)
+  [BW] Path 56659: 6546.5µs (20.5GB/s)
+  [BW] Path 36012: 6548.6µs (20.5GB/s)
+  [BW] Path 36012: 9413.5µs (14.3GB/s)
+  [BW] Path 36012: 6700.0µs (20.0GB/s)
+  [BW] Path 36012: 6681.6µs (20.1GB/s)
+  [BW] Path 36661: 6598.1µs (20.3GB/s)
+  [SKIP] Gap 301µs < probe 5100µs
+  [SKIP] Gap 167µs < probe 5100µs
+  [SKIP] Gap 195µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [SKIP] Gap 156µs < probe 5100µs
+  [SKIP] Gap 178µs < probe 5100µs
+  [SKIP] Gap 157µs < probe 5100µs
+  [SKIP] Gap 184µs < probe 5100µs
+  [SKIP] Gap 157µs < probe 5100µs
+  [SKIP] Gap 174µs < probe 5100µs
+  [SKIP] Gap 183µs < probe 5100µs
+  [SKIP] Gap 175µs < probe 5100µs
+  [SKIP] Gap 152µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [SKIP] Gap 158µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [SKIP] Gap 157µs < probe 5100µs
+  [SKIP] Gap 178µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [SKIP] Gap 189µs < probe 500µs
+  [SKIP] Gap 151µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 151µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [SKIP] Gap 151µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 187µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 313µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 152µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 164µs < probe 500µs
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [SKIP] Gap 150µs < probe 500µs
+  [SKIP] Gap 180µs < probe 500µs
+  [SKIP] Gap 155µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 156µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [LAT] Path 36661: 134.2µs (0.0GB/s)
+  [SKIP] Gap 183µs < probe 5100µs
+  [BW] Path 36012: 6580.7µs (20.4GB/s)
+  [SKIP] Gap 306µs < probe 5100µs
+  [SKIP] Gap 3798µs < probe 5100µs
+  [SKIP] Gap 240µs < probe 5100µs
+  [SKIP] Gap 216µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 5100µs
+  [BW] Path 36012: 6825.1µs (19.7GB/s)
+  [SKIP] Gap 187µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 5100µs
+  [BW] Path 36012: 6676.9µs (20.1GB/s)
+  [SKIP] Gap 230µs < probe 5100µs
+  [BW] Path 36012: 6806.4µs (19.7GB/s)
+  [SKIP] Gap 219µs < probe 500µs
+  [SKIP] Gap 225µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [LAT] Path 16080: 32.4µs (0.1GB/s)
+  [SKIP] Gap 218µs < probe 500µs
+  [LAT] Path 16080: 24.2µs (0.2GB/s)
+  [SKIP] Gap 187µs < probe 500µs
+  [SKIP] Gap 182µs < probe 500µs
+  [LAT] Path 31572: 29.3µs (0.1GB/s)
+  [SKIP] Gap 218µs < probe 500µs
+  [LAT] Path 31572: 23.1µs (0.2GB/s)
+  [SKIP] Gap 218µs < probe 5100µs
+  [SKIP] Gap 3897µs < probe 5100µs
+  [SKIP] Gap 231µs < probe 5100µs
+  [SKIP] Gap 226µs < probe 5100µs
+  [SKIP] Gap 180µs < probe 5100µs
+  [BW] Path 35431: 6641.4µs (20.2GB/s)
+  [SKIP] Gap 224µs < probe 5100µs
+  [BW] Path 35431: 6582.1µs (20.4GB/s)
+  [LAT] Path 36661: 159.9µs (0.0GB/s)
+  [LAT] Path 36661: 24.1µs (0.2GB/s)
+  [SKIP] Gap 3853µs < probe 5100µs
+  [BW] Path 35431: 6593.7µs (20.4GB/s)
+  [BW] Path 35431: 6678.4µs (20.1GB/s)
+  [BW] Path 56659: 6589.9µs (20.4GB/s)
+  [SKIP] Gap 3863µs < probe 5100µs
+  [BW] Path 56659: 8579.2µs (15.6GB/s)
+  [SKIP] Gap 163µs < probe 5100µs
+  [SKIP] Gap 169µs < probe 5100µs
+  [SKIP] Gap 154µs < probe 5100µs
+  [SKIP] Gap 172µs < probe 5100µs
+  [SKIP] Gap 153µs < probe 5100µs
+  [SKIP] Gap 168µs < probe 5100µs
+  [SKIP] Gap 154µs < probe 5100µs
+  [SKIP] Gap 188µs < probe 500µs
+  [SKIP] Gap 155µs < probe 500µs
+  [SKIP] Gap 161µs < probe 500µs
+  [SKIP] Gap 158µs < probe 500µs
+  [SKIP] Gap 173µs < probe 500µs
+  [SKIP] Gap 161µs < probe 500µs
+  [SKIP] Gap 179µs < probe 500µs
+  [SKIP] Gap 154µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [SKIP] Gap 158µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 158µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 156µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 153µs < probe 500µs
+  [SKIP] Gap 191µs < probe 500µs
+  [SKIP] Gap 155µs < probe 500µs
+  [SKIP] Gap 177µs < probe 500µs
+  [SKIP] Gap 157µs < probe 500µs
+  [SKIP] Gap 178µs < probe 500µs
+  [SKIP] Gap 155µs < probe 500µs
+  [LAT] Path 56659: 118.8µs (0.0GB/s)
+  [LAT] Path 56659: 63.9µs (0.1GB/s)
+  [BW] Path 65441: 7008.4µs (19.1GB/s)
+  [BW] Path 65441: 8735.3µs (15.4GB/s)
+  [LAT] Path 56659: 29.9µs (0.1GB/s)
+  [LAT] Path 56659: 23.7µs (0.2GB/s)
+  [BW] Path 16080: 6515.1µs (20.6GB/s)
+  [BW] Path 16080: 6685.4µs (20.1GB/s)
+  [BW] Path 35431: 6759.8µs (19.9GB/s)
+  [BW] Path 35431: 6726.7µs (19.9GB/s)
+  [BW] Path 10145: 6581.2µs (20.4GB/s)
+  [BW] Path 10145: 6685.0µs (20.1GB/s)
+  [LAT] Path 62469: 33.0µs (0.1GB/s)
+  [SKIP] Gap 247µs < probe 500µs
+  [LAT] Path 62469: 23.2µs (0.2GB/s)
+  [LAT] Path 62469: 33.4µs (0.1GB/s)
+  [SKIP] Gap 243µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 174µs < probe 500µs
+  [LAT] Path 62469: 23.5µs (0.2GB/s)
+  [SKIP] Gap 175µs < probe 5100µs
+  [BW] Path 10145: 6619.1µs (20.3GB/s)
+  [SKIP] Gap 243µs < probe 5100µs
+  [SKIP] Gap 3910µs < probe 5100µs
+  [SKIP] Gap 234µs < probe 5100µs
+  [SKIP] Gap 205µs < probe 5100µs
+  [SKIP] Gap 184µs < probe 5100µs
+  [BW] Path 10145: 6759.2µs (19.9GB/s)
+  [LAT] Path 56659: 31.9µs (0.1GB/s)
+  [SKIP] Gap 3875µs < probe 5100µs
+  [SKIP] Gap 221µs < probe 5100µs
+  [SKIP] Gap 187µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 500µs
+  [BW] Path 10145: 6547.9µs (20.5GB/s)
+  [SKIP] Gap 225µs < probe 500µs
+  [LAT] Path 10145: 32.4µs (0.1GB/s)
+  [SKIP] Gap 216µs < probe 500µs
+  [SKIP] Gap 202µs < probe 500µs
+  [SKIP] Gap 176µs < probe 500µs
+  [LAT] Path 10145: 23.5µs (0.2GB/s)
+  [SKIP] Gap 172µs < probe 5100µs
+  [BW] Path 16080: 6951.6µs (19.3GB/s)
+  [SKIP] Gap 250µs < probe 5100µs
+  [SKIP] Gap 3957µs < probe 5100µs
+  [SKIP] Gap 230µs < probe 5100µs
+  [SKIP] Gap 208µs < probe 5100µs
+  [SKIP] Gap 184µs < probe 500µs
+  [BW] Path 16080: 6839.4µs (19.6GB/s)
+  [LAT] Path 56659: 40.9µs (0.1GB/s)
+  [BW] Path 56659: 6462.8µs (20.8GB/s)
+  [SKIP] Gap 228µs < probe 5100µs
+  [SKIP] Gap 3866µs < probe 5100µs
+  [SKIP] Gap 221µs < probe 5100µs
+  [SKIP] Gap 175µs < probe 5100µs
+  [SKIP] Gap 174µs < probe 5100µs
+  [BW] Path 56659: 8758.6µs (15.3GB/s)
+  [SKIP] Gap 229µs < probe 5100µs
+  [BW] Path 56659: 7982.9µs (16.8GB/s)
+  [SKIP] Gap 216µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [SKIP] Gap 180µs < probe 5100µs
+  [BW] Path 56659: 6672.3µs (20.1GB/s)
+  [SKIP] Gap 229µs < probe 5100µs
+  [BW] Path 56659: 6850.4µs (19.6GB/s)
+  [SKIP] Gap 229µs < probe 500µs
+  [LAT] Path 31572: 33.1µs (0.1GB/s)
+  [SKIP] Gap 228µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [SKIP] Gap 204µs < probe 500µs
+  [LAT] Path 31572: 23.9µs (0.2GB/s)
+  [SKIP] Gap 193µs < probe 500µs
+  [SKIP] Gap 190µs < probe 500µs
+  [LAT] Path 31572: 33.2µs (0.1GB/s)
+  [SKIP] Gap 226µs < probe 500µs
+  [LAT] Path 31572: 23.0µs (0.2GB/s)
+  [SKIP] Gap 236µs < probe 5100µs
+  [BW] Path 65441: 6586.6µs (20.4GB/s)
+  [SKIP] Gap 241µs < probe 5100µs
+  [SKIP] Gap 195µs < probe 5100µs
+  [SKIP] Gap 187µs < probe 500µs
+  [BW] Path 65441: 6667.1µs (20.1GB/s)
+  [SKIP] Gap 3832µs < probe 5100µs
+  [BW] Path 35431: 6735.1µs (19.9GB/s)
+  [BW] Path 35431: 6682.1µs (20.1GB/s)
+  [SKIP] Gap 3887µs < probe 5100µs
+  [BW] Path 16080: 8569.5µs (15.7GB/s)
+  [BW] Path 16080: 9205.5µs (14.6GB/s)
+  [LAT] Path 31572: 37.2µs (0.1GB/s)
+  [LAT] Path 31572: 24.8µs (0.2GB/s)
+  [BW] Path 10145: 6806.0µs (19.7GB/s)
+  [BW] Path 10145: 6676.9µs (20.1GB/s)
+  [BW] Path 35431: 6566.1µs (20.4GB/s)
+  [BW] Path 35431: 6635.9µs (20.2GB/s)
+  [BW] Path 31572: 6607.0µs (20.3GB/s)
+  [BW] Path 31572: 9898.5µs (13.6GB/s)
+  [BW] Path 56659: 6622.6µs (20.3GB/s)
+  [BW] Path 56659: 9970.6µs (13.5GB/s)
+  [BW] Path 10145: 6564.4µs (20.4GB/s)
+  [BW] Path 10145: 6757.8µs (19.9GB/s)
+  [SKIP] Gap 182µs < probe 500µs
+  [LAT] Path 62469: 67.9µs (0.1GB/s)
+  [SKIP] Gap 245µs < probe 500µs
+  [LAT] Path 62469: 23.5µs (0.2GB/s)
+  [SKIP] Gap 688µs < probe 5100µs
+  [SKIP] Gap 252µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [LAT] Path 62469: 30.8µs (0.1GB/s)
+  [SKIP] Gap 285µs < probe 500µs
+  [LAT] Path 62469: 23.3µs (0.2GB/s)
+  [LAT] Path 62469: 32.5µs (0.1GB/s)
+  [SKIP] Gap 253µs < probe 500µs
+  [SKIP] Gap 198µs < probe 500µs
+  [SKIP] Gap 203µs < probe 500µs
+  [LAT] Path 62469: 24.1µs (0.2GB/s)
+  [SKIP] Gap 205µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 5100µs
+  [BW] Path 31572: 6626.4µs (20.2GB/s)
+  [SKIP] Gap 229µs < probe 5100µs
+  [BW] Path 31572: 6739.7µs (19.9GB/s)
+  [BW] Path 10145: 6696.9µs (20.0GB/s)
+  [SKIP] Gap 235µs < probe 5100µs
+  [SKIP] Gap 186µs < probe 5100µs
+  [SKIP] Gap 187µs < probe 5100µs
+  [BW] Path 10145: 6567.1µs (20.4GB/s)
+  [SKIP] Gap 260µs < probe 5100µs
+  [SKIP] Gap 172µs < probe 5100µs
+  [SKIP] Gap 169µs < probe 5100µs
+  [BW] Path 56659: 6516.1µs (20.6GB/s)
+  [SKIP] Gap 223µs < probe 5100µs
+  [SKIP] Gap 3874µs < probe 5100µs
+  [SKIP] Gap 218µs < probe 5100µs
+  [SKIP] Gap 172µs < probe 5100µs
+  [SKIP] Gap 164µs < probe 5100µs
+  [BW] Path 56659: 8993.3µs (14.9GB/s)
+  [SKIP] Gap 227µs < probe 5100µs
+  [SKIP] Gap 188µs < probe 5100µs
+  [SKIP] Gap 185µs < probe 5100µs
+  [BW] Path 35431: 6608.4µs (20.3GB/s)
+  [SKIP] Gap 228µs < probe 5100µs
+  [SKIP] Gap 3914µs < probe 5100µs
+  [SKIP] Gap 222µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 5100µs
+  [SKIP] Gap 183µs < probe 5100µs
+  [BW] Path 35431: 6528.2µs (20.6GB/s)
+  [SKIP] Gap 247µs < probe 500µs
+  [LAT] Path 65441: 32.5µs (0.1GB/s)
+  [SKIP] Gap 222µs < probe 500µs
+  [SKIP] Gap 190µs < probe 500µs
+  [SKIP] Gap 189µs < probe 500µs
+  [LAT] Path 65441: 23.6µs (0.2GB/s)
+  [BW] Path 65441: 6608.7µs (20.3GB/s)
+  [BW] Path 65441: 6673.9µs (20.1GB/s)
+  [SKIP] Gap 3929µs < probe 5100µs
+  [BW] Path 36012: 6547.2µs (20.5GB/s)
+  [BW] Path 36012: 6675.1µs (20.1GB/s)
+  [BW] Path 35431: 9606.5µs (14.0GB/s)
+  [BW] Path 35431: 8809.4µs (15.2GB/s)
+  [BW] Path 65441: 8767.5µs (15.3GB/s)
+  [BW] Path 65441: 10220.1µs (13.1GB/s)
+  [BW] Path 35431: 6533.7µs (20.5GB/s)
+  [BW] Path 35431: 6687.9µs (20.1GB/s)
+  [BW] Path 31572: 7758.4µs (17.3GB/s)
+  [BW] Path 31572: 6884.8µs (19.5GB/s)
+  [BW] Path 35431: 6780.2µs (19.8GB/s)
+  [BW] Path 35431: 6907.6µs (19.4GB/s)
+  [BW] Path 10145: 6516.9µs (20.6GB/s)
+  [BW] Path 10145: 8925.8µs (15.0GB/s)
+  [BW] Path 35431: 6579.2µs (20.4GB/s)
+  [SKIP] Gap 316µs < probe 5100µs
+  [SKIP] Gap 170µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [SKIP] Gap 183µs < probe 5100µs
+  [SKIP] Gap 188µs < probe 5100µs
+  [SKIP] Gap 156µs < probe 5100µs
+  [SKIP] Gap 173µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [SKIP] Gap 171µs < probe 5100µs
+  [SKIP] Gap 162µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 5100µs
+  [SKIP] Gap 178µs < probe 5100µs
+  [SKIP] Gap 168µs < probe 5100µs
+  [SKIP] Gap 152µs < probe 5100µs
+  [SKIP] Gap 176µs < probe 5100µs
+  [SKIP] Gap 161µs < probe 5100µs
+  [SKIP] Gap 156µs < probe 500µs
+  [SKIP] Gap 174µs < probe 500µs
+  [SKIP] Gap 176µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 155µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 160µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 154µs < probe 500µs
+  [SKIP] Gap 181µs < probe 500µs
+  [SKIP] Gap 177µs < probe 500µs
+  [SKIP] Gap 180µs < probe 500µs
+  [SKIP] Gap 156µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 152µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 155µs < probe 500µs
+  [SKIP] Gap 169µs < probe 500µs
+  [SKIP] Gap 172µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [SKIP] Gap 160µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [LAT] Path 35431: 111.5µs (0.0GB/s)
+  [SKIP] Gap 184µs < probe 5100µs
+  [BW] Path 36012: 6707.8µs (20.0GB/s)
+  [SKIP] Gap 247µs < probe 5100µs
+  [SKIP] Gap 3770µs < probe 5100µs
+  [SKIP] Gap 232µs < probe 5100µs
+  [SKIP] Gap 219µs < probe 5100µs
+  [SKIP] Gap 193µs < probe 5100µs
+  [BW] Path 36012: 6671.6µs (20.1GB/s)
+  [SKIP] Gap 1628µs < probe 5100µs
+  [BW] Path 36012: 6652.9µs (20.2GB/s)
+  [SKIP] Gap 234µs < probe 5100µs
+  [SKIP] Gap 193µs < probe 5100µs
+  [SKIP] Gap 194µs < probe 5100µs
+  [BW] Path 36012: 7108.5µs (18.9GB/s)
+  [SKIP] Gap 188µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [LAT] Path 34945: 33.6µs (0.1GB/s)
+  [SKIP] Gap 242µs < probe 500µs
+  [LAT] Path 34945: 23.6µs (0.2GB/s)
+  [SKIP] Gap 331µs < probe 5100µs
+  [SKIP] Gap 181µs < probe 5100µs
+  [BW] Path 10145: 6693.4µs (20.1GB/s)
+  [SKIP] Gap 249µs < probe 5100µs
+  [SKIP] Gap 3819µs < probe 5100µs
+  [SKIP] Gap 238µs < probe 5100µs
+  [SKIP] Gap 200µs < probe 5100µs
+  [SKIP] Gap 233µs < probe 500µs
+  [BW] Path 10145: 6696.6µs (20.0GB/s)
+  [SKIP] Gap 240µs < probe 5100µs
+  [SKIP] Gap 194µs < probe 500µs
+  [SKIP] Gap 183µs < probe 500µs
+  [LAT] Path 10145: 24.9µs (0.2GB/s)
+  [SKIP] Gap 202µs < probe 500µs
+  [SKIP] Gap 182µs < probe 500µs
+  [LAT] Path 10145: 32.5µs (0.1GB/s)
+  [SKIP] Gap 233µs < probe 500µs
+  [BW] Path 10145: 6628.2µs (20.2GB/s)
+  [SKIP] Gap 175µs < probe 5100µs
+  [BW] Path 56659: 6535.1µs (20.5GB/s)
+  [SKIP] Gap 242µs < probe 5100µs
+  [SKIP] Gap 3915µs < probe 5100µs
+  [SKIP] Gap 226µs < probe 500µs
+  [SKIP] Gap 208µs < probe 500µs
+  [SKIP] Gap 178µs < probe 500µs
+  [LAT] Path 56659: 25.1µs (0.2GB/s)
+  [LAT] Path 56659: 31.8µs (0.1GB/s)
+  [SKIP] Gap 233µs < probe 500µs
+  [SKIP] Gap 199µs < probe 500µs
+  [SKIP] Gap 177µs < probe 500µs
+  [LAT] Path 56659: 156.6µs (0.0GB/s)
+  [BW] Path 56659: 6683.7µs (20.1GB/s)
+  [SKIP] Gap 245µs < probe 500µs
+  [SKIP] Gap 198µs < probe 500µs
+  [SKIP] Gap 199µs < probe 500µs
+  [LAT] Path 56659: 25.4µs (0.2GB/s)
+  [SKIP] Gap 196µs < probe 5100µs
+  [SKIP] Gap 182µs < probe 5100µs
+  [BW] Path 16080: 6622.6µs (20.3GB/s)
+  [SKIP] Gap 241µs < probe 5100µs
+  [SKIP] Gap 3895µs < probe 5100µs
+  [SKIP] Gap 214µs < probe 500µs
+  [SKIP] Gap 201µs < probe 500µs
+  [SKIP] Gap 185µs < probe 500µs
+  [LAT] Path 16080: 26.4µs (0.2GB/s)
+  [LAT] Path 42537: 32.3µs (0.1GB/s)
+  [SKIP] Gap 229µs < probe 500µs
+  [SKIP] Gap 162µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [LAT] Path 42537: 23.4µs (0.2GB/s)
+  [SKIP] Gap 210µs < probe 5100µs
+  [SKIP] Gap 186µs < probe 5100µs
+  [BW] Path 31572: 6529.0µs (20.6GB/s)
+  [SKIP] Gap 270µs < probe 5100µs
+  [BW] Path 31572: 6754.6µs (19.9GB/s)
+  [LAT] Path 36661: 33.0µs (0.1GB/s)
+  [SKIP] Gap 224µs < probe 500µs
+  [LAT] Path 36661: 24.1µs (0.2GB/s)
+  [SKIP] Gap 228µs < probe 500µs
+  [LAT] Path 36661: 31.8µs (0.1GB/s)
+  [SKIP] Gap 310µs < probe 500µs
+  [SKIP] Gap 224µs < probe 500µs
+  [SKIP] Gap 192µs < probe 500µs
+  [LAT] Path 36661: 23.7µs (0.2GB/s)
+  [LAT] Path 35431: 32.7µs (0.1GB/s)
+  [SKIP] Gap 229µs < probe 500µs
+  [SKIP] Gap 188µs < probe 500µs
+  [SKIP] Gap 189µs < probe 500µs
+  [LAT] Path 35431: 23.6µs (0.2GB/s)
+  [LAT] Path 35431: 30.2µs (0.1GB/s)
+  [LAT] Path 35431: 23.0µs (0.2GB/s)
+  [LAT] Path 35431: 29.4µs (0.1GB/s)
+  [LAT] Path 35431: 22.9µs (0.2GB/s)
+  [SKIP] Gap 360µs < probe 500µs
+  [SKIP] Gap 209µs < probe 500µs
+  [SKIP] Gap 193µs < probe 500µs
+  [SKIP] Gap 191µs < probe 500µs
+  [SKIP] Gap 182µs < probe 500µs
+  [SKIP] Gap 213µs < probe 500µs
+  [SKIP] Gap 170µs < probe 500µs
+  [SKIP] Gap 190µs < probe 500µs
+  [SKIP] Gap 164µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [SKIP] Gap 180µs < probe 500µs
+  [SKIP] Gap 187µs < probe 500µs
+  [SKIP] Gap 233µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 183µs < probe 500µs
+  [SKIP] Gap 171µs < probe 500µs
+  [SKIP] Gap 179µs < probe 500µs
+  [SKIP] Gap 158µs < probe 500µs
+  [SKIP] Gap 187µs < probe 500µs
+  [SKIP] Gap 173µs < probe 500µs
+  [SKIP] Gap 201µs < probe 500µs
+  [LAT] Path 10145: 125.1µs (0.0GB/s)
+  [LAT] Path 10145: 71.1µs (0.1GB/s)
+  [BW] Path 56659: 7558.1µs (17.8GB/s)
+  [BW] Path 56659: 6689.2µs (20.1GB/s)
+  [BW] Path 65441: 6529.3µs (20.6GB/s)
+  [BW] Path 65441: 6617.0µs (20.3GB/s)
+  [BW] Path 65441: 6639.8µs (20.2GB/s)
+  [BW] Path 65441: 6670.7µs (20.1GB/s)
+  [BW] Path 35431: 6535.9µs (20.5GB/s)
+  [BW] Path 35431: 6534.5µs (20.5GB/s)
+  [LAT] Path 36661: 63.1µs (0.1GB/s)
+  [BW] Path 36661: 6476.0µs (20.7GB/s)
+  [SKIP] Gap 191µs < probe 500µs
+  [SKIP] Gap 267µs < probe 500µs
+  [LAT] Path 34468: 31.9µs (0.1GB/s)
+  [SKIP] Gap 276µs < probe 500µs
+  [SKIP] Gap 200µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [LAT] Path 34468: 23.6µs (0.2GB/s)
+  [SKIP] Gap 256µs < probe 500µs
+  [LAT] Path 34468: 32.2µs (0.1GB/s)
+  [SKIP] Gap 226µs < probe 500µs
+  [SKIP] Gap 198µs < probe 500µs
+  [SKIP] Gap 189µs < probe 500µs
+  [LAT] Path 34468: 24.2µs (0.2GB/s)
+  [SKIP] Gap 216µs < probe 5100µs
+  [SKIP] Gap 186µs < probe 5100µs
+  [SKIP] Gap 174µs < probe 500µs
+  [BW] Path 36012: 7201.6µs (18.6GB/s)
+  [SKIP] Gap 217µs < probe 500µs
+  [LAT] Path 36012: 55.1µs (0.1GB/s)
+  [SKIP] Gap 236µs < probe 5100µs
+  [BW] Path 31572: 6532.7µs (20.6GB/s)
+  [SKIP] Gap 226µs < probe 5100µs
+  [SKIP] Gap 191µs < probe 5100µs
+  [SKIP] Gap 190µs < probe 5100µs
+  [BW] Path 31572: 8676.2µs (15.5GB/s)
+  [SKIP] Gap 247µs < probe 5100µs
+  [BW] Path 56659: 6506.5µs (20.6GB/s)
+  [SKIP] Gap 242µs < probe 5100µs
+  [SKIP] Gap 197µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 5100µs
+  [BW] Path 56659: 6545.9µs (20.5GB/s)
+  [SKIP] Gap 227µs < probe 5100µs
+  [BW] Path 65441: 6575.6µs (20.4GB/s)
+  [SKIP] Gap 232µs < probe 5100µs
+  [SKIP] Gap 198µs < probe 5100µs
+  [SKIP] Gap 188µs < probe 5100µs
+  [BW] Path 65441: 6580.3µs (20.4GB/s)
+  [SKIP] Gap 209µs < probe 5100µs
+  [SKIP] Gap 195µs < probe 5100µs
+  [BW] Path 65441: 6862.9µs (19.6GB/s)
+  [SKIP] Gap 235µs < probe 5100µs
+  [BW] Path 65441: 7616.7µs (17.6GB/s)
+  [SKIP] Gap 3876µs < probe 5100µs
+  [BW] Path 35431: 6572.2µs (20.4GB/s)
+  [BW] Path 35431: 8572.2µs (15.7GB/s)
+  [BW] Path 36661: 6697.3µs (20.0GB/s)
+  [BW] Path 36661: 6960.4µs (19.3GB/s)
+  [BW] Path 56659: 7096.7µs (18.9GB/s)
+  [BW] Path 56659: 9524.7µs (14.1GB/s)
+  [BW] Path 65441: 6518.5µs (20.6GB/s)
+  [BW] Path 65441: 6691.1µs (20.1GB/s)
+  [BW] Path 36661: 7393.0µs (18.1GB/s)
+  [BW] Path 36661: 7308.3µs (18.4GB/s)
+  [BW] Path 36661: 6863.5µs (19.6GB/s)
+  [BW] Path 36661: 6909.8µs (19.4GB/s)
+  [BW] Path 16080: 6579.8µs (20.4GB/s)
+  [BW] Path 16080: 6657.9µs (20.2GB/s)
+  [SKIP] Gap 178µs < probe 5100µs
+  [SKIP] Gap 157µs < probe 5100µs
+  [SKIP] Gap 159µs < probe 5100µs
+  [SKIP] Gap 163µs < probe 5100µs
+  [SKIP] Gap 162µs < probe 5100µs
+  [SKIP] Gap 169µs < probe 5100µs
+  [SKIP] Gap 159µs < probe 5100µs
+  [SKIP] Gap 160µs < probe 5100µs
+  [SKIP] Gap 177µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [SKIP] Gap 166µs < probe 500µs
+  [SKIP] Gap 165µs < probe 500µs
+  [SKIP] Gap 154µs < probe 500µs
+  [SKIP] Gap 161µs < probe 500µs
+  [SKIP] Gap 161µs < probe 500µs
+  [SKIP] Gap 160µs < probe 500µs
+  [SKIP] Gap 193µs < probe 500µs
+  [SKIP] Gap 158µs < probe 500µs
+  [SKIP] Gap 160µs < probe 500µs
+  [SKIP] Gap 180µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [SKIP] Gap 157µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [SKIP] Gap 157µs < probe 500µs
+  [SKIP] Gap 175µs < probe 500µs
+  [SKIP] Gap 159µs < probe 500µs
+  [SKIP] Gap 157µs < probe 500µs
+  [SKIP] Gap 167µs < probe 500µs
+  [SKIP] Gap 155µs < probe 500µs
+  [SKIP] Gap 163µs < probe 500µs
+  [LAT] Path 65441: 165.6µs (0.0GB/s)
+  [LAT] Path 65441: 64.7µs (0.1GB/s)
+  [LAT] Path 10145: 170.0µs (0.0GB/s)
+  [LAT] Path 10145: 65.6µs (0.1GB/s)
+  [SKIP] Gap 397µs < probe 5100µs
+  [LAT] Path 10145: 124.7µs (0.0GB/s)
+  [LAT] Path 10145: 63.5µs (0.1GB/s)
+  [LAT] Path 10145: 150.1µs (0.0GB/s)
+  [LAT] Path 10145: 64.8µs (0.1GB/s)
+  [SKIP] Gap 181µs < probe 500µs
+  [LAT] Path 36012: 30.8µs (0.1GB/s)
+  [SKIP] Gap 243µs < probe 500µs
+  [LAT] Path 36012: 23.4µs (0.2GB/s)
+  [LAT] Path 36012: 32.2µs (0.1GB/s)
+  [SKIP] Gap 235µs < probe 500µs
+  [LAT] Path 36012: 24.6µs (0.2GB/s)
+  [SKIP] Gap 241µs < probe 500µs
+  [LAT] Path 62469: 29.2µs (0.1GB/s)
+  [SKIP] Gap 229µs < probe 500µs
+  [SKIP] Gap 230µs < probe 500µs
+  [SKIP] Gap 180µs < probe 500µs
+  [LAT] Path 62469: 25.6µs (0.2GB/s)
+  [BW] Path 36661: 6526.9µs (20.6GB/s)
+  [SKIP] Gap 225µs < probe 5100µs
+  [SKIP] Gap 195µs < probe 5100µs
+  [SKIP] Gap 187µs < probe 5100µs
+  [BW] Path 36661: 7458.6µs (18.0GB/s)
+  [SKIP] Gap 193µs < probe 5100µs
+  [SKIP] Gap 193µs < probe 5100µs
+  [BW] Path 36661: 6557.0µs (20.5GB/s)
+  [SKIP] Gap 225µs < probe 5100µs
+  [SKIP] Gap 3834µs < probe 5100µs
+  [SKIP] Gap 220µs < probe 500µs
+  [SKIP] Gap 217µs < probe 500µs
+  [SKIP] Gap 194µs < probe 500µs
+  [LAT] Path 36661: 26.9µs (0.1GB/s)
+  [SKIP] Gap 3787µs < probe 5100µs
+  [SKIP] Gap 222µs < probe 5100µs
+  [SKIP] Gap 204µs < probe 5100µs
+  [SKIP] Gap 177µs < probe 5100µs
+  [BW] Path 35431: 6551.4µs (20.5GB/s)
+  [SKIP] Gap 223µs < probe 5100µs
+  [BW] Path 35431: 6754.1µs (19.9GB/s)
+  [SKIP] Gap 183µs < probe 5100µs
+  [SKIP] Gap 192µs < probe 5100µs
+  [BW] Path 35431: 6606.1µs (20.3GB/s)
+  [SKIP] Gap 375µs < probe 5100µs
+  [SKIP] Gap 3841µs < probe 5100µs
+  [SKIP] Gap 225µs < probe 500µs
+  [SKIP] Gap 185µs < probe 500µs
+  [SKIP] Gap 186µs < probe 500µs
+  [LAT] Path 35431: 25.8µs (0.2GB/s)

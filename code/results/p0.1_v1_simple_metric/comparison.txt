@@ -1,0 +1,15 @@
+P0.1 — 7-Policy Comparison on Pass 2 Trace
+Date: 2026-06-09 18:23
+Events: 171869, Paths: 48, Gaps: 163475
+
+Policy                   Probes   Safe%  Unsafe
+----------------------------------------------
+no_probing                    0    0.0%       0
+fixed_interval             2405  100.0%       0
+random                     1609  100.0%       0
+threshold                163475   29.6%  115080
+ewma_only                102668   56.1%   45108
+flowgap_predictive       163206  100.0%       0
+oracle                   163475  100.0%       0
+
+Best non-oracle: fixed_interval (100.0%)

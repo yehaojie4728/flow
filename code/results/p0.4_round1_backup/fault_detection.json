@@ -1,0 +1,13 @@
+{
+  "baseline_gbps": 17.6,
+  "threshold": 0.7,
+  "degradation_threshold_gbps": 12.32,
+  "total_bw_probes": 903,
+  "degraded_probes": 150,
+  "detection_latency_sec": null,
+  "recall": null,
+  "precision": null,
+  "fault_start": 1781195773.0,
+  "fault_end": 1781196084.0,
+  "has_timestamp": false
+}

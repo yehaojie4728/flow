@@ -1,2 +1,10 @@
-FlowGap_socc2026_patch_pack.zip
-FlowGap_socc2026_patch_pack/
+__pycache__/
+*.pyc
+*.pyo
+data/collected/
+logs/
+models/
+results/
+third_party/
+.agents/
+PROGRESS.md

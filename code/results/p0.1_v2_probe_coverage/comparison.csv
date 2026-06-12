@@ -1,0 +1,8 @@
+policy,total_probes,bw_probes,normal_probes,tiny_probes,bw_ratio_pct,overhead_pct,avg_gap_util_pct,unsafe_probes,unsafe_rate_pct,paths_covered,dt_s
+no_probing,0,0,0,0,0.0,0.0,0.0,0,0.0,0,0.4
+fixed_interval,2405,0,0,2405,0.0,0.002,9.2,0,0.0,36,0.5
+random,1614,529,574,511,32.8,0.0501,686.8,740,45.8,22,0.5
+threshold,163475,55502,107973,0,34.0,5.611,201.3,115080,70.4,45,1.4
+ewma_only,102668,57334,38604,6730,55.8,5.1947,404.2,45108,43.9,24,27.0
+flowgap_predictive,163206,37853,3654,121699,23.2,3.3455,27.4,0,0.0,25,204.7
+oracle,163475,48395,7107,107973,29.6,4.2579,30.1,0,0.0,45,1.5

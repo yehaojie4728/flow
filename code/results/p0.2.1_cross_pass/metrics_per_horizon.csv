@@ -1,0 +1,4 @@
+precision,recall,false_safe_rate,brier_score,n,tp,fp,fn,tn,horizon_ns,horizon_label,train_time_s,train_positive_samples,test_positive_samples
+1.0,1.0,0.0,0.0,15945,15945,0,0,0,50000,50µs(TINY),0.0,16166,15945
+0.9647,0.9608,0.015,0.0172,15945,4589,168,187,11001,500000,500µs(NORMAL),12.99,5180,4776
+0.9636,0.9425,0.0123,0.0177,15945,3869,146,236,11694,5100000,5.1ms(BW),12.7,4526,4105

@@ -1,0 +1,4 @@
+horizon_ns,horizon_label,ece,brier_score,avg_confidence,avg_accuracy
+50000,50µs(TINY),0.0,0.0,1.0,1.0
+500000,500µs(NORMAL),0.0183,0.0172,0.3114,0.2995
+5100000,5.1ms(BW),0.0179,0.0177,0.2674,0.2574

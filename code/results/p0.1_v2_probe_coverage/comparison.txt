@@ -1,0 +1,18 @@
+P0.1 v2 — 7-Policy Comparison on Pass 2 Trace
+Date: 2026-06-09 23:31
+Events: 171869, Paths: 48, Gaps: 163475
+Trace window: 6007s
+
+Policy                    Probes    BW%  Overhead%  Unsafe%  Paths  Time(s)
+-----------------------------------------------------------------------------------------------
+no_probing                     0   0.0%    0.0000%     0.0%      0
+fixed_interval              2405   0.0%    0.0020%     0.0%     36
+random                      1614  32.8%    0.0501%    45.8%     22
+threshold                 163475  34.0%    5.6110%    70.4%     45
+ewma_only                 102668  55.8%    5.1947%    43.9%     24
+flowgap_predictive        163206  23.2%    3.3455%     0.0%     25
+oracle                    163475  29.6%    4.2579%     0.0%     45
+
+Key: BW% = fraction of probes that are bandwidth probes (128 MB)
+      Overhead% = total probe time / trace window
+      Unsafe% = probes whose latency exceeded gap capacity
