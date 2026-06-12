@@ -9,7 +9,8 @@ Read first:
 - `docs/venue/socc2026_acm_prep.md`
 - `docs/submission_checklist_socc2026.md`
 - `docs/ai_usage_disclosure.md`
-
+- `docs/outline.md`
+- `docs/topic.md`
 Read also:
 
 - `docs/paper_storyline.md`

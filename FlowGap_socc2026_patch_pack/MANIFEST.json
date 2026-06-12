@@ -1,0 +1,29 @@
+{
+  "package": "FlowGap_socc2026_patch_pack",
+  "replace": [
+    "AGENTS.md",
+    "docs/MEGA_PROMPT.md",
+    "docs/claims.md",
+    "docs/prompts/00_codex_bootstrap_analyze_only.md",
+    "scripts/check_flowgap_pack_manifest.sh"
+  ],
+  "add": [
+    "docs/venue/socc2026_acm_prep.md",
+    "docs/prompts/07_codex_socc_paper_scaffold.md",
+    "docs/submission_checklist_socc2026.md",
+    "docs/ai_usage_disclosure.md"
+  ],
+  "delete_or_archive": [
+    "docs/venue/conext2026_acm_prep.md",
+    "docs/prompts/07_codex_conext_paper_scaffold.md"
+  ],
+  "unchanged": [
+    "docs/prompts/01_codex_reference_repo_analysis.md",
+    "docs/prompts/02_codex_environment_probe_plan.md",
+    "docs/prompts/03_codex_first_patch_plan.md",
+    "docs/prompts/04_codex_trace_parser_generation.md",
+    "docs/prompts/05_codex_gap_predictor_generation.md",
+    "docs/prompts/06_codex_scheduler_replay_generation.md",
+    "docs/skill_usage_policy.md"
+  ]
+}
