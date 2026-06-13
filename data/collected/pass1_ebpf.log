@@ -1,0 +1,5 @@
+Tracing aclrtMemcpy (Size >= 1000 B) with Topology Info...
+Output will be saved to /root/FlowGap-work/FlowGap-paper/scripts/../data/collected/pass1_raw.log
+Aggregation: src->dst overlap-merge mode (window-ms=100 kept for compatibility)
+Aggregated output will be saved to /root/FlowGap-work/FlowGap-paper/scripts/../data/collected/pass1_agg.log
+Using BPF cflags: -target aarch64-linux-gnu
