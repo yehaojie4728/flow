@@ -1,0 +1,39 @@
+nohup: ignoring input
+
+================================================================
+ FlowGap GLM-6B Full Trace Collection
+ 2 passes. Each pass: full training run (~76 min for 7162 steps)
+ Started: Sat Jun  6 15:55:49 CST 2026
+================================================================
+
+======================================================================
+  FlowGap Trace — pass1
+  Start: Sat Jun  6 15:55:49 CST 2026
+======================================================================
+[pass1] Cleaning /root/mindformers/output/ ...
+[pass1] Output cleaned.
+[pass1] Starting eBPF tracer...
+[pass1] Tracer PID = 2630741
+[pass1] Library: unknown
+[pass1] Starting GLM-6B training...
+[pass1] Training PID = 2630890
+[pass1] Waiting for training to complete...
+output_dir is /root/mindformers/output
+start training for rank 0, device 0
+log saved in /root/mindformers/output/log/rank_0
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+start training for rank 1, device 1
+log saved in /root/mindformers/output/log/rank_1
+start training for rank 2, device 2
+log saved in /root/mindformers/output/log/rank_2
+start training for rank 3, device 3
+log saved in /root/mindformers/output/log/rank_3
+start training for rank 4, device 4
+log saved in /root/mindformers/output/log/rank_4
+start training for rank 5, device 5
+log saved in /root/mindformers/output/log/rank_5
+start training for rank 6, device 6
+log saved in /root/mindformers/output/log/rank_6
+start training for rank 7, device 7
+log saved in /root/mindformers/output/log/rank_7

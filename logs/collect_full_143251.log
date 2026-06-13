@@ -1,0 +1,74 @@
+nohup: ignoring input
+Waiting 15s for HCCL cleanup...
+
+================================================================
+ FlowGap GLM-6B Full Trace Collection
+ 2 passes. Each pass: full training run (~76 min for 7162 steps)
+ Started: Sun Jun  7 14:33:07 CST 2026
+================================================================
+
+======================================================================
+  FlowGap Trace — pass1
+  Start: Sun Jun  7 14:33:07 CST 2026
+======================================================================
+[pass1] Cleaning /root/mindformers/output/ ...
+[pass1] Output cleaned.
+[pass1] Starting eBPF tracer...
+[pass1] Tracer PID = 945639
+[pass1] Library: unknown
+[pass1] Starting GLM-6B training...
+[pass1] Training PID = 945747
+[pass1] Waiting for training to complete...
+output_dir is /root/mindformers/output
+start training for rank 0, device 0
+log saved in /root/mindformers/output/log/rank_0
+[pass1] All training processes finished.
+start training for rank 1, device 1
+log saved in /root/mindformers/output/log/rank_1
+start training for rank 2, device 2
+log saved in /root/mindformers/output/log/rank_2
+start training for rank 3, device 3
+log saved in /root/mindformers/output/log/rank_3
+start training for rank 4, device 4
+log saved in /root/mindformers/output/log/rank_4
+start training for rank 5, device 5
+log saved in /root/mindformers/output/log/rank_5
+start training for rank 6, device 6
+log saved in /root/mindformers/output/log/rank_6
+start training for rank 7, device 7
+log saved in /root/mindformers/output/log/rank_7
+[pass1] Stopping tracer...
+[pass1] Done. Raw: 170557 lines, Agg: 168540 lines
+[pass1] Finished at Sun Jun  7 14:33:12 CST 2026
+
+Cooldown: 30s...
+
+======================================================================
+  FlowGap Trace — pass2
+  Start: Sun Jun  7 14:33:42 CST 2026
+======================================================================
+[pass2] Cleaning /root/mindformers/output/ ...
+[pass2] Output cleaned.
+[pass2] Starting eBPF tracer...
+[pass2] Tracer PID = 948659
+[pass2] Library: unknown
+[pass2] Starting GLM-6B training...
+[pass2] Training PID = 948798
+[pass2] Waiting for training to complete...
+output_dir is /root/mindformers/output
+start training for rank 0, device 0
+log saved in /root/mindformers/output/log/rank_0
+start training for rank 1, device 1
+log saved in /root/mindformers/output/log/rank_1
+start training for rank 2, device 2
+log saved in /root/mindformers/output/log/rank_2
+start training for rank 3, device 3
+log saved in /root/mindformers/output/log/rank_3
+start training for rank 4, device 4
+log saved in /root/mindformers/output/log/rank_4
+start training for rank 5, device 5
+log saved in /root/mindformers/output/log/rank_5
+start training for rank 6, device 6
+log saved in /root/mindformers/output/log/rank_6
+start training for rank 7, device 7
+log saved in /root/mindformers/output/log/rank_7

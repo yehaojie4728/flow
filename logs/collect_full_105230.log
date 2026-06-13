@@ -1,0 +1,1747 @@
+nohup: ignoring input
+
+================================================================
+ FlowGap GLM-6B Full Trace Collection
+ 2 passes. Each pass: full training run (~76 min for 7162 steps)
+ Started: Sun Jun  7 10:52:33 CST 2026
+================================================================
+
+======================================================================
+  FlowGap Trace — pass1
+  Start: Sun Jun  7 10:52:33 CST 2026
+======================================================================
+[pass1] Cleaning /root/mindformers/output/ ...
+[pass1] Output cleaned.
+[pass1] Starting eBPF tracer...
+[pass1] Tracer PID = 455249
+[pass1] Library: unknown
+[pass1] Starting GLM-6B training...
+[pass1] Training PID = 455389
+[pass1] Waiting for training to complete...
+output_dir is /root/mindformers/output
+start training for rank 0, device 0
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+log saved in /root/mindformers/output/log/rank_0
+start training for rank 1, device 1
+log saved in /root/mindformers/output/log/rank_1
+start training for rank 2, device 2
+log saved in /root/mindformers/output/log/rank_2
+start training for rank 3, device 3
+log saved in /root/mindformers/output/log/rank_3
+start training for rank 4, device 4
+log saved in /root/mindformers/output/log/rank_4
+start training for rank 5, device 5
+log saved in /root/mindformers/output/log/rank_5
+start training for rank 6, device 6
+log saved in /root/mindformers/output/log/rank_6
+start training for rank 7, device 7
+log saved in /root/mindformers/output/log/rank_7
+  [pass1] 2026-06-07 11:04:11,949 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[    4/ 7162], loss: 5.546, per_step_time: 114362ms, lr: 0.0, overflow cond: True, loss_scale: 268435460.0
+  [pass1] 2026-06-07 11:04:21,995 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[   20/ 7162], loss: 5.319, per_step_time: 603ms, lr: 2.5e-08, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:04:32,234 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[   36/ 7162], loss: 5.576, per_step_time: 638ms, lr: 4.2500002e-07, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:04:42,471 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[   52/ 7162], loss: 4.862, per_step_time: 638ms, lr: 8.25e-07, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:04:52,703 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[   68/ 7162], loss: 4.774, per_step_time: 637ms, lr: 1.2249999e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:05:02,916 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[   84/ 7162], loss: 4.744, per_step_time: 637ms, lr: 1.6249999e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:05:13,130 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  100/ 7162], loss: 4.431, per_step_time: 637ms, lr: 2.025e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:05:23,346 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  116/ 7162], loss: 4.266, per_step_time: 637ms, lr: 2.425e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:05:33,562 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  132/ 7162], loss: 4.028, per_step_time: 637ms, lr: 2.825e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:05:43,777 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  148/ 7162], loss: 3.811, per_step_time: 637ms, lr: 3.2249998e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:05:53,992 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  164/ 7162], loss: 4.064, per_step_time: 636ms, lr: 3.6249999e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:06:04,200 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  180/ 7162], loss: 4.064, per_step_time: 637ms, lr: 4.0249997e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:06:14,413 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  196/ 7162], loss: 4.007, per_step_time: 637ms, lr: 4.425e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:06:24,627 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  212/ 7162], loss: 3.877, per_step_time: 637ms, lr: 4.825e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:06:34,869 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  228/ 7162], loss: 3.872, per_step_time: 641ms, lr: 5.225e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:06:45,090 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  244/ 7162], loss: 4.068, per_step_time: 637ms, lr: 5.6249996e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:06:55,312 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  260/ 7162], loss: 3.687, per_step_time: 638ms, lr: 6.025e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:07:02,971 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  272/ 7162], loss: 3.638, per_step_time: 636ms, lr: 6.3249995e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:07:13,182 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  288/ 7162], loss: 3.682, per_step_time: 636ms, lr: 6.725e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:07:23,410 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  304/ 7162], loss: 3.804, per_step_time: 638ms, lr: 7.1249997e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:07:33,625 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  320/ 7162], loss: 3.391, per_step_time: 637ms, lr: 7.525e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:07:43,855 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  336/ 7162], loss: 3.598, per_step_time: 638ms, lr: 7.924999e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:07:54,084 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  352/ 7162], loss: 3.614, per_step_time: 638ms, lr: 8.325e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:08:04,311 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  368/ 7162], loss: 3.731, per_step_time: 637ms, lr: 8.725e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:08:14,528 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  384/ 7162], loss: 3.703, per_step_time: 637ms, lr: 9.125e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:08:24,747 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  400/ 7162], loss: 3.580, per_step_time: 637ms, lr: 9.525e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:08:34,977 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  416/ 7162], loss: 3.497, per_step_time: 638ms, lr: 9.925e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:08:45,194 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  432/ 7162], loss: 3.585, per_step_time: 637ms, lr: 1.03249995e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:08:55,421 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  448/ 7162], loss: 3.573, per_step_time: 638ms, lr: 1.0725e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:09:05,648 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  464/ 7162], loss: 3.733, per_step_time: 637ms, lr: 1.1124999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:09:15,894 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  480/ 7162], loss: 3.566, per_step_time: 642ms, lr: 1.15249995e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:09:26,114 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  496/ 7162], loss: 3.472, per_step_time: 638ms, lr: 1.1925e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:09:28,667 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  500/ 7162], loss: 3.909, per_step_time: 637ms, lr: 1.2025e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:11:05,514 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  512/ 7162], loss: 3.721, per_step_time: 637ms, lr: 1.2324999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:11:15,725 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  528/ 7162], loss: 3.657, per_step_time: 636ms, lr: 1.2725e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:11:25,951 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  544/ 7162], loss: 3.479, per_step_time: 638ms, lr: 1.3124999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:11:36,177 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  560/ 7162], loss: 3.597, per_step_time: 637ms, lr: 1.3525e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:11:46,396 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  576/ 7162], loss: 3.280, per_step_time: 637ms, lr: 1.3925e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:11:56,615 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  592/ 7162], loss: 3.395, per_step_time: 638ms, lr: 1.4325e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:12:06,843 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  608/ 7162], loss: 3.523, per_step_time: 638ms, lr: 1.4724999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:12:17,070 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  624/ 7162], loss: 3.456, per_step_time: 638ms, lr: 1.5125e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:12:27,286 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  640/ 7162], loss: 3.384, per_step_time: 637ms, lr: 1.5525e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:12:37,501 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  656/ 7162], loss: 3.471, per_step_time: 637ms, lr: 1.5925e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:12:47,716 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  672/ 7162], loss: 3.758, per_step_time: 637ms, lr: 1.6324999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:12:57,933 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  688/ 7162], loss: 3.771, per_step_time: 637ms, lr: 1.6725e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:13:08,148 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  704/ 7162], loss: 3.666, per_step_time: 637ms, lr: 1.7125e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:13:18,372 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  720/ 7162], loss: 3.531, per_step_time: 637ms, lr: 1.7524999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:13:28,599 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  736/ 7162], loss: 3.648, per_step_time: 638ms, lr: 1.7925e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:13:38,823 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  752/ 7162], loss: 3.629, per_step_time: 637ms, lr: 1.8325e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:13:49,039 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  768/ 7162], loss: 3.643, per_step_time: 637ms, lr: 1.8725e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:13:59,256 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  784/ 7162], loss: 3.559, per_step_time: 637ms, lr: 1.9124998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:14:09,484 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  800/ 7162], loss: 3.555, per_step_time: 638ms, lr: 1.9525e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:14:17,152 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  812/ 7162], loss: 3.586, per_step_time: 638ms, lr: 1.9824998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:14:27,374 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  828/ 7162], loss: 3.592, per_step_time: 637ms, lr: 2.0225e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:14:37,601 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  844/ 7162], loss: 3.611, per_step_time: 637ms, lr: 2.0624999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:14:47,824 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  860/ 7162], loss: 3.691, per_step_time: 637ms, lr: 2.1025e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:14:58,043 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  876/ 7162], loss: 3.641, per_step_time: 637ms, lr: 2.1425e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:15:08,258 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  892/ 7162], loss: 3.626, per_step_time: 637ms, lr: 2.1825e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:15:18,473 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  908/ 7162], loss: 3.529, per_step_time: 637ms, lr: 2.2225e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:15:28,690 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  924/ 7162], loss: 3.609, per_step_time: 637ms, lr: 2.2625e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:15:38,906 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  940/ 7162], loss: 3.572, per_step_time: 636ms, lr: 2.3024999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:15:49,120 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  956/ 7162], loss: 3.368, per_step_time: 637ms, lr: 2.3424998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:15:59,350 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  972/ 7162], loss: 3.664, per_step_time: 638ms, lr: 2.3825e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:16:09,576 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[  988/ 7162], loss: 3.527, per_step_time: 637ms, lr: 2.4224999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:16:17,247 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1000/ 7162], loss: 3.552, per_step_time: 638ms, lr: 2.4525e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:17:50,807 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1008/ 7162], loss: 3.572, per_step_time: 637ms, lr: 2.4725e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:18:01,019 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1024/ 7162], loss: 3.348, per_step_time: 637ms, lr: 2.5124999e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:18:11,229 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1040/ 7162], loss: 3.878, per_step_time: 636ms, lr: 2.5525e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:18:21,369 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1056/ 7162], loss: 3.564, per_step_time: 637ms, lr: 2.5899999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:18:29,030 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1068/ 7162], loss: 3.616, per_step_time: 637ms, lr: 2.62e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:18:39,243 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1084/ 7162], loss: 3.580, per_step_time: 637ms, lr: 2.6599999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:18:49,458 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1100/ 7162], loss: 3.408, per_step_time: 636ms, lr: 2.7e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:18:59,672 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1116/ 7162], loss: 3.193, per_step_time: 637ms, lr: 2.7399998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:19:10,001 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1132/ 7162], loss: 3.453, per_step_time: 637ms, lr: 2.7799999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:19:20,210 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1148/ 7162], loss: 3.529, per_step_time: 636ms, lr: 2.82e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:19:30,423 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1164/ 7162], loss: 3.660, per_step_time: 637ms, lr: 2.8600001e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:19:40,648 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1180/ 7162], loss: 3.671, per_step_time: 638ms, lr: 2.8999999e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:19:50,861 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1196/ 7162], loss: 3.689, per_step_time: 637ms, lr: 2.94e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:20:01,084 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1212/ 7162], loss: 3.686, per_step_time: 637ms, lr: 2.98e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:20:11,301 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1228/ 7162], loss: 3.683, per_step_time: 638ms, lr: 3.0199997e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:20:21,518 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1244/ 7162], loss: 3.656, per_step_time: 636ms, lr: 3.06e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:20:31,733 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1260/ 7162], loss: 3.685, per_step_time: 637ms, lr: 3.1e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:20:41,959 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1276/ 7162], loss: 3.487, per_step_time: 637ms, lr: 3.14e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:20:52,182 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1292/ 7162], loss: 3.493, per_step_time: 637ms, lr: 3.18e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:21:02,396 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1308/ 7162], loss: 3.540, per_step_time: 636ms, lr: 3.2199998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:21:12,617 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1324/ 7162], loss: 3.628, per_step_time: 637ms, lr: 3.26e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:21:22,828 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1340/ 7162], loss: 3.737, per_step_time: 636ms, lr: 3.3e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:21:30,495 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1352/ 7162], loss: 3.666, per_step_time: 637ms, lr: 3.33e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:21:40,709 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1368/ 7162], loss: 3.570, per_step_time: 636ms, lr: 3.3700002e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:21:50,923 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1384/ 7162], loss: 3.670, per_step_time: 636ms, lr: 3.4099998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:22:01,151 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1400/ 7162], loss: 3.627, per_step_time: 638ms, lr: 3.45e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:22:11,383 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1416/ 7162], loss: 3.335, per_step_time: 638ms, lr: 3.49e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:22:21,608 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1432/ 7162], loss: 3.747, per_step_time: 638ms, lr: 3.5299996e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:22:31,832 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1448/ 7162], loss: 3.777, per_step_time: 638ms, lr: 3.57e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:22:42,042 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1464/ 7162], loss: 3.539, per_step_time: 636ms, lr: 3.61e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:22:52,265 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1480/ 7162], loss: 3.476, per_step_time: 637ms, lr: 3.65e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:23:02,486 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1496/ 7162], loss: 3.498, per_step_time: 638ms, lr: 3.6899997e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:23:05,045 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1500/ 7162], loss: 3.484, per_step_time: 638ms, lr: 3.6999998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:24:44,297 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1512/ 7162], loss: 3.701, per_step_time: 636ms, lr: 3.73e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:24:54,508 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1528/ 7162], loss: 3.809, per_step_time: 637ms, lr: 3.77e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:25:02,170 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1540/ 7162], loss: 3.522, per_step_time: 638ms, lr: 3.8e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:25:12,391 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1556/ 7162], loss: 3.579, per_step_time: 637ms, lr: 3.8399998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:25:22,605 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1572/ 7162], loss: 3.584, per_step_time: 637ms, lr: 3.88e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:25:32,818 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1588/ 7162], loss: 3.506, per_step_time: 637ms, lr: 3.9199997e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:25:43,035 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1604/ 7162], loss: 4.010, per_step_time: 637ms, lr: 3.96e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:25:53,254 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1620/ 7162], loss: 3.711, per_step_time: 637ms, lr: 4e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:26:03,473 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1636/ 7162], loss: 3.541, per_step_time: 637ms, lr: 4.0400002e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:26:13,692 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1652/ 7162], loss: 3.793, per_step_time: 636ms, lr: 4.0799998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:26:23,911 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1668/ 7162], loss: 3.503, per_step_time: 637ms, lr: 4.1199997e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:26:34,121 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1684/ 7162], loss: 3.354, per_step_time: 636ms, lr: 4.16e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:26:44,341 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1700/ 7162], loss: 3.490, per_step_time: 637ms, lr: 4.1999996e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:26:54,561 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1716/ 7162], loss: 3.427, per_step_time: 637ms, lr: 4.24e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:27:04,783 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1732/ 7162], loss: 3.631, per_step_time: 638ms, lr: 4.28e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:27:15,018 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1748/ 7162], loss: 3.689, per_step_time: 638ms, lr: 4.32e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:27:25,252 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1764/ 7162], loss: 3.219, per_step_time: 638ms, lr: 4.3599997e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:27:35,484 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1780/ 7162], loss: 3.895, per_step_time: 638ms, lr: 4.4e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:27:45,723 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1796/ 7162], loss: 3.752, per_step_time: 638ms, lr: 4.44e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:27:55,948 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1812/ 7162], loss: 3.653, per_step_time: 637ms, lr: 4.48e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:28:03,617 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1824/ 7162], loss: 3.856, per_step_time: 637ms, lr: 4.5099998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:28:13,839 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1840/ 7162], loss: 3.815, per_step_time: 638ms, lr: 4.55e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:28:24,069 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1856/ 7162], loss: 3.602, per_step_time: 638ms, lr: 4.5899997e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:28:34,293 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1872/ 7162], loss: 3.567, per_step_time: 637ms, lr: 4.63e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:28:44,510 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1888/ 7162], loss: 3.658, per_step_time: 637ms, lr: 4.67e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:28:54,726 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1904/ 7162], loss: 3.829, per_step_time: 637ms, lr: 4.71e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:29:04,939 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1920/ 7162], loss: 3.461, per_step_time: 636ms, lr: 4.7499998e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:29:15,156 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1936/ 7162], loss: 3.616, per_step_time: 637ms, lr: 4.7899997e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:29:25,375 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1952/ 7162], loss: 3.555, per_step_time: 636ms, lr: 4.83e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:29:35,607 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1968/ 7162], loss: 3.271, per_step_time: 637ms, lr: 4.8699996e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:29:45,831 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 1984/ 7162], loss: 3.678, per_step_time: 637ms, lr: 4.91e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:29:56,053 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2000/ 7162], loss: 3.762, per_step_time: 637ms, lr: 4.95e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:31:35,717 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2016/ 7162], loss: 3.553, per_step_time: 637ms, lr: 4.99e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:31:45,936 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2032/ 7162], loss: 3.701, per_step_time: 637ms, lr: 4.9886046e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:31:56,147 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2048/ 7162], loss: 3.913, per_step_time: 637ms, lr: 4.9734106e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:32:06,364 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2064/ 7162], loss: 3.674, per_step_time: 637ms, lr: 4.958217e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:32:16,518 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2080/ 7162], loss: 3.527, per_step_time: 638ms, lr: 4.9439725e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:32:26,745 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2096/ 7162], loss: 3.565, per_step_time: 638ms, lr: 4.9287788e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:32:36,961 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2112/ 7162], loss: 3.423, per_step_time: 637ms, lr: 4.913585e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:32:47,437 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2128/ 7162], loss: 3.652, per_step_time: 637ms, lr: 4.898391e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:32:57,653 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2144/ 7162], loss: 3.678, per_step_time: 637ms, lr: 4.8831975e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:33:07,877 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2160/ 7162], loss: 3.358, per_step_time: 638ms, lr: 4.8680038e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:33:18,110 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2176/ 7162], loss: 3.940, per_step_time: 638ms, lr: 4.8528098e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:33:28,336 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2192/ 7162], loss: 3.842, per_step_time: 637ms, lr: 4.837616e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:33:38,566 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2208/ 7162], loss: 3.698, per_step_time: 638ms, lr: 4.822422e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:33:46,247 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2220/ 7162], loss: 3.427, per_step_time: 638ms, lr: 4.8110272e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:33:56,479 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2236/ 7162], loss: 3.417, per_step_time: 639ms, lr: 4.7958332e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:34:06,711 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2252/ 7162], loss: 3.285, per_step_time: 638ms, lr: 4.7806396e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:34:16,947 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2268/ 7162], loss: 3.700, per_step_time: 638ms, lr: 4.765446e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:34:27,184 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2284/ 7162], loss: 3.705, per_step_time: 638ms, lr: 4.750252e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:34:37,416 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2300/ 7162], loss: 3.614, per_step_time: 638ms, lr: 4.7350582e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:34:47,645 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2316/ 7162], loss: 3.402, per_step_time: 638ms, lr: 4.7198642e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:34:57,873 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2332/ 7162], loss: 3.484, per_step_time: 638ms, lr: 4.7046706e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:35:08,098 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2348/ 7162], loss: 3.478, per_step_time: 638ms, lr: 4.6894766e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:35:18,324 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2364/ 7162], loss: 3.733, per_step_time: 638ms, lr: 4.674283e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:35:28,548 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2380/ 7162], loss: 3.430, per_step_time: 637ms, lr: 4.659089e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:35:38,777 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2396/ 7162], loss: 3.582, per_step_time: 638ms, lr: 4.6438952e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:35:49,009 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2412/ 7162], loss: 3.466, per_step_time: 638ms, lr: 4.6287012e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:35:59,237 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2428/ 7162], loss: 3.389, per_step_time: 638ms, lr: 4.6135076e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:36:09,459 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2444/ 7162], loss: 3.742, per_step_time: 638ms, lr: 4.5983135e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:36:19,688 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2460/ 7162], loss: 3.560, per_step_time: 639ms, lr: 4.58312e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:36:29,924 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2476/ 7162], loss: 3.505, per_step_time: 638ms, lr: 4.5679262e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:36:37,601 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2488/ 7162], loss: 3.493, per_step_time: 638ms, lr: 4.556531e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:36:45,278 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2500/ 7162], loss: 3.579, per_step_time: 638ms, lr: 4.5451354e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:38:19,302 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2504/ 7162], loss: 3.288, per_step_time: 2259ms, lr: 4.541337e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:38:29,513 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2520/ 7162], loss: 3.715, per_step_time: 637ms, lr: 4.5261433e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:38:39,734 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2536/ 7162], loss: 3.568, per_step_time: 636ms, lr: 4.5109497e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:38:49,944 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2552/ 7162], loss: 3.819, per_step_time: 637ms, lr: 4.4957556e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:39:00,321 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2568/ 7162], loss: 3.337, per_step_time: 637ms, lr: 4.480562e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:39:10,624 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2584/ 7162], loss: 3.482, per_step_time: 637ms, lr: 4.4653683e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:39:20,844 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2600/ 7162], loss: 3.670, per_step_time: 637ms, lr: 4.4501743e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:39:31,059 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2616/ 7162], loss: 3.613, per_step_time: 637ms, lr: 4.4349807e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:39:41,296 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2632/ 7162], loss: 3.538, per_step_time: 639ms, lr: 4.419787e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:39:51,511 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2648/ 7162], loss: 3.318, per_step_time: 637ms, lr: 4.404593e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:39:59,180 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2660/ 7162], loss: 3.530, per_step_time: 637ms, lr: 4.3931974e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:40:09,394 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2676/ 7162], loss: 3.281, per_step_time: 637ms, lr: 4.3780037e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:40:19,618 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2692/ 7162], loss: 3.411, per_step_time: 637ms, lr: 4.36281e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:40:29,838 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2708/ 7162], loss: 3.448, per_step_time: 638ms, lr: 4.347616e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:40:40,061 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2724/ 7162], loss: 3.458, per_step_time: 637ms, lr: 4.3324224e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:40:50,283 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2740/ 7162], loss: 3.485, per_step_time: 637ms, lr: 4.3172284e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:41:00,513 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2756/ 7162], loss: 3.771, per_step_time: 638ms, lr: 4.3020347e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:41:10,727 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2772/ 7162], loss: 3.417, per_step_time: 637ms, lr: 4.286841e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:41:20,957 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2788/ 7162], loss: 3.423, per_step_time: 638ms, lr: 4.2716474e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:41:31,175 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2804/ 7162], loss: 3.266, per_step_time: 636ms, lr: 4.2564534e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:41:41,385 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2820/ 7162], loss: 3.515, per_step_time: 637ms, lr: 4.2412597e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:41:51,598 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2836/ 7162], loss: 3.672, per_step_time: 637ms, lr: 4.2260657e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:42:01,816 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2852/ 7162], loss: 3.693, per_step_time: 637ms, lr: 4.210872e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:42:12,036 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2868/ 7162], loss: 3.503, per_step_time: 637ms, lr: 4.1956784e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:42:22,253 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2884/ 7162], loss: 3.352, per_step_time: 638ms, lr: 4.1804844e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:42:32,476 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2900/ 7162], loss: 3.125, per_step_time: 638ms, lr: 4.1652907e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:42:42,703 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2916/ 7162], loss: 3.334, per_step_time: 637ms, lr: 4.1500967e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:42:52,919 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2932/ 7162], loss: 3.472, per_step_time: 637ms, lr: 4.134903e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:43:00,597 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2944/ 7162], loss: 3.201, per_step_time: 638ms, lr: 4.1235075e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:43:10,832 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2960/ 7162], loss: 3.396, per_step_time: 638ms, lr: 4.1083138e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:43:21,063 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2976/ 7162], loss: 3.445, per_step_time: 637ms, lr: 4.0931198e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:43:31,286 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 2992/ 7162], loss: 3.366, per_step_time: 637ms, lr: 4.077926e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:43:36,397 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3000/ 7162], loss: 3.773, per_step_time: 637ms, lr: 4.0703293e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:45:12,380 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3008/ 7162], loss: 3.121, per_step_time: 638ms, lr: 4.0627325e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:45:22,591 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3024/ 7162], loss: 3.441, per_step_time: 637ms, lr: 4.0475385e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:45:32,804 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3040/ 7162], loss: 3.466, per_step_time: 636ms, lr: 4.0323448e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:45:43,015 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3056/ 7162], loss: 3.471, per_step_time: 636ms, lr: 4.0171508e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:45:53,230 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3072/ 7162], loss: 3.509, per_step_time: 637ms, lr: 4.001957e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:46:03,446 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3088/ 7162], loss: 3.660, per_step_time: 637ms, lr: 3.9867635e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:46:13,673 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3104/ 7162], loss: 3.295, per_step_time: 637ms, lr: 3.97157e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:46:23,897 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3120/ 7162], loss: 3.368, per_step_time: 637ms, lr: 3.9563758e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:46:34,381 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3136/ 7162], loss: 3.518, per_step_time: 637ms, lr: 3.941182e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:46:44,593 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3152/ 7162], loss: 3.450, per_step_time: 637ms, lr: 3.925988e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:46:54,809 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3168/ 7162], loss: 3.406, per_step_time: 637ms, lr: 3.9107945e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:47:02,477 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3180/ 7162], loss: 3.629, per_step_time: 638ms, lr: 3.8993992e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:47:12,705 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3196/ 7162], loss: 3.403, per_step_time: 637ms, lr: 3.8842052e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:47:22,927 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3212/ 7162], loss: 3.252, per_step_time: 637ms, lr: 3.8690116e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:47:33,151 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3228/ 7162], loss: 3.592, per_step_time: 636ms, lr: 3.8538175e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:47:43,370 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3244/ 7162], loss: 3.029, per_step_time: 636ms, lr: 3.838624e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:47:53,584 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3260/ 7162], loss: 3.351, per_step_time: 637ms, lr: 3.82343e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:48:03,797 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3276/ 7162], loss: 3.267, per_step_time: 636ms, lr: 3.8082362e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:48:14,027 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3292/ 7162], loss: 3.443, per_step_time: 637ms, lr: 3.7930426e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:48:24,247 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3308/ 7162], loss: 3.800, per_step_time: 637ms, lr: 3.7778485e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:48:34,467 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3324/ 7162], loss: 3.552, per_step_time: 638ms, lr: 3.762655e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 11:48:44,615 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3340/ 7162], loss: 3.543, per_step_time: 637ms, lr: 3.7484107e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:48:54,837 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3356/ 7162], loss: 3.316, per_step_time: 637ms, lr: 3.7332167e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:49:05,061 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3372/ 7162], loss: 3.386, per_step_time: 638ms, lr: 3.718023e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:49:15,286 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3388/ 7162], loss: 3.313, per_step_time: 638ms, lr: 3.7028294e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:49:25,512 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3404/ 7162], loss: 3.133, per_step_time: 637ms, lr: 3.6876358e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:49:35,731 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3420/ 7162], loss: 3.424, per_step_time: 637ms, lr: 3.6724417e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:49:45,959 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3436/ 7162], loss: 3.437, per_step_time: 638ms, lr: 3.6572477e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:49:56,176 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3452/ 7162], loss: 3.509, per_step_time: 637ms, lr: 3.642054e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:50:03,840 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3464/ 7162], loss: 3.594, per_step_time: 637ms, lr: 3.630659e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:50:14,056 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3480/ 7162], loss: 3.308, per_step_time: 636ms, lr: 3.615465e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:50:24,281 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3496/ 7162], loss: 3.352, per_step_time: 637ms, lr: 3.600271e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:50:26,838 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3500/ 7162], loss: 3.258, per_step_time: 638ms, lr: 3.5964727e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:52:05,456 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3516/ 7162], loss: 3.161, per_step_time: 637ms, lr: 3.5812787e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:52:15,666 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3532/ 7162], loss: 3.799, per_step_time: 637ms, lr: 3.566085e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:52:25,878 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3548/ 7162], loss: 3.426, per_step_time: 636ms, lr: 3.5508914e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:52:36,101 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3564/ 7162], loss: 3.235, per_step_time: 637ms, lr: 3.5356978e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:52:46,318 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3580/ 7162], loss: 3.280, per_step_time: 637ms, lr: 3.5205037e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:52:56,537 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3596/ 7162], loss: 3.587, per_step_time: 638ms, lr: 3.50531e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:53:07,034 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3612/ 7162], loss: 3.334, per_step_time: 637ms, lr: 3.490116e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:53:17,265 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3628/ 7162], loss: 3.415, per_step_time: 638ms, lr: 3.4749224e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:53:27,487 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3644/ 7162], loss: 3.369, per_step_time: 637ms, lr: 3.4597288e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:53:35,819 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3656/ 7162], loss: 3.385, per_step_time: 639ms, lr: 3.448333e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:53:46,067 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3672/ 7162], loss: 3.604, per_step_time: 638ms, lr: 3.433139e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:53:56,289 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3688/ 7162], loss: 3.235, per_step_time: 637ms, lr: 3.4179455e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:54:06,515 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3704/ 7162], loss: 3.491, per_step_time: 638ms, lr: 3.402752e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:54:16,733 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3720/ 7162], loss: 2.862, per_step_time: 637ms, lr: 3.387558e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:54:26,954 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3736/ 7162], loss: 3.214, per_step_time: 637ms, lr: 3.372364e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:54:37,172 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3752/ 7162], loss: 3.255, per_step_time: 637ms, lr: 3.35717e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:54:47,396 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3768/ 7162], loss: 3.048, per_step_time: 638ms, lr: 3.3419765e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:54:57,623 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3784/ 7162], loss: 3.455, per_step_time: 638ms, lr: 3.326783e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:55:07,845 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3800/ 7162], loss: 3.538, per_step_time: 637ms, lr: 3.311589e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:55:18,065 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3816/ 7162], loss: 3.261, per_step_time: 637ms, lr: 3.296395e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:55:28,290 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3832/ 7162], loss: 3.413, per_step_time: 637ms, lr: 3.2812015e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:55:38,525 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3848/ 7162], loss: 3.637, per_step_time: 638ms, lr: 3.2660075e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:55:48,765 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3864/ 7162], loss: 3.331, per_step_time: 638ms, lr: 3.250814e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:55:58,998 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3880/ 7162], loss: 3.242, per_step_time: 637ms, lr: 3.23562e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:56:06,669 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3892/ 7162], loss: 3.536, per_step_time: 638ms, lr: 3.224225e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:56:16,899 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3908/ 7162], loss: 3.319, per_step_time: 638ms, lr: 3.209031e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:56:27,128 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3924/ 7162], loss: 3.622, per_step_time: 638ms, lr: 3.1938373e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:56:37,373 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3940/ 7162], loss: 3.328, per_step_time: 638ms, lr: 3.1786432e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:56:47,601 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3956/ 7162], loss: 3.045, per_step_time: 638ms, lr: 3.1634496e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:56:57,836 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3972/ 7162], loss: 3.345, per_step_time: 637ms, lr: 3.1482556e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:57:08,063 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 3988/ 7162], loss: 3.460, per_step_time: 637ms, lr: 3.1330615e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:57:15,734 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4000/ 7162], loss: 3.593, per_step_time: 637ms, lr: 3.1216667e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:58:48,384 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4004/ 7162], loss: 3.522, per_step_time: 1431ms, lr: 3.117868e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:58:58,596 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4020/ 7162], loss: 3.291, per_step_time: 637ms, lr: 3.1026742e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:59:09,379 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4036/ 7162], loss: 3.100, per_step_time: 637ms, lr: 3.0874806e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:59:19,595 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4052/ 7162], loss: 3.112, per_step_time: 637ms, lr: 3.0722866e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:59:29,811 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4068/ 7162], loss: 3.126, per_step_time: 637ms, lr: 3.057093e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:59:40,020 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4084/ 7162], loss: 3.061, per_step_time: 637ms, lr: 3.041899e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 11:59:50,229 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4100/ 7162], loss: 3.240, per_step_time: 636ms, lr: 3.0267052e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:00:00,440 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4116/ 7162], loss: 3.133, per_step_time: 637ms, lr: 3.0115114e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:00:10,655 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4132/ 7162], loss: 3.229, per_step_time: 637ms, lr: 2.996318e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:00:20,868 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4148/ 7162], loss: 2.952, per_step_time: 636ms, lr: 2.981124e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:00:31,081 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4164/ 7162], loss: 3.417, per_step_time: 637ms, lr: 2.96593e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:00:39,039 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4176/ 7162], loss: 3.055, per_step_time: 637ms, lr: 2.9545348e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:00:49,258 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4192/ 7162], loss: 3.227, per_step_time: 638ms, lr: 2.9393414e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:00:59,475 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4208/ 7162], loss: 3.281, per_step_time: 637ms, lr: 2.9241472e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:01:09,702 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4224/ 7162], loss: 3.338, per_step_time: 639ms, lr: 2.9089533e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:01:19,914 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4240/ 7162], loss: 3.447, per_step_time: 637ms, lr: 2.8937595e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:01:30,125 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4256/ 7162], loss: 3.579, per_step_time: 637ms, lr: 2.8785656e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:01:40,339 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4272/ 7162], loss: 3.229, per_step_time: 637ms, lr: 2.8633722e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:01:50,556 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4288/ 7162], loss: 3.072, per_step_time: 637ms, lr: 2.8481782e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:02:00,779 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4304/ 7162], loss: 3.523, per_step_time: 638ms, lr: 2.8329843e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:02:11,013 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4320/ 7162], loss: 3.344, per_step_time: 637ms, lr: 2.8177907e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:02:21,238 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4336/ 7162], loss: 3.590, per_step_time: 637ms, lr: 2.8025968e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:02:31,453 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4352/ 7162], loss: 3.498, per_step_time: 636ms, lr: 2.7874032e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:02:41,670 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4368/ 7162], loss: 3.419, per_step_time: 637ms, lr: 2.7722095e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:02:51,896 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4384/ 7162], loss: 3.144, per_step_time: 638ms, lr: 2.7570155e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:03:02,122 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4400/ 7162], loss: 3.330, per_step_time: 638ms, lr: 2.7418213e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:03:12,273 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4416/ 7162], loss: 3.316, per_step_time: 638ms, lr: 2.7275777e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:03:22,488 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4432/ 7162], loss: 3.485, per_step_time: 637ms, lr: 2.7123839e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:03:32,702 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4448/ 7162], loss: 3.577, per_step_time: 637ms, lr: 2.69719e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:03:42,925 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4464/ 7162], loss: 3.405, per_step_time: 637ms, lr: 2.6819962e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:03:50,589 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4476/ 7162], loss: 3.453, per_step_time: 637ms, lr: 2.6706006e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:04:00,823 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4492/ 7162], loss: 3.217, per_step_time: 638ms, lr: 2.6554068e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:04:05,929 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4500/ 7162], loss: 3.151, per_step_time: 637ms, lr: 2.6478103e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:05:43,041 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4508/ 7162], loss: 3.656, per_step_time: 637ms, lr: 2.640213e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:05:53,251 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4524/ 7162], loss: 3.083, per_step_time: 636ms, lr: 2.6250193e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:06:03,622 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4540/ 7162], loss: 3.065, per_step_time: 636ms, lr: 2.6098254e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:06:13,858 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4556/ 7162], loss: 3.154, per_step_time: 637ms, lr: 2.5946321e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:06:24,076 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4572/ 7162], loss: 3.224, per_step_time: 637ms, lr: 2.5794387e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:06:34,293 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4588/ 7162], loss: 3.229, per_step_time: 637ms, lr: 2.5642443e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:06:41,967 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4600/ 7162], loss: 3.476, per_step_time: 639ms, lr: 2.5528487e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:06:52,189 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4616/ 7162], loss: 3.550, per_step_time: 638ms, lr: 2.5376548e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:07:02,412 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4632/ 7162], loss: 3.487, per_step_time: 639ms, lr: 2.522461e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:07:12,632 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4648/ 7162], loss: 3.285, per_step_time: 637ms, lr: 2.5072672e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:07:22,844 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4664/ 7162], loss: 3.335, per_step_time: 636ms, lr: 2.4920737e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:07:33,053 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4680/ 7162], loss: 3.327, per_step_time: 636ms, lr: 2.4768797e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:07:43,268 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4696/ 7162], loss: 3.194, per_step_time: 636ms, lr: 2.461686e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:07:53,496 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4712/ 7162], loss: 3.356, per_step_time: 638ms, lr: 2.4464924e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:08:03,712 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4728/ 7162], loss: 3.331, per_step_time: 637ms, lr: 2.4312983e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:08:13,936 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4744/ 7162], loss: 3.406, per_step_time: 637ms, lr: 2.4161047e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:08:24,152 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4760/ 7162], loss: 3.475, per_step_time: 636ms, lr: 2.4009107e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:08:34,365 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4776/ 7162], loss: 3.191, per_step_time: 637ms, lr: 2.385717e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:08:44,594 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4792/ 7162], loss: 3.251, per_step_time: 637ms, lr: 2.3705234e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:08:54,816 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4808/ 7162], loss: 3.364, per_step_time: 637ms, lr: 2.3553293e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:09:05,036 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4824/ 7162], loss: 3.418, per_step_time: 638ms, lr: 2.3401359e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:09:15,256 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4840/ 7162], loss: 3.246, per_step_time: 637ms, lr: 2.324942e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:09:25,472 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4856/ 7162], loss: 3.109, per_step_time: 638ms, lr: 2.309748e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:09:33,132 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4868/ 7162], loss: 3.419, per_step_time: 636ms, lr: 2.2983526e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:09:43,343 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4884/ 7162], loss: 3.368, per_step_time: 637ms, lr: 2.283159e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:09:53,555 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4900/ 7162], loss: 3.206, per_step_time: 637ms, lr: 2.2679653e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:10:03,767 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4916/ 7162], loss: 3.323, per_step_time: 637ms, lr: 2.2527713e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:10:13,978 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4932/ 7162], loss: 3.400, per_step_time: 636ms, lr: 2.2375774e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:10:24,198 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4948/ 7162], loss: 3.176, per_step_time: 638ms, lr: 2.2223838e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:10:34,426 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4964/ 7162], loss: 3.524, per_step_time: 638ms, lr: 2.20719e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:10:44,659 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4980/ 7162], loss: 3.096, per_step_time: 639ms, lr: 2.1919961e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:10:54,891 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 4996/ 7162], loss: 3.256, per_step_time: 638ms, lr: 2.176802e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:10:57,443 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5000/ 7162], loss: 3.194, per_step_time: 636ms, lr: 2.1730038e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:12:35,735 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5016/ 7162], loss: 3.400, per_step_time: 637ms, lr: 2.1578098e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:12:45,951 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5032/ 7162], loss: 3.146, per_step_time: 637ms, lr: 2.1426162e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:12:56,428 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5048/ 7162], loss: 3.109, per_step_time: 637ms, lr: 2.1274225e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:13:06,652 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5064/ 7162], loss: 3.262, per_step_time: 639ms, lr: 2.1122285e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:13:16,867 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5080/ 7162], loss: 3.276, per_step_time: 637ms, lr: 2.0970348e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:13:27,077 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5096/ 7162], loss: 3.247, per_step_time: 637ms, lr: 2.0818412e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:13:37,293 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5112/ 7162], loss: 3.451, per_step_time: 637ms, lr: 2.0666472e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:13:47,522 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5128/ 7162], loss: 2.826, per_step_time: 638ms, lr: 2.0514537e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:13:55,197 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5140/ 7162], loss: 2.993, per_step_time: 638ms, lr: 2.0400583e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:14:05,437 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5156/ 7162], loss: 3.386, per_step_time: 638ms, lr: 2.0248646e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:14:15,661 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5172/ 7162], loss: 3.358, per_step_time: 637ms, lr: 2.0096704e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:14:25,883 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5188/ 7162], loss: 3.473, per_step_time: 637ms, lr: 1.9944768e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:14:36,105 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5204/ 7162], loss: 3.470, per_step_time: 637ms, lr: 1.9792831e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:14:46,335 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5220/ 7162], loss: 3.002, per_step_time: 638ms, lr: 1.9640891e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:14:56,561 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5236/ 7162], loss: 3.211, per_step_time: 638ms, lr: 1.9488954e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:15:06,784 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5252/ 7162], loss: 3.182, per_step_time: 637ms, lr: 1.9337014e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:15:17,005 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5268/ 7162], loss: 3.208, per_step_time: 637ms, lr: 1.9185078e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:15:27,230 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5284/ 7162], loss: 3.214, per_step_time: 637ms, lr: 1.9033141e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:15:37,454 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5300/ 7162], loss: 3.443, per_step_time: 638ms, lr: 1.8881203e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:15:47,676 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5316/ 7162], loss: 3.248, per_step_time: 637ms, lr: 1.8729264e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:15:57,902 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5332/ 7162], loss: 3.299, per_step_time: 638ms, lr: 1.8577326e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:16:08,126 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5348/ 7162], loss: 3.014, per_step_time: 637ms, lr: 1.8425388e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:16:18,357 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5364/ 7162], loss: 2.850, per_step_time: 637ms, lr: 1.827345e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:16:28,582 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5380/ 7162], loss: 3.298, per_step_time: 637ms, lr: 1.8121511e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:16:38,804 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5396/ 7162], loss: 3.161, per_step_time: 637ms, lr: 1.7969573e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:16:46,470 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5408/ 7162], loss: 3.101, per_step_time: 638ms, lr: 1.785562e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:16:56,699 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5424/ 7162], loss: 3.183, per_step_time: 637ms, lr: 1.7703684e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:17:06,919 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5440/ 7162], loss: 3.488, per_step_time: 637ms, lr: 1.7551742e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:17:17,145 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5456/ 7162], loss: 3.082, per_step_time: 638ms, lr: 1.7399805e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:17:27,365 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5472/ 7162], loss: 3.191, per_step_time: 637ms, lr: 1.7247869e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:17:37,579 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5488/ 7162], loss: 2.962, per_step_time: 637ms, lr: 1.7095928e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:17:45,238 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5500/ 7162], loss: 3.159, per_step_time: 636ms, lr: 1.6981978e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:19:18,730 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5508/ 7162], loss: 3.065, per_step_time: 637ms, lr: 1.6906006e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:19:28,945 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5524/ 7162], loss: 3.161, per_step_time: 637ms, lr: 1.6754071e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:19:39,158 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5540/ 7162], loss: 3.325, per_step_time: 637ms, lr: 1.6602135e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:19:49,378 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5556/ 7162], loss: 3.257, per_step_time: 637ms, lr: 1.6450194e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:19:59,598 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5572/ 7162], loss: 3.301, per_step_time: 637ms, lr: 1.6298256e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:20:10,005 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5588/ 7162], loss: 3.121, per_step_time: 636ms, lr: 1.614632e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:20:20,219 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5604/ 7162], loss: 3.472, per_step_time: 637ms, lr: 1.599438e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:20:30,443 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5620/ 7162], loss: 3.156, per_step_time: 637ms, lr: 1.5842443e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:20:40,667 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5636/ 7162], loss: 3.108, per_step_time: 637ms, lr: 1.5690504e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:20:48,332 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5648/ 7162], loss: 3.519, per_step_time: 637ms, lr: 1.557655e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:20:58,554 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5664/ 7162], loss: 2.999, per_step_time: 637ms, lr: 1.5424612e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:21:08,779 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5680/ 7162], loss: 3.382, per_step_time: 638ms, lr: 1.5272673e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:21:18,996 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5696/ 7162], loss: 2.859, per_step_time: 637ms, lr: 1.5120735e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:21:29,210 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5712/ 7162], loss: 2.897, per_step_time: 637ms, lr: 1.4968798e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:21:39,431 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5728/ 7162], loss: 3.198, per_step_time: 637ms, lr: 1.481686e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:21:49,659 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5744/ 7162], loss: 2.949, per_step_time: 637ms, lr: 1.4664921e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:21:59,888 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5760/ 7162], loss: 2.899, per_step_time: 638ms, lr: 1.4512984e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:22:10,108 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5776/ 7162], loss: 2.653, per_step_time: 637ms, lr: 1.4361048e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:22:20,322 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5792/ 7162], loss: 3.238, per_step_time: 637ms, lr: 1.4209109e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:22:30,533 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5808/ 7162], loss: 2.777, per_step_time: 636ms, lr: 1.4057171e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:22:40,750 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5824/ 7162], loss: 3.215, per_step_time: 637ms, lr: 1.3905233e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:22:50,966 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5840/ 7162], loss: 3.135, per_step_time: 637ms, lr: 1.3753294e-05, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:23:01,110 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5856/ 7162], loss: 3.143, per_step_time: 619ms, lr: 1.3610851e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:23:11,333 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5872/ 7162], loss: 2.877, per_step_time: 637ms, lr: 1.34589145e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:23:21,549 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5888/ 7162], loss: 3.397, per_step_time: 637ms, lr: 1.3306976e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:23:31,761 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5904/ 7162], loss: 2.978, per_step_time: 637ms, lr: 1.315504e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:23:41,985 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5920/ 7162], loss: 3.161, per_step_time: 638ms, lr: 1.3003101e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:23:52,211 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5936/ 7162], loss: 3.205, per_step_time: 640ms, lr: 1.2851162e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:23:59,877 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5948/ 7162], loss: 3.383, per_step_time: 637ms, lr: 1.2737209e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:24:10,096 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5964/ 7162], loss: 3.217, per_step_time: 637ms, lr: 1.2585271e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:24:20,316 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5980/ 7162], loss: 3.201, per_step_time: 637ms, lr: 1.2433334e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:24:30,544 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 5996/ 7162], loss: 3.646, per_step_time: 638ms, lr: 1.2281394e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:24:33,101 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6000/ 7162], loss: 3.239, per_step_time: 638ms, lr: 1.2243411e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:26:11,639 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6012/ 7162], loss: 3.115, per_step_time: 637ms, lr: 1.2129457e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:26:21,859 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6028/ 7162], loss: 2.808, per_step_time: 637ms, lr: 1.197752e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:26:32,074 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6044/ 7162], loss: 3.343, per_step_time: 637ms, lr: 1.182558e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:26:42,296 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6060/ 7162], loss: 3.075, per_step_time: 637ms, lr: 1.1673643e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:26:52,517 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6076/ 7162], loss: 3.050, per_step_time: 637ms, lr: 1.1521704e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:27:02,732 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6092/ 7162], loss: 3.173, per_step_time: 637ms, lr: 1.1369768e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:27:13,198 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6108/ 7162], loss: 3.133, per_step_time: 638ms, lr: 1.121783e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:27:23,416 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6124/ 7162], loss: 3.064, per_step_time: 637ms, lr: 1.106589e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:27:33,629 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6140/ 7162], loss: 2.967, per_step_time: 637ms, lr: 1.0913955e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:27:43,845 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6156/ 7162], loss: 2.977, per_step_time: 637ms, lr: 1.0762016e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:27:54,058 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6172/ 7162], loss: 2.995, per_step_time: 637ms, lr: 1.0610078e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:28:01,726 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6184/ 7162], loss: 2.974, per_step_time: 637ms, lr: 1.0496123e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:28:11,939 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6200/ 7162], loss: 2.847, per_step_time: 637ms, lr: 1.0344186e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:28:22,156 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6216/ 7162], loss: 3.138, per_step_time: 637ms, lr: 1.019225e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:28:32,378 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6232/ 7162], loss: 3.179, per_step_time: 637ms, lr: 1.00403095e-05, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:28:42,596 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6248/ 7162], loss: 3.355, per_step_time: 637ms, lr: 9.888373e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:28:52,816 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6264/ 7162], loss: 3.318, per_step_time: 637ms, lr: 9.7364355e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:29:03,036 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6280/ 7162], loss: 2.859, per_step_time: 637ms, lr: 9.584496e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:29:13,252 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6296/ 7162], loss: 3.386, per_step_time: 636ms, lr: 9.432559e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:29:23,490 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6312/ 7162], loss: 3.305, per_step_time: 638ms, lr: 9.2806185e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:29:33,705 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6328/ 7162], loss: 3.169, per_step_time: 637ms, lr: 9.128682e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:29:43,923 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6344/ 7162], loss: 3.067, per_step_time: 637ms, lr: 8.976745e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:29:54,142 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6360/ 7162], loss: 3.498, per_step_time: 637ms, lr: 8.824806e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:30:04,363 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6376/ 7162], loss: 2.576, per_step_time: 637ms, lr: 8.672869e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:30:14,582 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6392/ 7162], loss: 3.030, per_step_time: 637ms, lr: 8.520932e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:30:24,796 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6408/ 7162], loss: 2.912, per_step_time: 637ms, lr: 8.368992e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:30:35,020 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6424/ 7162], loss: 2.842, per_step_time: 639ms, lr: 8.217055e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:30:45,247 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6440/ 7162], loss: 3.166, per_step_time: 638ms, lr: 8.065115e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:30:55,480 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6456/ 7162], loss: 3.017, per_step_time: 639ms, lr: 7.913178e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:31:03,155 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6468/ 7162], loss: 2.645, per_step_time: 638ms, lr: 7.799224e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:31:13,392 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6484/ 7162], loss: 3.445, per_step_time: 638ms, lr: 7.647287e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:31:23,639 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6500/ 7162], loss: 3.286, per_step_time: 639ms, lr: 7.4953496e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:33:05,641 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6516/ 7162], loss: 3.378, per_step_time: 637ms, lr: 7.34341e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:33:15,851 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6532/ 7162], loss: 3.179, per_step_time: 637ms, lr: 7.1914737e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:33:26,060 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6548/ 7162], loss: 3.158, per_step_time: 637ms, lr: 7.0395336e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:33:36,273 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6564/ 7162], loss: 3.220, per_step_time: 637ms, lr: 6.8875966e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:33:46,498 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6580/ 7162], loss: 3.541, per_step_time: 638ms, lr: 6.735659e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:33:56,725 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6596/ 7162], loss: 3.125, per_step_time: 637ms, lr: 6.5837194e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:34:06,956 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6612/ 7162], loss: 2.761, per_step_time: 638ms, lr: 6.4317837e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:34:14,625 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6624/ 7162], loss: 2.873, per_step_time: 637ms, lr: 6.317829e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:34:24,996 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6640/ 7162], loss: 2.852, per_step_time: 637ms, lr: 6.165892e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:34:35,213 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6656/ 7162], loss: 3.492, per_step_time: 637ms, lr: 6.0139523e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:34:45,428 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6672/ 7162], loss: 3.106, per_step_time: 637ms, lr: 5.862015e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:34:55,643 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6688/ 7162], loss: 3.057, per_step_time: 637ms, lr: 5.7100788e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:35:05,864 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6704/ 7162], loss: 3.357, per_step_time: 637ms, lr: 5.558139e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:35:16,091 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6720/ 7162], loss: 3.307, per_step_time: 637ms, lr: 5.4062016e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:35:26,313 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6736/ 7162], loss: 2.795, per_step_time: 637ms, lr: 5.254265e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:35:36,530 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6752/ 7162], loss: 3.046, per_step_time: 637ms, lr: 5.1023253e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:35:46,763 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6768/ 7162], loss: 3.204, per_step_time: 638ms, lr: 4.9503883e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:35:56,982 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6784/ 7162], loss: 2.744, per_step_time: 637ms, lr: 4.7984486e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:36:07,214 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6800/ 7162], loss: 3.047, per_step_time: 637ms, lr: 4.646511e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:36:17,431 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6816/ 7162], loss: 2.771, per_step_time: 637ms, lr: 4.494575e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:36:27,657 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6832/ 7162], loss: 3.442, per_step_time: 638ms, lr: 4.342635e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:36:37,879 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6848/ 7162], loss: 2.966, per_step_time: 637ms, lr: 4.1906983e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:36:48,099 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6864/ 7162], loss: 3.127, per_step_time: 637ms, lr: 4.038761e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:36:58,316 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6880/ 7162], loss: 3.162, per_step_time: 637ms, lr: 3.886821e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:37:05,979 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6892/ 7162], loss: 2.927, per_step_time: 638ms, lr: 3.7728673e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:37:16,194 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6908/ 7162], loss: 3.143, per_step_time: 637ms, lr: 3.6209306e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:37:26,412 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6924/ 7162], loss: 3.007, per_step_time: 637ms, lr: 3.4689933e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:37:36,633 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6940/ 7162], loss: 3.329, per_step_time: 638ms, lr: 3.3170536e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:37:46,863 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6956/ 7162], loss: 3.159, per_step_time: 640ms, lr: 3.1651173e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:37:57,081 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6972/ 7162], loss: 3.119, per_step_time: 637ms, lr: 3.0131769e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:38:07,304 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 6988/ 7162], loss: 2.709, per_step_time: 638ms, lr: 2.8612399e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:38:14,989 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7000/ 7162], loss: 3.193, per_step_time: 638ms, lr: 2.7472859e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:39:47,579 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7004/ 7162], loss: 2.901, per_step_time: 2452ms, lr: 2.709303e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:39:57,789 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7020/ 7162], loss: 3.125, per_step_time: 637ms, lr: 2.5573631e-06, overflow cond: False, loss_scale: 32768.0
+  [pass1] 2026-06-07 12:40:07,929 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7036/ 7162], loss: 2.980, per_step_time: 636ms, lr: 2.4149213e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:40:18,143 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7052/ 7162], loss: 3.457, per_step_time: 637ms, lr: 2.2629847e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:40:28,286 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7068/ 7162], loss: 2.855, per_step_time: 630ms, lr: 2.1110477e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:40:38,400 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7084/ 7162], loss: 3.254, per_step_time: 630ms, lr: 1.959108e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:40:48,502 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7100/ 7162], loss: 3.032, per_step_time: 630ms, lr: 1.8071711e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:40:58,603 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7116/ 7162], loss: 3.014, per_step_time: 630ms, lr: 1.655231e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:41:08,707 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7132/ 7162], loss: 3.081, per_step_time: 629ms, lr: 1.5032942e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:41:18,804 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7148/ 7162], loss: 3.205, per_step_time: 630ms, lr: 1.3513574e-06, overflow cond: False, loss_scale: 16384.0
+  [pass1] 2026-06-07 12:41:26,380 - mindformers[mindformers/core/callback/callback.py:316] - INFO - { Epoch:[  1/  1], step:[ 7160/ 7162], loss: 2.634, per_step_time: 630ms, lr: 1.2374032e-06, overflow cond: False, loss_scale: 16384.0
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected
+scripts/collect_glm6b_full.sh: line 83: [: 0
+0: integer expression expected

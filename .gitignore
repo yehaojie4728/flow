@@ -2,9 +2,6 @@ __pycache__/
 *.pyc
 *.pyo
 data/collected/
-logs/
-models/
-results/
 third_party/
 .agents/
 PROGRESS.md

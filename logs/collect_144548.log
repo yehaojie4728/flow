@@ -1,0 +1,49 @@
+nohup: ignoring input
+
+============================================================
+ FlowGap GLM-6B Trace Collection
+ 2 passes × 20 min = ~40 min total
+ Started: Sat Jun  6 14:45:48 CST 2026
+============================================================
+
+MindFormers config: /root/mindformers/scripts/../configs/glm/run_glm_6b_finetune.yaml
+NPU devices: 0-7 (8× Ascend 910B)
+eBPF script:  /root/FlowGap-work/reference_repo/src/trace_memcpy_numa.py
+Python:       /usr/bin/python3 (for bpfcc)
+MindSpore:    conda env mindspore_py37
+
+
+======================================================================
+  FlowGap Trace Collection — pass1
+  Start: Sat Jun  6 14:45:51 CST 2026
+  Duration: 20 min
+  Raw output:  /root/FlowGap-work/FlowGap-paper/scripts/../../data/collected/trace_glm6b_pass1_raw.log
+  Agg output:  /root/FlowGap-work/FlowGap-paper/scripts/../../data/collected/trace_glm6b_pass1_agg.log
+======================================================================
+[pass1] Starting eBPF tracer...
+[pass1] eBPF PID = 2238223
+[pass1] eBPF tracer confirmed running.
+[pass1] Cleaning /root/mindformers/output/ ...
+[pass1] Output directory cleaned.
+[pass1] Starting GLM-6B training...
+[pass1] Training PID = 2238360
+[pass1] Waiting 20 min (1200s)...
+  [pass1] ... 1/20 min elapsed at 14:46:54
+  [pass1] ... 2/20 min elapsed at 14:47:54
+  [pass1] ... 3/20 min elapsed at 14:48:54
+  [pass1] ... 4/20 min elapsed at 14:49:54
+  [pass1] ... 5/20 min elapsed at 14:50:54
+  [pass1] ... 6/20 min elapsed at 14:51:54
+  [pass1] ... 7/20 min elapsed at 14:52:54
+  [pass1] ... 8/20 min elapsed at 14:53:54
+  [pass1] ... 9/20 min elapsed at 14:54:54
+  [pass1] ... 10/20 min elapsed at 14:55:54
+  [pass1] ... 11/20 min elapsed at 14:56:54
+  [pass1] ... 12/20 min elapsed at 14:57:54
+  [pass1] ... 13/20 min elapsed at 14:58:54
+  [pass1] ... 14/20 min elapsed at 14:59:54
+  [pass1] ... 15/20 min elapsed at 15:00:54
+  [pass1] ... 16/20 min elapsed at 15:01:54
+  [pass1] ... 17/20 min elapsed at 15:02:54
+  [pass1] ... 18/20 min elapsed at 15:03:54
+  [pass1] ... 19/20 min elapsed at 15:04:54

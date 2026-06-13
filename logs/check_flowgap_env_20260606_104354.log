@@ -1,0 +1,124 @@
+=======================================================================
+ FlowGap Environment Probe — Sat Jun  6 10:43:54 CST 2026
+ Log: /root/FlowGap-work/FlowGap-paper/logs/check_flowgap_env_20260606_104354.log
+=======================================================================
+
+━━━ 1. OS and Kernel ━━━
+  [0;32m[PASS][0m OS release [0;36meuleros 2.0[0m
+  [0;32m[PASS][0m Kernel version [0;36m4.19.90-vhulk2204.1.0.h1160.eulerosv2r10.aarch64[0m
+  [0;32m[PASS][0m Architecture [0;36maarch64[0m
+  [0;32m[PASS][0m Kernel config [0;36m/boot/config-4.19.90-vhulk2204.1.0.h1160.eulerosv2r10.aarch64[0m
+  [1;33m[WARN][0m   CONFIG_DEBUG_INFO_BTF [0;36mnot set (bpfcc fallback to kallsyms)[0m
+  [0;32m[PASS][0m   CONFIG_BPF + BPF_SYSCALL [0;36my[0m
+  [0;32m[PASS][0m   CONFIG_UPROBES [0;36my[0m
+  [0;32m[PASS][0m   CONFIG_PERF_EVENTS [0;36my[0m
+  [0;32m[PASS][0m Kernel headers [0;36m/lib/modules/4.19.90-vhulk2204.1.0.h1160.eulerosv2r10.aarch64/build[0m
+  [1;33m[WARN][0m /sys/kernel/btf/vmlinux [0;36mnot found (bpfcc fallback to kallsyms)[0m
+  [1;33m[WARN][0m BPF kernel module [0;36mnot in lsmod (may still work)[0m
+
+━━━ 2. eBPF / BCC Toolchain ━━━
+  [0;31m[FAIL][0m bpfcc Python package [0;36mnot importable (need python3-bpfcc)[0m
+  [0;32m[PASS][0m bpfcc version [0;36munknown[0m
+  [1;33m[WARN][0m bpftool [0;36mnot found[0m
+  [0;32m[PASS][0m libbpf.so [0;36m/usr/lib64/libbpf.so.0.1.0[0m
+  [0;32m[PASS][0m clang [0;36mclang version 10.0.1 (openEuler 10.0.1-1.h4.eulerosv2r10)[0m
+  [1;33m[WARN][0m llc [0;36mnot found (not strictly required for bpfcc)[0m
+  [0;32m[PASS][0m debugfs tracing [0;36mmounted[0m
+
+━━━ 3. CANN / AscendCL SDK ━━━
+  [0;32m[PASS][0m ASCEND_TOOLKIT_HOME [0;36m/usr/local/Ascend/cann-8.5.0[0m
+  [0;32m[PASS][0m libascendcl.so [0;36m/usr/local/Ascend/cann-8.5.0/lib64/libascendcl.so[0m
+  file: /usr/local/Ascend/cann-8.5.0/lib64/libascendcl.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, stripped
+  [0;32m[PASS][0m   ELF architecture [0;36maarch64[0m
+  [1;33m[WARN][0m   ELF stripped [0;36mstripped — uprobe may need symbol table; check with nm -D[0m
+  CANN version: no version.cfg found
+
+  --- Symbol Checks (nm -D) ---
+  [0;32m[PASS][0m   aclrtMemcpy [0;36maddr=000000000000c638 type=T[0m
+  [0;32m[PASS][0m   aclrtSetDevice [0;36maddr=000000000000a520 type=T[0m
+  [0;32m[PASS][0m   aclrtMemcpyAsync [0;36maddr=000000000000c7f8 type=T[0m
+  [0;32m[PASS][0m   aclrtSynchronizeStream [0;36maddr=000000000000d788 type=T[0m
+  [0;32m[PASS][0m   aclrtMemcpy2d [0;36maddr=000000000000c9d8 type=T[0m
+  [0;32m[PASS][0m   aclrtMemcpy2dAsync [0;36maddr=000000000000cad8 type=T[0m
+  [0;32m[PASS][0m   aclrtMallocHost [0;36maddr=000000000000c350 type=T[0m
+  [1;33m[WARN][0m   aclrtMallocDevice [0;36mNOT FOUND (optional)[0m
+  [0;32m[PASS][0m   aclrtFreeHost [0;36maddr=000000000000c410 type=T[0m
+  [0;32m[PASS][0m   aclrtFree [0;36maddr=000000000000c298 type=T[0m
+  [1;33m[WARN][0m   C ABI [0;36m1 aclrt* symbols appear mangled[0m
+  [0;32m[PASS][0m /dev/davinci* [0;36m9 devices[0m
+  [0;32m[PASS][0m npu-smi [0;36mworks[0m
+  --- npu-smi topo snippet ---
+  	   NPU0       NPU1       NPU2       NPU3       NPU4       NPU5       NPU6       NPU7       CPU Affinity
+  NPU0       X          HCCS       HCCS       HCCS       PHB        SYS        SYS        SYS        144-167
+  NPU1       HCCS       X          HCCS       HCCS       SYS        PHB        SYS        SYS        96-119
+  NPU2       HCCS       HCCS       X          HCCS       SYS        SYS        PHB        SYS        48-71
+  NPU3       HCCS       HCCS       HCCS       X          SYS        SYS        SYS        PHB        0-23
+  NPU4       PHB        SYS        SYS        SYS        X          HCCS       HCCS       HCCS       144-167
+  NPU5       SYS        PHB        SYS        SYS        HCCS       X          HCCS       HCCS       96-119
+  NPU6       SYS        SYS        PHB        SYS        HCCS       HCCS       X          HCCS       48-71
+  NPU7       SYS        SYS        SYS        PHB        HCCS       HCCS       HCCS       X          0-23
+  
+  Legend:
+  
+    X    = Self
+    SYS  = Path traversing PCIe and NUMA nodes. Nodes are connected through SMP, such as QPI, UPI.
+    PHB  = Path traversing PCIe and the PCIe host bridge of a CPU.
+    HCCS = Connection traversing HCCS.
+    NA   = Unknown relationship.
+  HCCS links detected: 26
+  [0;32m[PASS][0m Ascend headers [0;36m/usr/local/Ascend/cann-8.5.0/include/acl/acl.h[0m
+
+━━━ 4. Python Environment ━━━
+  [0;32m[PASS][0m Python [0;36mPython 3.13.9[0m
+  [0;32m[PASS][0m numpy [0;36mver=[0m
+  [0;32m[PASS][0m scikit-learn [0;36mver=[0m
+  [0;32m[PASS][0m statsmodels [0;36mver=[0m
+  [0;32m[PASS][0m pandas [0;36mver=[0m
+  [0;32m[PASS][0m matplotlib [0;36mver=[0m
+  [0;32m[PASS][0m scipy [0;36mver=[0m
+  [1;33m[WARN][0m aeon [0;36mnot importable[0m
+  [0;32m[PASS][0m pip [0;36mpip 25.3 from /root/anaconda3/lib/python3.13/site-packages/pip (python 3.13)[0m
+
+━━━ 5. Build Tools ━━━
+  [0;32m[PASS][0m g++ [0;36mg++ (GCC) 11.5.0[0m
+  [0;32m[PASS][0m cmake [0;36mcmake version 3.16.5[0m
+  [0;32m[PASS][0m make [0;36mGNU Make 4.3[0m
+  [0;32m[PASS][0m libnuma headers [0;36m/usr/include/numa.h[0m
+  [0;32m[PASS][0m libnuma library [0;36m/usr/lib64/libnuma.so.1.0.0[0m
+  [0;32m[PASS][0m libpthread [0;36m/usr/local/Ascend/ascend-toolkit/7.0.0/toolkit/toolchain/hcc/sysroot/usr/lib64/libpthread.a[0m
+
+━━━ 6. Topology and Hardware ━━━
+  [0;32m[PASS][0m CPU [0;36m192 cores Kunpeng-920[0m
+  [0;32m[PASS][0m NUMA topology [0;36m8 nodes[0m
+  [0;32m[PASS][0m Memory [0;36m756 GB[0m
+  [0;32m[PASS][0m NPU count [0;36m9[0m
+  lspci did not list Ascend devices (not unusual for ARM)
+
+━━━ 7. Permissions ━━━
+  [0;32m[PASS][0m User [0;36mroot[0m
+  [1;33m[WARN][0m kernel.unprivileged_bpf_disabled [0;36m2 (1 = unpriv disabled, root still works)[0m
+  [0;32m[PASS][0m /sys/kernel/debug [0;36maccessible[0m
+  [0;32m[PASS][0m perf_event_paranoid [0;36m2 (<=2 OK)[0m
+  [0;32m[PASS][0m kptr_restrict [0;36m1 (<=1 OK)[0m
+  [1;33m[WARN][0m ulimit -l [0;36m65536 (unlimited preferred for BPF maps)[0m
+
+━━━ 8. Process Environment ━━━
+  [0;32m[PASS][0m AscendCL processes [0;36m2 running[0m
+  --- sample ---
+  root       29714  0.0  0.0 53359532 438676 ?     Sl   Feb04  17:05 /CloudResetPwdUpdateAgent/depend/jre1.8.0_322/bin/java -Dorg.tanukisoftware.wrapper.WrapperSimpleApp.maxStartMainWait=40 -Djava.library.path=../lib -classpath ../lib/resetpwdupdateagent.jar:../lib/wrapper.jar:../lib/json-20210307.jar:../lib/log4j-api-2.17.1.jar:../lib/log4j-core-2.17.1.jar -Dwrapper.key=gYm1IukvXUZtWFIP -Dwrapper.backend=pipe -Dwrapper.disable_console_input=TRUE -Dwrapper.pid=29436 -Dwrapper.version=3.5.39 -Dwrapper.native_library=wrapper -Dwrapper.arch=armhf -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=180 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp CloudResetPwdUpdateAgent
+  root     1787027  0.0  0.0 155400  5732 ?        Sl   10:44   0:00 npu-smi info
+  [0;32m[PASS][0m LD_LIBRARY_PATH [0;36mincludes Ascend path[0m
+  [0;32m[PASS][0m /tmp [0;36mwritable[0m
+
+=======================================================================
+ SUMMARY
+=======================================================================
+  PASS: 52
+  WARN: 11
+  FAIL: 1
+  TOTAL: 64
+  Log:  /root/FlowGap-work/FlowGap-paper/logs/check_flowgap_env_20260606_104354.log
+=======================================================================
+
+[1;33mPartial readiness — 1 blockers found.[0m
+Review FAIL items above and resolve before proceeding.
