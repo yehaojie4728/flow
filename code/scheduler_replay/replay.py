@@ -66,7 +66,7 @@ def replay_trace(
                 path_id=path_id,
                 gap=gap,
                 previous_gaps=list(gap_durs),
-                previous_busy=list(busy[:max(1, i)]),
+                previous_busy=busy[max(0, i - 64):max(1, i)],
             )
             all_snapshots.append(snap)
             gap_durs.append(float(gap.duration_ns))

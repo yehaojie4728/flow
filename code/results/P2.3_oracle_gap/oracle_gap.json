@@ -1,0 +1,14 @@
+{
+  "probe_latency_bw_ns": 10000000,
+  "eta_bw": 0.95,
+  "horizon_ns_used": 500000,
+  "oracle": {
+    "safe_probing_ratio": 1.0,
+    "total_probes": 3023
+  },
+  "flowgap_predictive": {
+    "safe_probing_ratio": 1.0,
+    "total_probes": 2548
+  },
+  "oracle_gap": 0.0
+}

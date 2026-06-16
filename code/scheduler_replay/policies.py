@@ -190,7 +190,10 @@ def make_ewma(alpha: float = 0.1, safety_margin_ns: int = 200_000) -> PolicyFunc
 # Policy 6: FlowGap predictive probing
 # ============================================================================
 
-def make_flowgap(predictor_model_path: str = "") -> PolicyFunc:
+def make_flowgap(predictor_model_path: str = "",
+                  eta_bw: float = 0.95,
+                  eta_normal: float = 0.90,
+                  window_size: int = 50) -> PolicyFunc:
     """Full FlowGap GBDT predictor — loads trained model and evaluates.
 
     Loads a MultiHorizonSurvivalPredictor from a pickle file (trained by
@@ -212,7 +215,7 @@ def make_flowgap(predictor_model_path: str = "") -> PolicyFunc:
     path_burst_durs: Dict[int, List[float]] = {}  # recent burst durations (ns)
     ewma_fallback = make_ewma() if HAS_PREDICTOR else None
     survival_model = None
-    WIN = 50
+    WIN = window_size
 
     if HAS_PREDICTOR and predictor_model_path and os.path.exists(predictor_model_path):
         try:
@@ -260,10 +263,10 @@ def make_flowgap(predictor_model_path: str = "") -> PolicyFunc:
 
                 # Map confidence to probe type
                 latencies = PROBE_LATENCY_SAME_NUMA_NS
-                if conf >= 0.95 and dur >= latencies[ProbeType.BANDWIDTH]:
+                if conf >= eta_bw and dur >= latencies[ProbeType.BANDWIDTH]:
                     ctx.probe_count += 1
                     return [ProbeConfig(ProbeType.BANDWIDTH, path_id=pid)]
-                elif conf >= 0.90 and dur >= latencies[ProbeType.NORMAL_LATENCY]:
+                elif conf >= eta_normal and dur >= latencies[ProbeType.NORMAL_LATENCY]:
                     ctx.probe_count += 1
                     return [ProbeConfig(ProbeType.NORMAL_LATENCY, path_id=pid)]
                 elif dur >= latencies[ProbeType.TINY_LATENCY]:
@@ -389,7 +392,10 @@ def make_policy(name: str, **kwargs) -> PolicyFunc:
         return make_ewma(alpha)
     elif name == "flowgap_predictive":
         path = kwargs.get("predictor_model_path", "")
-        return make_flowgap(path)
+        eta_bw = kwargs.get("eta_bw", 0.95)
+        eta_normal = kwargs.get("eta_normal", 0.90)
+        window_size = kwargs.get("window_size", 50)
+        return make_flowgap(path, eta_bw, eta_normal, window_size)
     elif name == "oracle":
         return make_oracle()
     else:

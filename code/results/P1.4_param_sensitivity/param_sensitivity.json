@@ -1,0 +1,66 @@
+[
+  {
+    "eta_bw": 0.5,
+    "eta_normal": 0.5,
+    "bw_probes": 4633,
+    "precision_500us": 0.9545,
+    "safe_ratio": 0.9455,
+    "unsafe_count": 869
+  },
+  {
+    "eta_bw": 0.6,
+    "eta_normal": 0.55,
+    "bw_probes": 4573,
+    "precision_500us": 0.9582,
+    "safe_ratio": 0.9468,
+    "unsafe_count": 848
+  },
+  {
+    "eta_bw": 0.7,
+    "eta_normal": 0.65,
+    "bw_probes": 4047,
+    "precision_500us": 0.9983,
+    "safe_ratio": 0.9668,
+    "unsafe_count": 529
+  },
+  {
+    "eta_bw": 0.8,
+    "eta_normal": 0.75,
+    "bw_probes": 3853,
+    "precision_500us": 0.9995,
+    "safe_ratio": 0.9681,
+    "unsafe_count": 509
+  },
+  {
+    "eta_bw": 0.85,
+    "eta_normal": 0.8,
+    "bw_probes": 3846,
+    "precision_500us": 0.9995,
+    "safe_ratio": 0.9681,
+    "unsafe_count": 509
+  },
+  {
+    "eta_bw": 0.9,
+    "eta_normal": 0.85,
+    "bw_probes": 3846,
+    "precision_500us": 0.9995,
+    "safe_ratio": 0.9681,
+    "unsafe_count": 509
+  },
+  {
+    "eta_bw": 0.95,
+    "eta_normal": 0.9,
+    "bw_probes": 0,
+    "precision_500us": 1.0,
+    "safe_ratio": 1.0,
+    "unsafe_count": 0
+  },
+  {
+    "eta_bw": 0.99,
+    "eta_normal": 0.94,
+    "bw_probes": 0,
+    "precision_500us": 1.0,
+    "safe_ratio": 1.0,
+    "unsafe_count": 0
+  }
+]

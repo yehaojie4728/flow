@@ -1,0 +1,9 @@
+warmup_sec=180
+sample_sec=300
+sample_interval=2
+train_cmd=bash run_distribute.sh "/root/mindformers/mindformers/hccl_8p_01234567_192.168.39.155.json" ../configs/glm/run_glm_6b_finetune.yaml '[0,8]' finetune
+trace_script=/root/FlowGap-work/FlowGap-paper/scripts/../code/ebpf_monitor/trace_memcpy_numa.py
+start_time=2026-06-14T21:26:32+08:00
+ncpu=192
+measured_warmup_sec=557
+end_time=2026-06-14T21:57:42+08:00

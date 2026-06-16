@@ -1,0 +1,42 @@
+{
+  "config": {
+    "warmup_sec": "180",
+    "sample_sec": "300",
+    "sample_interval": "2",
+    "train_cmd": "bash run_distribute.sh \"/root/mindformers/mindformers/hccl_8p_01234567_192.168.39.155.json\" ../configs/glm/run_glm_6b_finetune.yaml '[0,8]' finetune",
+    "trace_script": "/root/FlowGap-work/FlowGap-paper/scripts/../code/ebpf_monitor/trace_memcpy_numa.py",
+    "start_time": "2026-06-14T21:26:32+08:00",
+    "ncpu": "192",
+    "measured_warmup_sec": "557",
+    "end_time": "2026-06-14T21:57:42+08:00"
+  },
+  "ncpu": 192,
+  "phase_a_baseline_busy_pct": {
+    "n": 150,
+    "mean": 1.0726,
+    "median": 0.97,
+    "stdev": 0.6965,
+    "min": 0.51,
+    "max": 4.89
+  },
+  "phase_b_traced_busy_pct": {
+    "n": 150,
+    "mean": 2.24,
+    "median": 1.045,
+    "stdev": 3.6419,
+    "min": 0.56,
+    "max": 35.98
+  },
+  "tracer_process_cpu_pct_per_core": {
+    "n": 150,
+    "mean": 0.3867,
+    "median": 0.0,
+    "stdev": 3.3694,
+    "min": 0.0,
+    "max": 33.0
+  },
+  "overhead": {
+    "system_busy_delta_pp": 1.1674,
+    "tracer_process_system_pct": 0.002
+  }
+}
