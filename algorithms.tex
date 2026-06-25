@@ -1,0 +1,94 @@
+% Required packages in preamble:
+% \usepackage{algorithm}
+% \usepackage{algpseudocode}
+% \usepackage{booktabs}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% Algorithm 1: Online Predictive Probe Scheduling
+% ─────────────────────────────────────────────────────────────────────────────
+\begin{algorithm}
+\caption{Online Predictive Probe Scheduling}
+\label{alg:online-scheduling}
+\begin{algorithmic}[1]
+\Require Network topology $G=(V,E)$, probe budget $B$, history window $W$
+\Ensure Scheduled probe sequence $P$, predicted flow gaps $\hat{g}$
+
+\Procedure{OnlineProbeScheduling}{$G, B, W$}
+  \State Initialize flow record cache $C \leftarrow \emptyset$
+  \State Load pre-trained GBDT models $\mathcal{M} = \{M_1, \ldots, M_8\}$
+  \While{system running}
+    \State $F \leftarrow \textsc{CollectActiveFlows}(G)$
+    \State Update cache $C$ with new flow records in $F$
+    \State $\varphi \leftarrow \textsc{ExtractFeatures}(C, W)$
+    \For{each flow $f \in F$}
+      \State $\hat{g}_f \leftarrow \{M_h.\textsc{predict}(\varphi_f) \mid h \in \{1,\ldots,8\}\}$
+    \EndFor
+    \State Rank flows by urgency score $s(f) = \max(\hat{g}_f)$
+    \State $P \leftarrow \textsc{SelectTopK}(\text{ranked flows},\ B)$
+    \State \textsc{DispatchProbes}$(P)$
+    \State Wait for next scheduling epoch
+  \EndWhile
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% Algorithm 2: Flow Feature Extraction (30-dim)
+% ─────────────────────────────────────────────────────────────────────────────
+\begin{algorithm}
+\caption{Flow Feature Extraction (30-dimensional)}
+\label{alg:feature-extraction}
+\begin{algorithmic}[1]
+\Require Flow record cache $C$, history window $W$
+\Ensure Feature vector $\varphi \in \mathbb{R}^{30}$ per flow
+
+\Function{ExtractFeatures}{$C, W$}
+  \State \Comment{Group 1: Basic flow statistics (5 dims)}
+  \State $\varphi[1\!:\!5] \leftarrow \{\textit{pkt\_count},\ \textit{byte\_count},\ \textit{duration},\ \textit{pkt\_rate},\ \textit{byte\_rate}\}$
+  \State \Comment{Group 2: Inter-arrival time features (5 dims)}
+  \State $\varphi[6\!:\!10] \leftarrow \{\textit{IAT\_mean},\ \textit{IAT\_std},\ \textit{IAT\_min},\ \textit{IAT\_max},\ \textit{IAT\_cv}\}$
+  \State \Comment{Group 3: Packet length features (5 dims)}
+  \State $\varphi[11\!:\!15] \leftarrow \{\textit{len\_mean},\ \textit{len\_std},\ \textit{len\_min},\ \textit{len\_max},\ \textit{len\_cv}\}$
+  \State \Comment{Group 4: Historical gap features (10 dims)}
+  \For{$h = 1$ \textbf{to} $8$}
+    \State $\varphi[15+h] \leftarrow \textsc{HistoricalGap}(C, h)$
+  \EndFor
+  \State $\varphi[24\!:\!25] \leftarrow \{\textit{gap\_mean}_W,\ \textit{gap\_std}_W\}$
+  \State \Comment{Group 5: Flow lifecycle features (3 dims)}
+  \State $\varphi[26\!:\!28] \leftarrow \{\textit{flow\_age},\ \textit{last\_seen\_delta},\ \textit{flow\_phase}\}$
+  \State \Comment{Group 6: Network context features (2 dims)}
+  \State $\varphi[29\!:\!30] \leftarrow \{\textit{link\_utilization},\ \textit{concurrent\_flows}\}$
+  \State \Return $\varphi$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% Algorithm 3: GBDT Offline Training
+% ─────────────────────────────────────────────────────────────────────────────
+\begin{algorithm}
+\caption{GBDT Offline Training}
+\label{alg:gbdt-training}
+\begin{algorithmic}[1]
+\Require Historical trace dataset $\mathcal{D}$, horizons $\mathcal{H}=\{1,\ldots,8\}$,
+         feature extractor \textsc{ExtractFeatures}, GBDT hyper-params $\theta$
+\Ensure Trained model set $\mathcal{M} = \{M_1, \ldots, M_8\}$
+
+\Procedure{TrainGBDT}{$\mathcal{D}, \mathcal{H}, \theta$}
+  \State \Comment{Build feature matrix from trace}
+  \For{each flow record $r \in \mathcal{D}$}
+    \State $\varphi_r \leftarrow \textsc{ExtractFeatures}(r, W)$
+  \EndFor
+  \State \Comment{Train one binary classifier per horizon}
+  \For{each horizon $h \in \mathcal{H}$}
+    \State $y_h \leftarrow \{\mathbf{1}[\,\text{gap}(r,h) > \tau\,] \mid r \in \mathcal{D}\}$
+    \State $X \leftarrow \{\varphi_r \mid r \in \mathcal{D}\}$
+    \State $X_{\text{train}},\ X_{\text{val}} \leftarrow \textsc{SplitTemporalCV}(X, y_h)$
+    \State $M_h \leftarrow \textsc{GBDTClassifier}(\theta).\textsc{fit}(X_{\text{train}})$
+    \Comment{$n\_est=200,\ depth=5,\ lr=0.05$}
+    \State \textsc{Evaluate}$(M_h,\ X_{\text{val}})$
+  \EndFor
+  \State \Return $\mathcal{M} = \{M_1, \ldots, M_8\}$
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
